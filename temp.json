@@ -1,0 +1,1191 @@
+[
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "2024 Presidential Election"
+      },
+      "template": "ChangeMyMind",
+      "text": "The 2024 election was the most transparent ever; Change my mind.",
+      "graphicalFeatures": "A man sitting at a table with a sign that reads 'The 2024 election was the most transparent ever'; Background features political banners and an enthusiastic crowd.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated; troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "2024 Presidential Election"
+      },
+      "template": "Political compass",
+      "text": "Left: Increase social spending; Right: Cut taxes.",
+      "graphicalFeatures": "A political compass with contrasting symbols for social services and tax cuts; Colorful sections representing different political ideologies.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "2024 Presidential Election"
+      },
+      "template": "Comparative",
+      "text": "2024 Election drama vs. 2008 Election stability",
+      "graphicalFeatures": "Split image showing a chaotic election scene on one side and a calm, orderly election scene on the other.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated; troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "2024 Presidential Election"
+      },
+      "template": "Image macro",
+      "text": "When the election results are announced.",
+      "graphicalFeatures": "A person with a shocked expression and confetti falling around them; The background shows a television screen with election results.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Climate Change Activists"
+      },
+      "template": "ChangeMyMind",
+      "text": "Climate change activists are making a difference; Change my mind.",
+      "graphicalFeatures": "A person with a table sign that reads 'Climate change activists are making a difference'; Background shows a protest with signs advocating for climate action.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Climate Change Activists"
+      },
+      "template": "Political compass",
+      "text": "Left: Strong climate policies; Right: Economic growth.",
+      "graphicalFeatures": "Compass chart with environmental and economic symbols; Sections showing various policy impacts.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Climate Change Activists"
+      },
+      "template": "Comparative",
+      "text": "Activists today vs. 10 years ago",
+      "graphicalFeatures": "Images comparing modern climate protests with earlier, less organized ones.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Climate Change Activists"
+      },
+      "template": "Image macro",
+      "text": "When a new climate policy is passed.",
+      "graphicalFeatures": "Cartoon of a character celebrating with climate symbols like wind turbines and solar panels in the background.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "Senator Jane Doe"
+      },
+      "template": "ChangeMyMind",
+      "text": "Senator Jane Doe is the best leader; Change my mind.",
+      "graphicalFeatures": "A person proudly holding a sign with 'Senator Jane Doe is the best leader'; Background shows a rally with enthusiastic supporters.",
+      "connotation": "motivational",
+      "attitude": "opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "Senator Jane Doe"
+      },
+      "template": "Political compass",
+      "text": "Left: More regulations; Right: Fewer restrictions.",
+      "graphicalFeatures": "Political compass showing contrasting regulatory and free-market icons; Background includes policy-making imagery.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "Senator Jane Doe"
+      },
+      "template": "Comparative",
+      "text": "Jane Doe's policies vs. her opponents'",
+      "graphicalFeatures": "Side-by-side comparison of Jane Doe's policy proposals with those of her opponents, showing clear contrasts.",
+      "connotation": "motivational",
+      "attitude": "opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "Senator Jane Doe"
+      },
+      "template": "Image macro",
+      "text": "When Jane Doe talks about new policies.",
+      "graphicalFeatures": "Image of Jane Doe speaking passionately at a podium; Audience visibly engaged and applauding.",
+      "connotation": "motivational",
+      "attitude": "opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gun Control Advocates"
+      },
+      "template": "ChangeMyMind",
+      "text": "Gun control will make society safer; Change my mind.",
+      "graphicalFeatures": "A person at a table with a sign reading 'Gun control will make society safer'; Background features protests and safety symbols.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gun Control Advocates"
+      },
+      "template": "Political compass",
+      "text": "Left: Strict gun laws; Right: Second Amendment rights.",
+      "graphicalFeatures": "Compass chart with icons representing gun laws and rights; Background showing contrasting legal environments.",
+      "connotation": "sarcastic",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gun Control Advocates"
+      },
+      "template": "Comparative",
+      "text": "Gun control today vs. in the past",
+      "graphicalFeatures": "Comparative images of past and current gun control measures; Differing levels of regulation depicted.",
+      "connotation": "ironic",
+      "attitude": "opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gun Control Advocates"
+      },
+      "template": "Image macro",
+      "text": "When stricter gun laws are proposed.",
+      "graphicalFeatures": "Cartoon of a character holding a sign that says 'Not in my backyard!'; Background includes images of gun control debates.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated; troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "Healthcare Reform"
+      },
+      "template": "ChangeMyMind",
+      "text": "Healthcare reform is essential for equality; Change my mind.",
+      "graphicalFeatures": "A person at a table with a sign saying 'Healthcare reform is essential for equality'; Background features healthcare imagery and protest signs.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "Healthcare Reform"
+      },
+      "template": "Political compass",
+      "text": "Left: Universal healthcare; Right: Private sector solutions.",
+      "graphicalFeatures": "Political compass with symbols for universal healthcare and private insurance; Background includes healthcare-related imagery.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "Healthcare Reform"
+      },
+      "template": "Comparative",
+      "text": "Healthcare systems now vs. future",
+      "graphicalFeatures": "Image comparing current healthcare system with futuristic, more advanced systems; Illustrates technological and policy advancements.",
+      "connotation": "motivational",
+      "attitude": "non-opinionated; not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "Healthcare Reform"
+      },
+      "template": "Image macro",
+      "text": "When the new healthcare policy is implemented.",
+      "graphicalFeatures": "Image of a family happily receiving medical care; Background includes symbols of healthcare improvement.",
+      "connotation": "motivational",
+      "attitude": "opinionated; not-troll"
+    },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "2024 Presidential Election"
+          },
+          "template": "ChangeMyMind",
+          "text": "The election was fair; Change my mind.",
+          "graphicalFeatures": "A man sitting at a table with a sign; Background of political banners and flags.",
+          "connotation": "sarcastic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "2024 Presidential Election"
+          },
+          "template": "Political compass",
+          "text": "Left: More regulation; Right: Less control.",
+          "graphicalFeatures": "Compass chart with symbols of a gavel and a dove; Arrows pointing in opposite directions.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "2024 Presidential Election"
+          },
+          "template": "Comparative",
+          "text": "Voting in 2024 vs. Past Elections",
+          "graphicalFeatures": "Image of a modern polling station contrasted with old-fashioned booths; Voters lined up.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "2024 Presidential Election"
+          },
+          "template": "Image macro",
+          "text": "When the results are announced.",
+          "graphicalFeatures": "Cartoon character looking surprised with confetti falling around; Balloons in the background.",
+          "connotation": "offensive",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Climate Change Activists"
+          },
+          "template": "ChangeMyMind",
+          "text": "Climate change isn't real; Change my mind.",
+          "graphicalFeatures": "Person at a table with skeptical expression; Signs of protest in the background.",
+          "connotation": "sarcastic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Climate Change Activists"
+          },
+          "template": "Political compass",
+          "text": "Left: Mandate green policies; Right: Promote innovation.",
+          "graphicalFeatures": "Compass chart with trees and factories; Green and gray color scheme.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Climate Change Activists"
+          },
+          "template": "Comparative",
+          "text": "Activism now vs. 10 years ago",
+          "graphicalFeatures": "Digital protest imagery compared to street protest; Different styles of protest signs.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Climate Change Activists"
+          },
+          "template": "Image macro",
+          "text": "Realizing climate change is real.",
+          "graphicalFeatures": "Shocked character with melting ice caps in the background; Rising water levels.",
+          "connotation": "offensive",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "politician",
+            "specific": "Senator John Doe"
+          },
+          "template": "ChangeMyMind",
+          "text": "Senator John Doe is the best; Change my mind.",
+          "graphicalFeatures": "Smug person at table; Photo of Senator John Doe on the sign.",
+          "connotation": "ironic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "political supporter",
+            "specific": "Party X Supporters"
+          },
+          "template": "Political compass",
+          "text": "Left: State intervention; Right: Free markets.",
+          "graphicalFeatures": "Compass with political symbols like dollar sign and scales; Background of debate stage.",
+          "connotation": "sarcastic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political supporter",
+            "specific": "Party X Supporters"
+          },
+          "template": "Comparative",
+          "text": "Supporters of Party X vs. Y",
+          "graphicalFeatures": "Images of cheering crowd vs. calm gathering; Contrasting colors and moods.",
+          "connotation": "offensive",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "politician",
+            "specific": "Senator John Doe"
+          },
+          "template": "Image macro",
+          "text": "When Senator John Doe speaks.",
+          "graphicalFeatures": "Famous character facepalming with microphone in hand; Senator in the background.",
+          "connotation": "sarcastic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Global Summit 2024"
+          },
+          "template": "ChangeMyMind",
+          "text": "The summit will change everything; Change my mind.",
+          "graphicalFeatures": "Hopeful person at table; World map in the background.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Global Summit 2024"
+          },
+          "template": "Political compass",
+          "text": "Left: Collective action; Right: Individual responsibility.",
+          "graphicalFeatures": "Icons like handshake and individual; Compass design.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Global Summit 2024"
+          },
+          "template": "Comparative",
+          "text": "Summit goals vs. Reality",
+          "graphicalFeatures": "Lofty promises vs. practical steps; Split image with contrasting scenes.",
+          "connotation": "sarcastic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Global Summit 2024"
+          },
+          "template": "Image macro",
+          "text": "After the summit ends.",
+          "graphicalFeatures": "Exhausted leader with piles of papers; Empty conference room.",
+          "connotation": "ironic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Tech Innovators"
+          },
+          "template": "ChangeMyMind",
+          "text": "Tech will save the world; Change my mind.",
+          "graphicalFeatures": "Optimistic person with gadgets; Tech logos surrounding the table.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Tech Innovators"
+          },
+          "template": "Political compass",
+          "text": "Left: Regulate tech; Right: Let it innovate.",
+          "graphicalFeatures": "Symbols of innovation and control; High-tech background.",
+          "connotation": "sarcastic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Tech Innovators"
+          },
+          "template": "Comparative",
+          "text": "Tech today vs. 20 years ago",
+          "graphicalFeatures": "Old computers vs. modern devices; Evolution of technology depicted.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "social group",
+            "specific": "Tech Innovators"
+          },
+          "template": "Image macro",
+          "text": "When a new gadget is released.",
+          "graphicalFeatures": "Crowd cheering; Spotlight on device; Flashing lights.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Healthcare Reform Debate"
+          },
+          "template": "ChangeMyMind",
+          "text": "Healthcare is a right; Change my mind.",
+          "graphicalFeatures": "Determined person at table; Medical symbols like caduceus.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Healthcare Reform Debate"
+          },
+          "template": "Political compass",
+          "text": "Left: Universal healthcare; Right: Private insurance.",
+          "graphicalFeatures": "Health symbols on compass; Background of hospital and insurance building.",
+          "connotation": "sarcastic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Healthcare Reform Debate"
+          },
+          "template": "Comparative",
+          "text": "Healthcare now vs. future",
+          "graphicalFeatures": "Old hospital vs. futuristic clinic.",
+          "connotation": "ironic",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Healthcare Reform Debate"
+          },
+          "template": "Image macro",
+          "text": "When the reform passes.",
+          "graphicalFeatures": "Doctors celebrating; Fireworks.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political supporter",
+            "specific": "Green Party Supporters"
+          },
+          "template": "ChangeMyMind",
+          "text": "Green policies work; Change my mind.",
+          "graphicalFeatures": "Green table setting; Environmental posters.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political supporter",
+            "specific": "Green Party Supporters"
+          },
+          "template": "Political compass",
+          "text": "Left: Protect nature; Right: Balance economy.",
+          "graphicalFeatures": "Tree vs. factory.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political supporter",
+            "specific": "Green Party Supporters"
+          },
+          "template": "Comparative",
+          "text": "Eco-friendly now vs. past",
+          "graphicalFeatures": "Solar panels vs. coal plants.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political supporter",
+            "specific": "Green Party Supporters"
+          },
+          "template": "Image macro",
+          "text": "When policies get implemented.",
+          "graphicalFeatures": "Green energy icon; Cheering crowd.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Tax Reform Bill"
+          },
+          "template": "ChangeMyMind",
+          "text": "Tax cuts help everyone; Change my mind.",
+          "graphicalFeatures": "Confident person with calculator; Tax forms.",
+          "connotation": "sarcastic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Tax Reform Bill"
+          },
+          "template": "Political compass",
+          "text": "Left: Progressive tax; Right: Flat tax.",
+          "graphicalFeatures": "Money bag vs. scales.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Tax Reform Bill"
+          },
+          "template": "Comparative",
+          "text": "Tax policy now vs. future",
+          "graphicalFeatures": "Confusing forms vs. simplified system.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Tax Reform Bill"
+          },
+          "template": "Image macro",
+          "text": "After the tax bill passes.",
+          "graphicalFeatures": "Person with wallet; Money raining down.",
+          "connotation": "sarcastic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "politician",
+            "specific": "Governor Jane Smith"
+          },
+          "template": "ChangeMyMind",
+          "text": "Governor Smith is a visionary; Change my mind.",
+          "graphicalFeatures": "Admiring crowd; Governor smiling.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "politician",
+            "specific": "Governor Jane Smith"
+          },
+          "template": "Political compass",
+          "text": "Left: Expand social services; Right: Limit government.",
+          "graphicalFeatures": "Book vs. scissors.",
+          "connotation": "ironic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "politician",
+            "specific": "Governor Jane Smith"
+          },
+          "template": "Comparative",
+          "text": "Smith's policies vs. opponents",
+          "graphicalFeatures": "Diverse community vs. closed group.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "politician",
+            "specific": "Governor Jane Smith"
+          },
+          "template": "Image macro",
+          "text": "When Smith speaks at a rally.",
+          "graphicalFeatures": "Microphone; Enthusiastic audience.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Immigration Policy Debate"
+          },
+          "template": "ChangeMyMind",
+          "text": "Open borders benefit all; Change my mind.",
+          "graphicalFeatures": "Person with map; Diverse people around.",
+          "connotation": "motivational",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Immigration Policy Debate"
+          },
+          "template": "Political compass",
+          "text": "Left: Welcome immigrants; Right: Secure borders.",
+          "graphicalFeatures": "Open door vs. locked gate.",
+          "connotation": "sarcastic",
+          "attitude": "non-opinionated; not-troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Immigration Policy Debate"
+          },
+          "template": "Comparative",
+          "text": "Immigration now vs. future",
+          "graphicalFeatures": "Crowded boat vs. organized entry.",
+          "connotation": "ironic",
+          "attitude": "opinionated; troll"
+        },
+        {
+          "eventuality": {
+            "type": "political event",
+            "specific": "Immigration Policy Debate"
+          },
+          "template": "Image macro",
+          "text": "When policy is announced.",
+          "graphicalFeatures": "Family rejoicing; Flags waving.",
+          "connotation": "motivational",
+          "attitude": "opinionated; not-troll"
+        },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "2024 Presidential Election"
+              },
+              "template": "ChangeMyMind",
+              "text": "The election was fair; Change my mind.",
+              "graphicalFeatures": "Person at table with sign; Political banners.",
+              "connotation": "sarcastic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "2024 Presidential Election"
+              },
+              "template": "Political compass",
+              "text": "Left: More regulation; Right: Less control.",
+              "graphicalFeatures": "Chart with symbols: gavel, dove.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "2024 Presidential Election"
+              },
+              "template": "Comparative",
+              "text": "Voting in 2024 vs. Past Elections",
+              "graphicalFeatures": "Modern polling station vs. old booths.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "2024 Presidential Election"
+              },
+              "template": "Image macro",
+              "text": "When the results are announced.",
+              "graphicalFeatures": "Cartoon character surprised; confetti.",
+              "connotation": "offensive",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Climate Change Activists"
+              },
+              "template": "ChangeMyMind",
+              "text": "Climate change isn't real; Change my mind.",
+              "graphicalFeatures": "Skeptical person at table; protest signs.",
+              "connotation": "sarcastic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Climate Change Activists"
+              },
+              "template": "Political compass",
+              "text": "Left: Mandate green policies; Right: Promote innovation.",
+              "graphicalFeatures": "Compass chart with trees and factories.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Climate Change Activists"
+              },
+              "template": "Comparative",
+              "text": "Activism now vs. 10 years ago",
+              "graphicalFeatures": "Digital protest vs. street protest.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Climate Change Activists"
+              },
+              "template": "Image macro",
+              "text": "Realizing climate change is real.",
+              "graphicalFeatures": "Shocked character; melting ice caps.",
+              "connotation": "offensive",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "politician",
+                "specific": "Senator John Doe"
+              },
+              "template": "ChangeMyMind",
+              "text": "Senator John Doe is the best; Change my mind.",
+              "graphicalFeatures": "Smug person at table; photo of Senator.",
+              "connotation": "ironic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "political supporter",
+                "specific": "Party X Supporters"
+              },
+              "template": "Political compass",
+              "text": "Left: State intervention; Right: Free markets.",
+              "graphicalFeatures": "Political symbols like dollar sign, scales.",
+              "connotation": "sarcastic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political supporter",
+                "specific": "Party X Supporters"
+              },
+              "template": "Comparative",
+              "text": "Supporters of Party X vs. Y",
+              "graphicalFeatures": "Cheering crowd vs. calm gathering.",
+              "connotation": "offensive",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "politician",
+                "specific": "Senator John Doe"
+              },
+              "template": "Image macro",
+              "text": "When Senator John Doe speaks.",
+              "graphicalFeatures": "Famous character facepalming; microphone.",
+              "connotation": "sarcastic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Global Summit 2024"
+              },
+              "template": "ChangeMyMind",
+              "text": "The summit will change everything; Change my mind.",
+              "graphicalFeatures": "Hopeful person at table; world map.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Global Summit 2024"
+              },
+              "template": "Political compass",
+              "text": "Left: Collective action; Right: Individual responsibility.",
+              "graphicalFeatures": "Icons like handshake and individual.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Global Summit 2024"
+              },
+              "template": "Comparative",
+              "text": "Summit goals vs. Reality",
+              "graphicalFeatures": "Lofty promises vs. practical steps.",
+              "connotation": "sarcastic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Global Summit 2024"
+              },
+              "template": "Image macro",
+              "text": "After the summit ends.",
+              "graphicalFeatures": "Exhausted leader with piles of papers.",
+              "connotation": "ironic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Tech Innovators"
+              },
+              "template": "ChangeMyMind",
+              "text": "Tech will save the world; Change my mind.",
+              "graphicalFeatures": "Optimistic person with gadgets; tech logos.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Tech Innovators"
+              },
+              "template": "Political compass",
+              "text": "Left: Regulate tech; Right: Let it innovate.",
+              "graphicalFeatures": "Symbols of innovation and control.",
+              "connotation": "sarcastic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Tech Innovators"
+              },
+              "template": "Comparative",
+              "text": "Tech today vs. 20 years ago",
+              "graphicalFeatures": "Old computers vs. modern devices.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "social group",
+                "specific": "Tech Innovators"
+              },
+              "template": "Image macro",
+              "text": "When a new gadget is released.",
+              "graphicalFeatures": "Crowd cheering; spotlight on device.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Healthcare Reform Debate"
+              },
+              "template": "ChangeMyMind",
+              "text": "Healthcare is a right; Change my mind.",
+              "graphicalFeatures": "Determined person at table; medical symbols.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Healthcare Reform Debate"
+              },
+              "template": "Political compass",
+              "text": "Left: Universal healthcare; Right: Private solutions.",
+              "graphicalFeatures": "Health cross vs. dollar sign.",
+              "connotation": "sarcastic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Healthcare Reform Debate"
+              },
+              "template": "Comparative",
+              "text": "Healthcare now vs. future",
+              "graphicalFeatures": "Old hospital vs. futuristic clinic.",
+              "connotation": "ironic",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Healthcare Reform Debate"
+              },
+              "template": "Image macro",
+              "text": "When the reform passes.",
+              "graphicalFeatures": "Doctors celebrating; fireworks.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political supporter",
+                "specific": "Green Party Supporters"
+              },
+              "template": "ChangeMyMind",
+              "text": "Green policies work; Change my mind.",
+              "graphicalFeatures": "Green table setting; environmental posters.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political supporter",
+                "specific": "Green Party Supporters"
+              },
+              "template": "Political compass",
+              "text": "Left: Protect nature; Right: Balance economy.",
+              "graphicalFeatures": "Tree vs. factory.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political supporter",
+                "specific": "Green Party Supporters"
+              },
+              "template": "Comparative",
+              "text": "Eco-friendly now vs. past",
+              "graphicalFeatures": "Solar panels vs. coal plants.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political supporter",
+                "specific": "Green Party Supporters"
+              },
+              "template": "Image macro",
+              "text": "When policies get implemented.",
+              "graphicalFeatures": "Green energy icon; cheering crowd.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Tax Reform Bill"
+              },
+              "template": "ChangeMyMind",
+              "text": "Tax cuts help everyone; Change my mind.",
+              "graphicalFeatures": "Confident person with calculator; tax forms.",
+              "connotation": "sarcastic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Tax Reform Bill"
+              },
+              "template": "Political compass",
+              "text": "Left: Progressive tax; Right: Flat tax.",
+              "graphicalFeatures": "Money bag vs. scales.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Tax Reform Bill"
+              },
+              "template": "Comparative",
+              "text": "Tax policy now vs. future",
+              "graphicalFeatures": "Confusing forms vs. simplified system.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Tax Reform Bill"
+              },
+              "template": "Image macro",
+              "text": "After the tax bill passes.",
+              "graphicalFeatures": "Person with wallet; money raining down.",
+              "connotation": "sarcastic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "politician",
+                "specific": "Governor Jane Smith"
+              },
+              "template": "ChangeMyMind",
+              "text": "Governor Smith is a visionary; Change my mind.",
+              "graphicalFeatures": "Admiring crowd; Governor smiling.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "politician",
+                "specific": "Governor Jane Smith"
+              },
+              "template": "Political compass",
+              "text": "Left: Expand social services; Right: Limit government.",
+              "graphicalFeatures": "Book vs. scissors.",
+              "connotation": "ironic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "politician",
+                "specific": "Governor Jane Smith"
+              },
+              "template": "Comparative",
+              "text": "Smith's policies vs. opponents",
+              "graphicalFeatures": "Diverse community vs. closed group.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "politician",
+                "specific": "Governor Jane Smith"
+              },
+              "template": "Image macro",
+              "text": "When Smith speaks at a rally.",
+              "graphicalFeatures": "Microphone; enthusiastic audience.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Immigration Policy Debate"
+              },
+              "template": "ChangeMyMind",
+              "text": "Open borders benefit all; Change my mind.",
+              "graphicalFeatures": "Person with map; diverse people around.",
+              "connotation": "motivational",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Immigration Policy Debate"
+              },
+              "template": "Political compass",
+              "text": "Left: Welcome immigrants; Right: Secure borders.",
+              "graphicalFeatures": "Open door vs. locked gate.",
+              "connotation": "sarcastic",
+              "attitude": "non-opinionated; not-troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Immigration Policy Debate"
+              },
+              "template": "Comparative",
+              "text": "Immigration now vs. future",
+              "graphicalFeatures": "Crowded boat vs. organized entry.",
+              "connotation": "ironic",
+              "attitude": "opinionated; troll"
+            },
+            {
+              "eventuality": {
+                "type": "political event",
+                "specific": "Immigration Policy Debate"
+              },
+              "template": "Image macro",
+              "text": "When policy is announced.",
+              "graphicalFeatures": "Family rejoicing; flags waving.",
+              "connotation": "motivational",
+              "attitude": "opinionated; not-troll"
+            },
+                {
+                  "eventuality": {
+                    "type": "political event",
+                    "specific": "2024 Presidential Election"
+                  },
+                  "template": "ChangeMyMind",
+                  "text": "The 2024 election was fair; Change my mind.",
+                  "graphicalFeatures": "A man sitting at a table with a confident expression. The sign reads 'The 2024 election was fair'. Political banners are visible in the background.",
+                  "connotation": "sarcastic",
+                  "attitude": "opinionated; troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "political event",
+                    "specific": "2024 Presidential Election"
+                  },
+                  "template": "Political compass",
+                  "text": "Authoritarian Left: Increase regulation; Libertarian Right: Reduce government.",
+                  "graphicalFeatures": "A four-quadrant chart depicting different political ideologies. Symbols like a gavel and a dove represent opposing views.",
+                  "connotation": "ironic",
+                  "attitude": "non-opinionated; not-troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "political event",
+                    "specific": "2024 Presidential Election"
+                  },
+                  "template": "Comparative",
+                  "text": "Voting in 2024 vs. Past Elections",
+                  "graphicalFeatures": "Two panels: one showing enthusiastic voters at a modern polling station; the other depicting old-fashioned voting booths with long lines.",
+                  "connotation": "motivational",
+                  "attitude": "non-opinionated; not-troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "political event",
+                    "specific": "2024 Presidential Election"
+                  },
+                  "template": "Image macro",
+                  "text": "When the results are announced.",
+                  "graphicalFeatures": "A famous cartoon character with an exaggerated surprised expression. Balloons and confetti fill the background.",
+                  "connotation": "offensive",
+                  "attitude": "opinionated; troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "social group",
+                    "specific": "Climate Change Activists"
+                  },
+                  "template": "ChangeMyMind",
+                  "text": "Climate change isn't real; Change my mind.",
+                  "graphicalFeatures": "A skeptical person at a table with a sign stating 'Climate change isn't real'. Protest signs are visible around.",
+                  "connotation": "sarcastic",
+                  "attitude": "opinionated; troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "social group",
+                    "specific": "Climate Change Activists"
+                  },
+                  "template": "Political compass",
+                  "text": "Authoritarian Left: Mandate green policies; Libertarian Right: Promote innovation.",
+                  "graphicalFeatures": "A political compass chart showing environmental themes with icons like trees and factories.",
+                  "connotation": "ironic",
+                  "attitude": "non-opinionated; not-troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "social group",
+                    "specific": "Climate Change Activists"
+                  },
+                  "template": "Comparative",
+                  "text": "Activism today vs. 10 years ago",
+                  "graphicalFeatures": "Two panels: one depicting a digital protest on social media; the other showing a traditional street protest.",
+                  "connotation": "motivational",
+                  "attitude": "non-opinionated; not-troll"
+                },
+                {
+                  "eventuality": {
+                    "type": "social group",
+                    "specific": "Climate Change Activists"
+                  },
+                  "template": "Image macro",
+                  "text": "When you realize climate change is happening.",
+                  "graphicalFeatures": "A character with wide eyes and a shocked expression against a backdrop of melting ice caps.",
+                  "connotation": "offensive",
+                  "attitude": "opinionated; troll"
+                }              
+  ]
+  

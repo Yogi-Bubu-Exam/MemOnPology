@@ -1,776 +1,893 @@
 [
     {
-        "eventuality": "political topics: climate change",
+      "eventuality": {
+        "type": "political event",
+        "specific": "referendum results"
+      },
+      "template": "ChangeMyMind",
+      "text": "Referendums always reflect the people's will; Change my mind",
+      "graphicalFeatures": "A person at a table with a sign about referendum results. The background shows a crowd with mixed reactions.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "politician L"
+      },
+      "template": "Comparative",
+      "text": "Politician L; innovator; vs Politician M; imitator",
+      "graphicalFeatures": "Politician L in a modern office; Politician M with copied notes, emphasizing sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "group A"
+      },
+      "template": "Political compass",
+      "text": "Top-left: Group A; Top-right: Group B; Bottom-left: Group C; Bottom-right: Group D",
+      "graphicalFeatures": "Compass with Group A depicted humorously as superheroes, hinting at irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political supporter",
+        "specific": "supporters of reform X"
+      },
+      "template": "Image macro",
+      "text": "When reality sets in...; Facepalm meme",
+      "graphicalFeatures": "A famous facepalm image with supporters looking defeated, underscoring sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "trade agreement"
+      },
+      "template": "ChangeMyMind",
+      "text": "Trade agreements benefit everyone equally; Change my mind",
+      "graphicalFeatures": "A person at a table with a trade agreement sign, sitting in a bustling market scene.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "politician N"
+      },
+      "template": "Comparative",
+      "text": "Politician N; strategist; vs Politician O; opportunist",
+      "graphicalFeatures": "Politician N with a chessboard; Politician O with a briefcase full of cash, enhancing sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "group B"
+      },
+      "template": "Political compass",
+      "text": "Top-left: Group E; Top-right: Group B; Bottom-left: Group F; Bottom-right: Group G",
+      "graphicalFeatures": "Compass with Group B humorously shown with playful symbols, suggesting irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political supporter",
+        "specific": "supporters of bill Y"
+      },
+      "template": "Image macro",
+      "text": "Expectations vs. Reality; Laughing Leonardo DiCaprio",
+      "graphicalFeatures": "Leonardo DiCaprio laughing juxtaposed with supporters looking confused, mocking expectations.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "healthcare reform"
+      },
+      "template": "ChangeMyMind",
+      "text": "Healthcare reform is simple; Change my mind",
+      "graphicalFeatures": "A person with a healthcare reform sign near a hospital, hinting at irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "politician P"
+      },
+      "template": "Comparative",
+      "text": "Politician P; visionary; vs Politician Q; lost",
+      "graphicalFeatures": "Politician P with a lightbulb over head; Politician Q with question marks, emphasizing sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "group C"
+      },
+      "template": "Political compass",
+      "text": "Top-left: Group D; Top-right: Group C; Bottom-left: Group E; Bottom-right: Group F",
+      "graphicalFeatures": "Compass with Group C shown with exaggerated characters, suggesting playful irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political supporter",
+        "specific": "supporters of candidate X"
+      },
+      "template": "Image macro",
+      "text": "When the truth is revealed; SpongeBob mocking face",
+      "graphicalFeatures": "SpongeBob with a mocking face, directed at the supporters, highlighting sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "international summit"
+      },
+      "template": "ChangeMyMind",
+      "text": "Summits solve all problems; Change my mind",
+      "graphicalFeatures": "A person with a summit sign, sitting near a globe, indicating irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "politician R"
+      },
+      "template": "Comparative",
+      "text": "Politician R; reformer; vs Politician S; stagnant",
+      "graphicalFeatures": "Politician R with dynamic background; Politician S in sepia, underscoring sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "group D"
+      },
+      "template": "Political compass",
+      "text": "Top-left: Group F; Top-right: Group D; Bottom-left: Group G; Bottom-right: Group H",
+      "graphicalFeatures": "Compass with Group D humorously depicted with silly icons, suggesting irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political supporter",
+        "specific": "supporters of initiative W"
+      },
+      "template": "Image macro",
+      "text": "When expectations crumble; Surprised Pikachu",
+      "graphicalFeatures": "Surprised Pikachu face with supporters looking shocked, highlighting sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, troll"
+    },
+    {
+      "eventuality": {
+        "type": "political event",
+        "specific": "education reform"
+      },
+      "template": "ChangeMyMind",
+      "text": "Education reform is easy; Change my mind",
+      "graphicalFeatures": "A person with an education reform sign in a classroom setting, implying irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "politician",
+        "specific": "politician T"
+      },
+      "template": "Comparative",
+      "text": "Politician T; visionary; vs Politician U; outdated",
+      "graphicalFeatures": "Politician T in vibrant colors; Politician U in black and white, emphasizing sarcasm.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "group E"
+      },
+      "template": "Political compass",
+      "text": "Top-left: Group A; Top-right: Group E; Bottom-left: Group B; Bottom-right: Group C",
+      "graphicalFeatures": "Compass with Group E humorously depicted as cartoon characters, suggesting irony.",
+      "connotation": "ironic",
+      "attitude": "non-opinionated, not-troll"
+    },
+    {
+      "eventuality": {
+        "type": "political supporter",
+        "specific": "supporters of policy Z"
+      },
+      "template": "Image macro",
+      "text": "When hopes are dashed; Distracted boyfriend",
+      "graphicalFeatures": "Distracted boyfriend turning away from supporters, mocking them.",
+      "connotation": "sarcastic",
+      "attitude": "opinionated, troll"
+    },
+    {
+        "eventuality": {
+          "type": "political event",
+          "specific": "new policy announcement"
+        },
         "template": "ChangeMyMind",
-        "caption": "Climate change is the most pressing issue; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Climate change is the most pressing issue'. Trees and a globe are added in the background."
-    },
-    {
-        "eventuality": "politician: Joe Biden",
+        "text": "This policy solves everything; Change my mind",
+        "graphicalFeatures": "A person sitting confidently with a sign about the new policy. The background shows a government building, implying authority.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician B"
+        },
+        "template": "Comparative",
+        "text": "Politician B; visionary; vs Politician C; outdated",
+        "graphicalFeatures": "Images of Politician B in modern attire with tech gadgets; Politician C in sepia tone, highlighting outdated ideas.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group Y"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group A; Top-right: Group B; Bottom-left: Group Y; Bottom-right: Group Z",
+        "graphicalFeatures": "Compass with Group Y depicted with a humorous emblem, hinting at irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of politician C"
+        },
+        "template": "Image macro",
+        "text": "When reality hits...; Distracted boyfriend",
+        "graphicalFeatures": "Image of a distracted boyfriend turning away from a crowd of politician C supporters, mocking them.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "debate night"
+        },
         "template": "ChangeMyMind",
-        "caption": "Biden's policies are effective; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Biden's policies are effective'. U.S. flags are in the background."
-    },
-    {
-        "eventuality": "political supporters: Trump supporters",
+        "text": "Debates change everything; Change my mind",
+        "graphicalFeatures": "A table with a sign about debates in a park, with a debate stage visible in the background.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician D"
+        },
+        "template": "Comparative",
+        "text": "Politician D; hero; vs Politician E; zero",
+        "graphicalFeatures": "Politician D in superhero costume; Politician E in comical attire, emphasizing contrast.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group Z"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group X; Top-right: Group Y; Bottom-left: Group W; Bottom-right: Group Z",
+        "graphicalFeatures": "Compass with Group Z humorously depicted as clowns, suggesting irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of policy A"
+        },
+        "template": "Image macro",
+        "text": "Expectations vs reality; Leonardo DiCaprio laughing",
+        "graphicalFeatures": "Leonardo DiCaprio laughing juxtaposed with supporters looking disappointed, mocking their expectations.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "economic summit"
+        },
         "template": "ChangeMyMind",
-        "caption": "Trump supporters are misunderstood; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Trump supporters are misunderstood'. MAGA hats are on the table."
-    },
-    {
-        "eventuality": "social group: millennials",
+        "text": "Summits solve all issues; Change my mind",
+        "graphicalFeatures": "A person behind a table with a sign about summits in front of a skyline, implying irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician F"
+        },
+        "template": "Comparative",
+        "text": "Politician F; genius; vs Politician G; fool",
+        "graphicalFeatures": "Politician F in academic attire; Politician G in a jesters’ hat, enhancing sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group W"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group Y; Top-right: Group X; Bottom-left: Group W; Bottom-right: Group Z",
+        "graphicalFeatures": "Compass with Group W marked with an exaggerated symbol, emphasizing playful irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of candidate B"
+        },
+        "template": "Image macro",
+        "text": "When promises are broken; SpongeBob meme",
+        "graphicalFeatures": "SpongeBob with a mocking face, directed at the supporters, highlighting sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "climate conference"
+        },
         "template": "ChangeMyMind",
-        "caption": "Millennials have it the hardest; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Millennials have it the hardest'. Smartphones and student loans are depicted."
-    },
-    {
-        "eventuality": "political topics: economic inequality",
-        "template": "Political Compass",
-        "caption": "Economic inequality; Libertarian: 'It's their own fault'; Authoritarian: 'Regulate it'",
-        "graphicContent": "Political compass with different quadrants labeled with varying perspectives on economic inequality."
-    },
-    {
-        "eventuality": "political supporters: Bernie Sanders supporters",
-        "template": "Political Compass",
-        "caption": "Bernie supporters; Left: 'Free healthcare'; Right: 'Too expensive'",
-        "graphicContent": "Political compass with each quadrant expressing a different view on Bernie Sanders' policies."
-    },
-    {
-        "eventuality": "social group: Gen Z",
-        "template": "Political Compass",
-        "caption": "Gen Z; Top: 'Woke culture'; Bottom: 'Misinformed'",
-        "graphicContent": "Political compass highlighting various generational stereotypes."
-    },
-    {
-        "eventuality": "political topics: free speech",
-        "template": "Political Compass",
-        "caption": "Free speech; Authoritarian: 'Limit hate speech'; Libertarian: 'Say anything'",
-        "graphicContent": "Political compass displaying different opinions on free speech."
-    },
-    {
-        "eventuality": "politician: Donald Trump",
-        "template": "Political Image Macro",
-        "caption": "Make America Great Again; Trump's face",
-        "graphicContent": "Image of Donald Trump with text overlay 'Make America Great Again'."
-    },
-    {
-        "eventuality": "political supporters: Biden supporters",
-        "template": "Political Image Macro",
-        "caption": "Build Back Better; Biden's face",
-        "graphicContent": "Image of Joe Biden with text overlay 'Build Back Better'."
-    },
-    {
-        "eventuality": "political topics: gun control",
-        "template": "Political Image Macro",
-        "caption": "Guns don't kill people; Debate continues",
-        "graphicContent": "Image of guns with opposing viewpoints text overlay."
-    },
-    {
-        "eventuality": "social group: conservatives",
-        "template": "Political Image Macro",
-        "caption": "Conservative values; Family first",
-        "graphicContent": "Image of a traditional family with text overlay 'Family first'."
-    },
-    {
-        "eventuality": "political topics: healthcare",
-        "template": "Comparative Template",
-        "caption": "Universal healthcare vs. Private insurance",
-        "graphicContent": "Split image comparing universal healthcare and private insurance systems."
-    },
-    {
-        "eventuality": "political topics: taxation",
-        "template": "Comparative Template",
-        "caption": "Tax the rich vs. Flat tax",
-        "graphicContent": "Split image comparing 'Tax the rich' approach with 'Flat tax' policy."
-    },
-    {
-        "eventuality": "social group: liberals",
-        "template": "Comparative Template",
-        "caption": "Liberals vs. Conservatives; Different values",
-        "graphicContent": "Split image showing stereotypical liberal and conservative symbols."
-    },
-    {
-        "eventuality": "political topics: immigration",
-        "template": "Comparative Template",
-        "caption": "Open borders vs. Closed borders",
-        "graphicContent": "Split image depicting open borders policy versus closed borders."
-    },
-    {
-        "eventuality": "political topics: renewable energy",
+        "text": "Conferences fix climate change; Change my mind",
+        "graphicalFeatures": "A person with a climate conference sign, sitting near a park with trees, indicating irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician H"
+        },
+        "template": "Comparative",
+        "text": "Politician H; savior; vs Politician I; disaster",
+        "graphicalFeatures": "Politician H depicted as a knight; Politician I with a stormy backdrop, accentuating sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group X"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group W; Top-right: Group X; Bottom-left: Group Y; Bottom-right: Group Z",
+        "graphicalFeatures": "Compass highlighting Group X with a cartoonish character, suggesting playful irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of initiative Y"
+        },
+        "template": "Image macro",
+        "text": "Reality hits hard; Gru's plan meme",
+        "graphicalFeatures": "Gru explaining a plan with supporters looking confused, emphasizing sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "tax reform"
+        },
         "template": "ChangeMyMind",
-        "caption": "Renewable energy is the future; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Renewable energy is the future'. Solar panels and wind turbines in the background."
-    },
-    {
-        "eventuality": "politician: Kamala Harris",
+        "text": "Tax reform helps everyone; Change my mind",
+        "graphicalFeatures": "A person with a tax reform sign near a busy city street, hinting at irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician J"
+        },
+        "template": "Comparative",
+        "text": "Politician J; mastermind; vs Politician K; puppet",
+        "graphicalFeatures": "Politician J with a chessboard; Politician K as a puppet on strings, enhancing sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group Y"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group Z; Top-right: Group Y; Bottom-left: Group W; Bottom-right: Group X",
+        "graphicalFeatures": "Compass with Group Y humorously depicted with silly icons, suggesting irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of movement Z"
+        },
+        "template": "Image macro",
+        "text": "The moment of truth; Surprised Pikachu",
+        "graphicalFeatures": "Surprised Pikachu face with supporters looking shocked, highlighting sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "election day"
+        },
         "template": "ChangeMyMind",
-        "caption": "Kamala Harris is a strong leader; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Kamala Harris is a strong leader'. U.S. Capitol in the background."
-    },
-    {
-        "eventuality": "political supporters: Libertarians",
+        "text": "Voting is overrated; Change my mind",
+        "graphicalFeatures": "A person sits behind a table with a sign reading 'Voting is overrated'. The background shows a busy street, indicating a normal day. The person appears relaxed, adding to the ironic tone.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician A"
+        },
+        "template": "Comparative",
+        "text": "Politician A; a real leader; vs Politician B; a clown",
+        "graphicalFeatures": "Two images side by side: Politician A in a formal setting looking dignified; Politician B in a humorous pose with exaggerated features, reinforcing sarcasm.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group X"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group X; Top-right: Group Y; Bottom-left: Group Z; Bottom-right: Group W",
+        "graphicalFeatures": "A political compass divided into four quadrants, each with a group labeled. Group X is highlighted with a humorous icon, suggesting playful irony.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of issue A"
+        },
+        "template": "Image macro",
+        "text": "When they realize the truth...; Shocked Pikachu face",
+        "graphicalFeatures": "Image of Pikachu with a shocked expression. The background shows a crowd of supporters looking confused, enhancing the sarcastic tone.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "budget cuts"
+        },
         "template": "ChangeMyMind",
-        "caption": "Libertarians value freedom above all; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Libertarians value freedom above all'. Liberty Bell nearby."
-    },
-    {
-        "eventuality": "social group: baby boomers",
+        "text": "Budget cuts are always effective; Change my mind",
+        "graphicalFeatures": "A person with a budget cuts sign in front of a government building.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician V"
+        },
+        "template": "Comparative",
+        "text": "Politician V; hero; vs Politician W; villain",
+        "graphicalFeatures": "Politician V in heroic stance; Politician W in dark tones.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group F"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group G; Top-right: Group F; Bottom-left: Group H; Bottom-right: Group I",
+        "graphicalFeatures": "Compass with Group F shown as clowns.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of bill X"
+        },
+        "template": "Image macro",
+        "text": "The harsh truth; Crying Michael Jordan",
+        "graphicalFeatures": "Crying Michael Jordan overlaid on supporters' faces.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "election promises"
+        },
         "template": "ChangeMyMind",
-        "caption": "Boomers ruined the economy; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Boomers ruined the economy'. 60s-era decorations in the background."
-    },
-    {
-        "eventuality": "political topics: wealth distribution",
-        "template": "Political Compass",
-        "caption": "Wealth distribution; Left: 'Tax the rich'; Right: 'Meritocracy'",
-        "graphicContent": "Political compass with opinions on wealth distribution."
-    },
-    {
-        "eventuality": "political supporters: Green Party supporters",
-        "template": "Political Compass",
-        "caption": "Green Party; Eco-friendly policies",
-        "graphicContent": "Political compass with eco-friendly themes and Green Party logo."
-    },
-    {
-        "eventuality": "social group: working class",
-        "template": "Political Compass",
-        "caption": "Working class; Economic concerns",
-        "graphicContent": "Political compass highlighting various working-class issues."
-    },
-    {
-        "eventuality": "political topics: privacy",
-        "template": "Political Compass",
-        "caption": "Privacy rights; Authoritarian: 'Surveillance needed'; Libertarian: 'Privacy first'",
-        "graphicContent": "Political compass showing different views on privacy rights."
-    },
-    {
-        "eventuality": "politician: Alexandria Ocasio-Cortez",
-        "template": "Political Image Macro",
-        "caption": "Green New Deal; AOC's vision",
-        "graphicContent": "Image of Alexandria Ocasio-Cortez with text overlay 'Green New Deal'."
-    },
-    {
-        "eventuality": "political supporters: Republican supporters",
-        "template": "Political Image Macro",
-        "caption": "Traditional values; GOP focus",
-        "graphicContent": "Image of an elephant and the GOP logo with text overlay."
-    },
-    {
-        "eventuality": "political topics: education reform",
-        "template": "Political Image Macro",
-        "caption": "Education for all; Reform needed",
-        "graphicContent": "Image of a classroom with text overlay 'Education reform'."
-    },
-    {
-        "eventuality": "social group: feminists",
-        "template": "Political Image Macro",
-        "caption": "Equal rights; Feminism today",
-        "graphicContent": "Image of protest signs with text overlay 'Equal rights'."
-    },
-    {
-        "eventuality": "political topics: healthcare systems",
-        "template": "Comparative Template",
-        "caption": "Public vs. Private healthcare",
-        "graphicContent": "Split image comparing public healthcare with private healthcare systems."
-    },
-    {
-        "eventuality": "political topics: voting systems",
-        "template": "Comparative Template",
-        "caption": "First-past-the-post vs. Ranked choice",
-        "graphicContent": "Split image comparing voting systems with ballots."
-    },
-    {
-        "eventuality": "social group: socialists",
-        "template": "Comparative Template",
-        "caption": "Socialism vs. Capitalism",
-        "graphicContent": "Split image contrasting socialist and capitalist ideals."
-    },
-    {
-        "eventuality": "political topics: minimum wage",
-        "template": "Comparative Template",
-        "caption": "Raise the minimum wage vs. Keep it the same",
-        "graphicContent": "Split image discussing the effects of raising or maintaining minimum wage."
-    },
-    {
-        "eventuality": "political topics: net neutrality",
+        "text": "Promises are always kept; Change my mind",
+        "graphicalFeatures": "A person with election promises sign at a rally.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician X"
+        },
+        "template": "Comparative",
+        "text": "Politician X; leader; vs Politician Y; follower",
+        "graphicalFeatures": "Politician X on a podium; Politician Y trailing behind.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group G"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group H; Top-right: Group G; Bottom-left: Group I; Bottom-right: Group J",
+        "graphicalFeatures": "Compass with Group G as superheroes.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of candidate Y"
+        },
+        "template": "Image macro",
+        "text": "Dreams vs. Reality; Distracted boyfriend",
+        "graphicalFeatures": "Distracted boyfriend meme with supporters turning away.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "tax hikes"
+        },
         "template": "ChangeMyMind",
-        "caption": "Net neutrality protects consumers; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Net neutrality protects consumers'. Internet cables in the background."
-    },
-    {
-        "eventuality": "politician: Elizabeth Warren",
+        "text": "Tax hikes are beneficial; Change my mind",
+        "graphicalFeatures": "A person with tax hikes sign in a park.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician Z"
+        },
+        "template": "Comparative",
+        "text": "Politician Z; champion; vs Politician A; quitter",
+        "graphicalFeatures": "Politician Z in athletic gear; Politician A giving up.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group H"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group I; Top-right: Group H; Bottom-left: Group J; Bottom-right: Group K",
+        "graphicalFeatures": "Compass with Group H in clown costumes.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of policy Q"
+        },
+        "template": "Image macro",
+        "text": "Reality vs. Hopes; Gru's plan meme",
+        "graphicalFeatures": "Gru's plan meme with supporters looking confused.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "defense spending"
+        },
         "template": "ChangeMyMind",
-        "caption": "Elizabeth Warren has a solid plan; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Elizabeth Warren has a solid plan'. Policy documents on the table."
-    },
-    {
-        "eventuality": "political supporters: Libertarian Party",
+        "text": "Defense spending is never too much; Change my mind",
+        "graphicalFeatures": "A person with defense spending sign at a military base.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician B"
+        },
+        "template": "Comparative",
+        "text": "Politician B; revolutionary; vs Politician C; stagnant",
+        "graphicalFeatures": "Politician B with fireworks; Politician C in a sepia-toned office.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group I"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group J; Top-right: Group I; Bottom-left: Group K; Bottom-right: Group L",
+        "graphicalFeatures": "Compass with Group I shown as cartoon characters.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of reform M"
+        },
+        "template": "Image macro",
+        "text": "Expectations vs. Reality; Laughing Leonardo DiCaprio",
+        "graphicalFeatures": "Leonardo DiCaprio laughing with supporters looking confused.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "trade negotiations"
+        },
         "template": "ChangeMyMind",
-        "caption": "Libertarian policies maximize freedom; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Libertarian policies maximize freedom'. Statue of Liberty in the background."
-    },
-    {
-        "eventuality": "social group: Gen X",
+        "text": "Trade negotiations are simple; Change my mind",
+        "graphicalFeatures": "A person with trade negotiations sign in a busy market.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician D"
+        },
+        "template": "Comparative",
+        "text": "Politician D; thinker; vs Politician E; doer",
+        "graphicalFeatures": "Politician D with a book; Politician E with tools.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group J"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group K; Top-right: Group J; Bottom-left: Group L; Bottom-right: Group M",
+        "graphicalFeatures": "Compass with Group J depicted humorously.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of initiative N"
+        },
+        "template": "Image macro",
+        "text": "Reality check; Surprised Pikachu",
+        "graphicalFeatures": "Surprised Pikachu with supporters looking shocked.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "immigration policy"
+        },
         "template": "ChangeMyMind",
-        "caption": "Gen X is the forgotten generation; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Gen X is the forgotten generation'. Retro items in the background."
-    },
-    {
-        "eventuality": "political topics: foreign policy",
-        "template": "Political Compass",
-        "caption": "Foreign policy; Dove: 'Peaceful diplomacy'; Hawk: 'Military strength'",
-        "graphicContent": "Political compass showing differing foreign policy stances."
-    },
-    {
-        "eventuality": "political supporters: Tea Party supporters",
-        "template": "Political Compass",
-        "caption": "Tea Party; Fiscal conservatism",
-        "graphicContent": "Political compass with Tea Party themes and imagery."
-    },
-    {
-        "eventuality": "social group: middle class",
-        "template": "Political Compass",
-        "caption": "Middle class; Economic challenges",
-        "graphicContent": "Political compass focusing on middle-class economic issues."
-    },
-    {
-        "eventuality": "political topics: labor rights",
-        "template": "Political Compass",
-        "caption": "Labor rights; Unionize: 'Fair wages'; Corporatist: 'Free market'",
-        "graphicContent": "Political compass showing views on labor rights."
-    },
-    {
-        "eventuality": "politician: Boris Johnson",
-        "template": "Political Image Macro",
-        "caption": "Brexit means Brexit; Boris Johnson",
-        "graphicContent": "Image of Boris Johnson with text overlay 'Brexit means Brexit'."
-    },
-    {
-        "eventuality": "political supporters: Democratic supporters",
-        "template": "Political Image Macro",
-        "caption": "Progressive change; Democratic ideals",
-        "graphicContent": "Image of a donkey and Democratic Party symbols with text overlay."
-    },
-    {
-        "eventuality": "political topics: digital privacy",
-        "template": "Political Image Macro",
-        "caption": "Protect your data; Privacy matters",
-        "graphicContent": "Image of a padlock on a computer screen with text overlay 'Protect your data'."
-    },
-    {
-        "eventuality": "social group: environmentalists",
-        "template": "Political Image Macro",
-        "caption": "Save the planet; Environmental action",
-        "graphicContent": "Image of Earth with text overlay 'Save the planet'."
-    },
-    {
-        "eventuality": "political topics: infrastructure",
-        "template": "Comparative Template",
-        "caption": "Modernize infrastructure vs. Maintain status quo",
-        "graphicContent": "Split image comparing modern infrastructure with current systems."
-    },
-    {
-        "eventuality": "political topics: military spending",
-        "template": "Comparative Template",
-        "caption": "Increase military spending vs. Reduce military budget",
-        "graphicContent": "Split image discussing military spending policies."
-    },
-    {
-        "eventuality": "social group: LGBTQ+ community",
-        "template": "Comparative Template",
-        "caption": "LGBTQ+ rights vs. Traditional values",
-        "graphicContent": "Split image contrasting LGBTQ+ rights with traditional values."
-    },
-    {
-        "eventuality": "political topics: censorship",
-        "template": "Comparative Template",
-        "caption": "Censorship for safety vs. Free speech",
-        "graphicContent": "Split image comparing views on censorship and free speech."
-    },
-    {
-        "eventuality": "political topics: universal basic income",
+        "text": "Immigration policies are foolproof; Change my mind",
+        "graphicalFeatures": "A person with immigration policy sign at a border.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician F"
+        },
+        "template": "Comparative",
+        "text": "Politician F; innovator; vs Politician G; copier",
+        "graphicalFeatures": "Politician F with new gadgets; Politician G with a copy machine.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group K"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group L; Top-right: Group K; Bottom-left: Group M; Bottom-right: Group N",
+        "graphicalFeatures": "Compass with Group K as whimsical animals.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of policy R"
+        },
+        "template": "Image macro",
+        "text": "When reality strikes; Facepalm meme",
+        "graphicalFeatures": "Famous facepalm image with supporters looking disappointed.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "environmental policy"
+        },
         "template": "ChangeMyMind",
-        "caption": "Universal basic income is necessary; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Universal basic income is necessary'. Money and a graph in the background."
-    },
-    {
-        "eventuality": "politician: Angela Merkel",
+        "text": "Environmental policies never fail; Change my mind",
+        "graphicalFeatures": "A person with environmental policy sign in a forest.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician H"
+        },
+        "template": "Comparative",
+        "text": "Politician H; problem solver; vs Politician I; procrastinator",
+        "graphicalFeatures": "Politician H with tools; Politician I on a couch.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group L"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group M; Top-right: Group L; Bottom-left: Group N; Bottom-right: Group O",
+        "graphicalFeatures": "Compass with Group L as playful icons.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of bill T"
+        },
+        "template": "Image macro",
+        "text": "The bitter truth; Crying Michael Jordan",
+        "graphicalFeatures": "Crying Michael Jordan with supporters in the background.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "public transport reform"
+        },
         "template": "ChangeMyMind",
-        "caption": "Angela Merkel was a stabilizing force; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Angela Merkel was a stabilizing force'. European Union flags in the background."
-    },
-    {
-        "eventuality": "political supporters: socialist supporters",
+        "text": "Public transport is flawless; Change my mind",
+        "graphicalFeatures": "A person with public transport sign in a subway.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician J"
+        },
+        "template": "Comparative",
+        "text": "Politician J; planner; vs Politician K; reactor",
+        "graphicalFeatures": "Politician J with blueprints; Politician K in chaos.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group M"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group N; Top-right: Group M; Bottom-left: Group O; Bottom-right: Group P",
+        "graphicalFeatures": "Compass with Group M as caricatures.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of reform P"
+        },
+        "template": "Image macro",
+        "text": "Expectations vs. Reality; SpongeBob mocking face",
+        "graphicalFeatures": "SpongeBob mocking face with supporters in the background.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "housing crisis"
+        },
         "template": "ChangeMyMind",
-        "caption": "Socialism leads to equality; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Socialism leads to equality'. Equality symbols around."
-    },
-    {
-        "eventuality": "social group: tech workers",
+        "text": "Housing crisis is easily solved; Change my mind",
+        "graphicalFeatures": "A person with housing crisis sign in front of apartments.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "politician L"
+        },
+        "template": "Comparative",
+        "text": "Politician L; innovator; vs Politician M; imitator",
+        "graphicalFeatures": "Politician L with inventions; Politician M with copied ideas.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "group N"
+        },
+        "template": "Political compass",
+        "text": "Top-left: Group O; Top-right: Group N; Bottom-left: Group P; Bottom-right: Group Q",
+        "graphicalFeatures": "Compass with Group N as whimsical figures.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      },
+      {
+        "eventuality": {
+          "type": "political supporter",
+          "specific": "supporters of candidate Q"
+        },
+        "template": "Image macro",
+        "text": "Reality hits hard; Laughing Leonardo DiCaprio",
+        "graphicalFeatures": "Leonardo DiCaprio laughing at supporters in disbelief.",
+        "connotation": "sarcastic",
+        "attitude": "opinionated, troll"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "tax reforms"
+        },
         "template": "ChangeMyMind",
-        "caption": "Tech workers are shaping the future; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Tech workers are shaping the future'. Laptops and code snippets nearby."
-    },
-    {
-        "eventuality": "political topics: drug legalization",
-        "template": "Political Compass",
-        "caption": "Drug legalization; Liberal: 'Personal freedom'; Conservative: 'Social harm'",
-        "graphicContent": "Political compass showing views on drug legalization."
-    },
-    {
-        "eventuality": "political supporters: moderate Democrats",
-        "template": "Political Compass",
-        "caption": "Moderate Democrats; Pragmatic policies",
-        "graphicContent": "Political compass with moderate Democrat themes."
-    },
-    {
-        "eventuality": "social group: immigrants",
-        "template": "Political Compass",
-        "caption": "Immigrants; Economic impact",
-        "graphicContent": "Political compass focusing on the role of immigrants in the economy."
-    },
-    {
-        "eventuality": "political topics: income tax",
-        "template": "Political Compass",
-        "caption": "Income tax; Progressive: 'Fair share'; Flat tax: 'Equal rate'",
-        "graphicContent": "Political compass with differing views on income tax."
-    },
-    {
-        "eventuality": "politician: Justin Trudeau",
-        "template": "Political Image Macro",
-        "caption": "Diversity is strength; Trudeau",
-        "graphicContent": "Image of Justin Trudeau with text overlay 'Diversity is strength'."
-    },
-    {
-        "eventuality": "political supporters: far-right supporters",
-        "template": "Political Image Macro",
-        "caption": "Nationalism rising; Far-right",
-        "graphicContent": "Image with nationalistic symbols and text overlay."
-    },
-    {
-        "eventuality": "political topics: public transportation",
-        "template": "Political Image Macro",
-        "caption": "Invest in public transit; Reduce traffic",
-        "graphicContent": "Image of a busy city street with text overlay 'Invest in public transit'."
-    },
-    {
-        "eventuality": "social group: artists",
-        "template": "Political Image Macro",
-        "caption": "Art is a form of protest; Creative voices",
-        "graphicContent": "Image of a mural with text overlay 'Art is a form of protest'."
-    },
-    {
-        "eventuality": "political topics: prison reform",
-        "template": "Comparative Template",
-        "caption": "Rehabilitate vs. Punish",
-        "graphicContent": "Split image comparing rehabilitation with punitive prison systems."
-    },
-    {
-        "eventuality": "political topics: online education",
-        "template": "Comparative Template",
-        "caption": "Online learning vs. Traditional schooling",
-        "graphicContent": "Split image contrasting online and traditional education systems."
-    },
-    {
-        "eventuality": "social group: rural communities",
-        "template": "Comparative Template",
-        "caption": "Rural vs. Urban priorities",
-        "graphicContent": "Split image highlighting differences between rural and urban needs."
-    },
-    {
-        "eventuality": "political topics: wealth tax",
-        "template": "Comparative Template",
-        "caption": "Wealth tax vs. Economic growth",
-        "graphicContent": "Split image discussing the impacts of a wealth tax."
-    },
-    {
-        "eventuality": "political topics: fossil fuels",
-        "template": "ChangeMyMind",
-        "caption": "Fossil fuels are unsustainable; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Fossil fuels are unsustainable'. Oil rigs in the background."
-    },
-    {
-        "eventuality": "politician: Emmanuel Macron",
-        "template": "ChangeMyMind",
-        "caption": "Macron's reforms are essential; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Macron's reforms are essential'. French flags nearby."
-    },
-    {
-        "eventuality": "political supporters: climate activists",
-        "template": "ChangeMyMind",
-        "caption": "Climate activists are crucial; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Climate activists are crucial'. Protest signs around."
-    },
-    {
-        "eventuality": "social group: healthcare workers",
-        "template": "ChangeMyMind",
-        "caption": "Healthcare workers deserve better pay; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Healthcare workers deserve better pay'. Medical symbols around."
-    },
-    {
-        "eventuality": "political topics: welfare",
-        "template": "Political Compass",
-        "caption": "Welfare; Supportive: 'Safety net'; Critical: 'Dependency'",
-        "graphicContent": "Political compass with views on welfare systems."
-    },
-    {
-        "eventuality": "political supporters: progressive activists",
-        "template": "Political Compass",
-        "caption": "Progressive activists; Social justice",
-        "graphicContent": "Political compass highlighting progressive activist themes."
-    },
-    {
-        "eventuality": "social group: suburban residents",
-        "template": "Political Compass",
-        "caption": "Suburban residents; Community issues",
-        "graphicContent": "Political compass focusing on suburban concerns."
-    },
-    {
-        "eventuality": "political topics: digital divide",
-        "template": "Political Compass",
-        "caption": "Digital divide; Access: 'Equity'; Oppose: 'Self-reliance'",
-        "graphicContent": "Political compass discussing the digital divide."
-    },
-    {
-        "eventuality": "politician: Narendra Modi",
-        "template": "Political Image Macro",
-        "caption": "India's future; Modi's vision",
-        "graphicContent": "Image of Narendra Modi with text overlay 'India's future'."
-    },
-    {
-        "eventuality": "political supporters: centrist supporters",
-        "template": "Political Image Macro",
-        "caption": "Balance is key; Centrism",
-        "graphicContent": "Image of scales with text overlay 'Balance is key'."
-    },
-    {
-        "eventuality": "political topics: renewable resources",
-        "template": "Political Image Macro",
-        "caption": "Harness the wind; Renewable power",
-        "graphicContent": "Image of wind turbines with text overlay 'Harness the wind'."
-    },
-    {
-        "eventuality": "social group: gig workers",
-        "template": "Political Image Macro",
-        "caption": "Gig economy; Flexibility vs. Stability",
-        "graphicContent": "Image of app icons with text overlay 'Gig economy'."
-    },
-    {
-        "eventuality": "political topics: border security",
-        "template": "Comparative Template",
-        "caption": "Secure borders vs. Open borders",
-        "graphicContent": "Split image comparing secure and open border policies."
-    },
-    {
-        "eventuality": "political topics: public health",
-        "template": "Comparative Template",
-        "caption": "Public health initiatives vs. Individual responsibility",
-        "graphicContent": "Split image contrasting public health and individual responsibility."
-    },
-    {
-        "eventuality": "social group: elderly population",
-        "template": "Comparative Template",
-        "caption": "Elderly care vs. Self-reliance",
-        "graphicContent": "Split image discussing elderly care policies."
-    },
-    {
-        "eventuality": "political topics: corporate regulation",
-        "template": "Comparative Template",
-        "caption": "Regulate corporations vs. Free market",
-        "graphicContent": "Split image comparing corporate regulation and free market policies."
-    },
-    {
-        "eventuality": "political topics: cybersecurity",
-        "template": "ChangeMyMind",
-        "caption": "Cybersecurity is national security; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Cybersecurity is national security'. Digital locks around."
-    },
-    {
-        "eventuality": "political topics: climate change mitigation",
-        "template": "ChangeMyMind",
-        "caption": "Climate change mitigation is urgent; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Climate change mitigation is urgent'. Melting ice caps in the background."
-    },
-    {
-        "eventuality": "politician: Joe Biden",
-        "template": "ChangeMyMind",
-        "caption": "Biden's policies are improving the economy; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Biden's policies are improving the economy'. US flags and graphs in the background."
-    },
-    {
-        "eventuality": "political supporters: pro-choice advocates",
-        "template": "ChangeMyMind",
-        "caption": "Pro-choice is a fundamental right; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Pro-choice is a fundamental right'. Planned Parenthood symbols around."
-    },
-    {
-        "eventuality": "social group: low-income workers",
-        "template": "ChangeMyMind",
-        "caption": "Low-income workers deserve higher wages; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Low-income workers deserve higher wages'. Factory and office imagery in the background."
-    },
-    {
-        "eventuality": "political topics: healthcare access",
-        "template": "Political Compass",
-        "caption": "Healthcare access; Universal: 'Equity'; Private: 'Choice'",
-        "graphicContent": "Political compass discussing views on healthcare access."
-    },
-    {
-        "eventuality": "political supporters: conservative Republicans",
-        "template": "Political Compass",
-        "caption": "Conservative Republicans; Fiscal conservatism",
-        "graphicContent": "Political compass highlighting conservative Republican perspectives."
-    },
-    {
-        "eventuality": "social group: working parents",
-        "template": "Political Compass",
-        "caption": "Working parents; Work-life balance",
-        "graphicContent": "Political compass focusing on issues faced by working parents."
-    },
-    {
-        "eventuality": "political topics: education reform",
-        "template": "Political Compass",
-        "caption": "Education reform; Progressive: 'Modernization'; Conservative: 'Traditional values'",
-        "graphicContent": "Political compass discussing education reform views."
-    },
-    {
-        "eventuality": "politician: Narendra Modi",
-        "template": "Political Image Macro",
-        "caption": "Modi's economic reforms are effective; Modi's India",
-        "graphicContent": "Image of Narendra Modi with text overlay 'Modi's economic reforms are effective'. Indian currency and growth charts."
-    },
-    {
-        "eventuality": "political supporters: environmental activists",
-        "template": "Political Image Macro",
-        "caption": "Protect our planet; Green initiatives",
-        "graphicContent": "Image of a lush forest with text overlay 'Protect our planet'."
-    },
-    {
-        "eventuality": "political topics: mental health services",
-        "template": "Political Image Macro",
-        "caption": "Invest in mental health; Support services",
-        "graphicContent": "Image of a counseling session with text overlay 'Invest in mental health'."
-    },
-    {
-        "eventuality": "social group: gig economy workers",
-        "template": "Political Image Macro",
-        "caption": "Gig economy needs regulation; Fair pay",
-        "graphicContent": "Image of gig worker apps with text overlay 'Gig economy needs regulation'."
-    },
-    {
-        "eventuality": "political topics: foreign aid",
-        "template": "Comparative Template",
-        "caption": "Increase foreign aid vs. Focus on domestic issues",
-        "graphicContent": "Split image comparing foreign aid with domestic priorities."
-    },
-    {
-        "eventuality": "political topics: public health funding",
-        "template": "Comparative Template",
-        "caption": "More funding for public health vs. Cut spending",
-        "graphicContent": "Split image discussing public health funding versus budget cuts."
-    },
-    {
-        "eventuality": "social group: young professionals",
-        "template": "Comparative Template",
-        "caption": "Young professionals vs. Established careers",
-        "graphicContent": "Split image contrasting young professionals with established career paths."
-    },
-    {
-        "eventuality": "political topics: internet regulation",
-        "template": "Comparative Template",
-        "caption": "Regulate the internet vs. Free access",
-        "graphicContent": "Split image discussing internet regulation versus free access."
-    },
-    {
-        "eventuality": "political topics: renewable energy investments",
-        "template": "ChangeMyMind",
-        "caption": "Invest in renewable energy; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Invest in renewable energy'. Solar panels and wind turbines in the background."
-    },
-    {
-        "eventuality": "politician: Angela Merkel",
-        "template": "ChangeMyMind",
-        "caption": "Merkel's leadership was effective; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Merkel's leadership was effective'. European Union flags in the background."
-    },
-    {
-        "eventuality": "political supporters: anti-globalization activists",
-        "template": "ChangeMyMind",
-        "caption": "Anti-globalization protects local jobs; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Anti-globalization protects local jobs'. Local industry imagery."
-    },
-    {
-        "eventuality": "social group: tech industry workers",
-        "template": "ChangeMyMind",
-        "caption": "Tech industry workers need better protections; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Tech industry workers need better protections'. Technology-related items in the background."
-    },
-    {
-        "eventuality": "political topics: tax reform",
-        "template": "Political Compass",
-        "caption": "Tax reform; Progressive: 'Equity'; Regressive: 'Simplicity'",
-        "graphicContent": "Political compass discussing different views on tax reform."
-    },
-    {
-        "eventuality": "political supporters: moderate Republicans",
-        "template": "Political Compass",
-        "caption": "Moderate Republicans; Balanced policies",
-        "graphicContent": "Political compass focusing on moderate Republican perspectives."
-    },
-    {
-        "eventuality": "social group: urban planners",
-        "template": "Political Compass",
-        "caption": "Urban planners; City development",
-        "graphicContent": "Political compass highlighting issues relevant to urban planners."
-    },
-    {
-        "eventuality": "political topics: income inequality",
-        "template": "Political Compass",
-        "caption": "Income inequality; Wealth redistribution: 'Equity'; Market-driven: 'Efficiency'",
-        "graphicContent": "Political compass discussing views on income inequality."
-    },
-    {
-        "eventuality": "politician: Boris Johnson",
-        "template": "Political Image Macro",
-        "caption": "Boris Johnson's policies are controversial; Johnson's Brexit",
-        "graphicContent": "Image of Boris Johnson with text overlay 'Boris Johnson's policies are controversial'. Brexit-related imagery."
-    },
-    {
-        "eventuality": "political supporters: pro-labor advocates",
-        "template": "Political Image Macro",
-        "caption": "Support labor unions; Workers' rights",
-        "graphicContent": "Image of a labor rally with text overlay 'Support labor unions'."
-    },
-    {
-        "eventuality": "political topics: public safety",
-        "template": "Political Image Macro",
-        "caption": "Invest in public safety; Reduce crime",
-        "graphicContent": "Image of a police officer with text overlay 'Invest in public safety'."
-    },
-    {
-        "eventuality": "social group: environmental activists",
-        "template": "Political Image Macro",
-        "caption": "Act now on climate change; Green initiatives",
-        "graphicContent": "Image of a protest for environmental causes with text overlay 'Act now on climate change'."
-    },
-    {
-        "eventuality": "political topics: immigration policy",
-        "template": "Comparative Template",
-        "caption": "Strict immigration controls vs. Open borders",
-        "graphicContent": "Split image discussing strict immigration controls versus open borders."
-    },
-    {
-        "eventuality": "political topics: corporate tax rates",
-        "template": "Comparative Template",
-        "caption": "Higher corporate taxes vs. Lower corporate taxes",
-        "graphicContent": "Split image comparing higher and lower corporate tax rates."
-    },
-    {
-        "eventuality": "social group: freelance workers",
-        "template": "Comparative Template",
-        "caption": "Freelance work vs. Full-time employment",
-        "graphicContent": "Split image comparing freelance work with traditional full-time employment."
-    },
-    {
-        "eventuality": "political topics: social justice",
-        "template": "Comparative Template",
-        "caption": "Social justice initiatives vs. Traditional policies",
-        "graphicContent": "Split image discussing social justice initiatives versus traditional policies."
-    },
-    {
-        "eventuality": "political topics: nuclear energy",
-        "template": "ChangeMyMind",
-        "caption": "Nuclear energy is a viable solution; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Nuclear energy is a viable solution'. Nuclear power plants in the background."
-    },
-    {
-        "eventuality": "politician: Emmanuel Macron",
-        "template": "ChangeMyMind",
-        "caption": "Macron's economic policies are effective; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Macron's economic policies are effective'. French flags in the background."
-    },
-    {
-        "eventuality": "political supporters: pro-healthcare reform",
-        "template": "ChangeMyMind",
-        "caption": "Healthcare reform is essential; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'Healthcare reform is essential'. Medical imagery in the background."
-    },
-    {
-        "eventuality": "social group: college students",
-        "template": "ChangeMyMind",
-        "caption": "College students need more financial aid; Change my mind",
-        "graphicContent": "Person sitting at a table with a sign saying 'College students need more financial aid'. Campus imagery in the background."
-    },
-    {
-        "eventuality": "political topics: drug policy",
-        "template": "Political Compass",
-        "caption": "Drug policy; Liberal: 'Decriminalization'; Conservative: 'Strict enforcement'",
-        "graphicContent": "Political compass discussing different drug policy perspectives."
-    },
-    {
-        "eventuality": "political supporters: pro-education advocates",
-        "template": "Political Compass",
-        "caption": "Pro-education supporters; Investment in schools",
-        "graphicContent": "Political compass highlighting pro-education perspectives."
-    },
-    {
-        "eventuality": "social group: immigrants",
-        "template": "Political Compass",
-        "caption": "Immigrants; Integration vs. Assimilation",
-        "graphicContent": "Political compass focusing on issues affecting immigrants."
-    },
-    {
-        "eventuality": "political topics: labor rights",
-        "template": "Political Compass",
-        "caption": "Labor rights; Worker protection: 'Strong regulations'; Market-driven: 'Flexibility'",
-        "graphicContent": "Political compass discussing views on labor rights."
-    },
-    {
-        "eventuality": "politician: Scott Morrison",
-        "template": "Political Image Macro",
-        "caption": "Morrison's policies on immigration; Australian politics",
-        "graphicContent": "Image of Scott Morrison with text overlay 'Morrison's policies on immigration'. Australian symbols around."
-    },
-    {
-        "eventuality": "political supporters: pro-privacy advocates",
-        "template": "Political Image Macro",
-        "caption": "Protect privacy; Data security",
-        "graphicContent": "Image of a computer with text overlay 'Protect privacy'."
-    },
-    {
-        "eventuality": "political topics: infrastructure spending",
-        "template": "Political Image Macro",
-        "caption": "Invest in infrastructure; Build the future",
-        "graphicContent": "Image of construction with text overlay 'Invest in infrastructure'."
-    },
-    {
-        "eventuality": "social group: entrepreneurs",
-        "template": "Political Image Macro",
-        "caption": "Support entrepreneurs; Innovation drive",
-        "graphicContent": "Image of a startup team with text overlay 'Support entrepreneurs'."
-    },
-    {
-        "eventuality": "political topics: housing affordability",
-        "template": "Comparative Template",
-        "caption": "Affordable housing vs. Market-driven solutions",
-        "graphicContent": "Split image comparing affordable housing initiatives with market-driven solutions."
-    },
-    {
-        "eventuality": "political topics: tax deductions",
-        "template": "Comparative Template",
-        "caption": "Increased tax deductions vs. Simplified tax code",
-        "graphicContent": "Split image discussing increased tax deductions versus a simplified tax code."
-    },
-    {
-        "eventuality": "social group: small business entrepreneurs",
-        "template": "Comparative Template",
-        "caption": "Support small business vs. Large corporations",
-        "graphicContent": "Split image comparing support for small businesses versus large corporations."
-    },
-    {
-        "eventuality": "political topics: student loan debt",
-        "template": "Comparative Template",
-        "caption": "Address student loan debt vs. Personal responsibility",
-        "graphicContent": "Split image discussing solutions to student loan debt versus personal responsibility."
-    }
-]
+        "text": "Tax reforms are always fair; Change my mind",
+        "graphicalFeatures": "A person with tax reforms sign near a government office.",
+        "connotation": "ironic",
+        "attitude": "non-opinionated, not-troll"
+      }
+  ]
