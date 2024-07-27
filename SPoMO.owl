@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO/"
+     xml:base="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO">
+        <rdfs:comment>SPoMO: SocioPolitical Meme Ontology. An ontology to describe the entities and properties of a sociopolitical meme in order to recognize one.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#constituentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#constituentOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConstituent"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+        <rdfs:comment>Specify what consituent are part of a political meme.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasCaption -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasCaption">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConnotation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConnotation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConstituent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConstituent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasGraphicContent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasGraphicContent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMediaFrame -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMediaFrame">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+        <rdfs:comment>Declaration of what media frame is content in a political meme.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasTemplate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasTemplate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#refersTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#refersTo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics"/>
+        <rdfs:comment>What a caption or a graphic content refers to.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMedia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMedia">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Media of a graphic content or media of a meme. Range is hexBinary because its the common way to encode a media file.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Declare that individuals of classes Connotation and Politics are rdfs:Literal or xsd:string. If there were ontologies for Politcs and Connotation, these classes would be connected to those.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#constituentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#refersTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#refersTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The idea suggested by a message in addition to its main meaning. For this project connotation assumes another level of sense: the final sense obtained from the combination between the caption sentiment analysis and the image sense extraction.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#constituentOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#refersTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#refersTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMedia"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Graphical content of a meme: image, GIF, video</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConstituent"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The media content of a political meme. It could consist of a caption (text) and a graphic content(image, GIF, video).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politics">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Class to comprehend politicians, political supporters or political events.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasCaption"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConnotation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasGraphicContent"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMediaFrame"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasTemplate"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasMedia"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The class for the memes about politics and social groups.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasValue"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+                            <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                        </owl:unionOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Ironic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Ironic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Motivational -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Motivational">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Offensive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Offensive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalActivity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalActivity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalActivity"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Sarcastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Sarcastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup">
+        <rdf:type rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalActivity">
+        <rdfs:comment>E.g. &apos;elections&apos;, &apos;impeachment&apos; etc..</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter">
+        <rdfs:comment>Political active member of a community not member of an administration.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician">
+        <rdfs:comment>Class for members of an administration.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup">
+        <rdfs:comment>E.g. &apos;Females&apos;, &apos;Males&apos;, etc..</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
