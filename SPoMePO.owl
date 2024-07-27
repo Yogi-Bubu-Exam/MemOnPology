@@ -35,10 +35,10 @@
         <Class IRI="#Connotation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ControversialOpinion"/>
+        <Class IRI="#ControversialMeme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ControversialStatementMeme"/>
+        <Class IRI="#ControversialOpinion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cut"/>
@@ -68,7 +68,7 @@
         <Class IRI="#MockingJuxtapositionMeme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NeutralPoliticalClassificationMeme"/>
+        <Class IRI="#NeutralJuxtapositionMeme"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Non-opinionatedAtt"/>
@@ -101,16 +101,13 @@
         <Class IRI="#Politician"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SatyricalAssertionMeme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sentiment"/>
+        <Class IRI="#SatyricalMeme"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SocialGroup"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SociopoliticalPhenomena"/>
@@ -152,10 +149,10 @@
         <ObjectProperty IRI="#extractedFrom"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasConnotation"/>
+        <ObjectProperty IRI="#hasCaption"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasSentiment"/>
+        <ObjectProperty IRI="#hasConnotation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTemplate"/>
@@ -240,12 +237,33 @@
         <Class IRI="#Template"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ControversialOpinion"/>
-        <Class IRI="#PersonalOpinion"/>
+        <Class IRI="#ControversialMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ControversialStatementMeme"/>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#ControversialMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="#ControversialOpinion"/>
+            </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControversialMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConnotation"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Ironic"/>
+                <NamedIndividual IRI="#Offensive"/>
+                <NamedIndividual IRI="#Sarcastic"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControversialOpinion"/>
+        <Class IRI="#PersonalOpinion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cut"/>
@@ -314,11 +332,59 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MockingJuxtapositionMeme"/>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NeutralPoliticalClassificationMeme"/>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#MockingJuxtapositionMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="#ControversialOpinion"/>
+            </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MockingJuxtapositionMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConnotation"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Ironic"/>
+                <NamedIndividual IRI="#Offensive"/>
+                <NamedIndividual IRI="#Sarcastic"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MockingJuxtapositionMeme"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasTemplate"/>
+            <Class IRI="#ComparativeTemplate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralJuxtapositionMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralJuxtapositionMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="#PersonalOpinion"/>
+            </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralJuxtapositionMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemplate"/>
+            <ObjectUnionOf>
+                <Class IRI="#ComparativeTemplate"/>
+                <Class IRI="#PoliticalCompassTemplate"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Non-opinionatedAtt"/>
@@ -357,23 +423,36 @@
         <Class IRI="#PoliticalAgent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SatyricalAssertionMeme"/>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#SatyricalMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatyricalMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="#PersonalOpinion"/>
+            </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatyricalMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConnotation"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Ironic"/>
+                <NamedIndividual IRI="#Sarcastic"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SocialGroup"/>
         <Class IRI="#Eventuality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
         <Class IRI="#Cut"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SociopoliticalMeme"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTemplate"/>
-            <Class IRI="#Template"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SociopoliticalPhenomena"/>
@@ -381,7 +460,16 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportiveMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConnotation"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Motivational"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Template"/>
@@ -419,20 +507,8 @@
         <NamedIndividual IRI="#Motivational"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Sentiment"/>
-        <NamedIndividual IRI="#Negative"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sentiment"/>
-        <NamedIndividual IRI="#Neutral"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Connotation"/>
         <NamedIndividual IRI="#Offensive"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Sentiment"/>
-        <NamedIndividual IRI="#Positive"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Connotation"/>
@@ -456,13 +532,6 @@
         <Class IRI="#Cut"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#defines"/>
-        <ObjectUnionOf>
-            <Class IRI="#Connotation"/>
-            <Class IRI="#Sentiment"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#expresses"/>
         <Class IRI="#Caption"/>
     </ObjectPropertyDomain>
@@ -471,16 +540,16 @@
         <Class IRI="#Eventuality"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasConnotation"/>
-        <Class IRI="#Attitude"/>
+        <ObjectProperty IRI="#hasCaption"/>
+        <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSentiment"/>
-        <Class IRI="#MediaFrame"/>
+        <ObjectProperty IRI="#hasConnotation"/>
+        <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTemplate"/>
-        <Class IRI="#SociopoliticalMeme"/>
+        <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isContentOf"/>
@@ -530,11 +599,11 @@
         <Class IRI="#BackgroundKnowledge"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasConnotation"/>
-        <Class IRI="#Connotation"/>
+        <ObjectProperty IRI="#hasCaption"/>
+        <Class IRI="#Caption"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasSentiment"/>
+        <ObjectProperty IRI="#hasConnotation"/>
         <Class IRI="#Connotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -583,17 +652,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Connotation</IRI>
-        <Literal>The idea suggested by a message in addition to its main meaning.</Literal>
+        <Literal>The idea suggested by a message in addition to its main meaning. For this project connotation assumes another level of sense: the final sense obtained from the combination between the caption sentiment analysis and the image sense extraction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ControversialMeme</IRI>
+        <Literal>A meme that express a point of view provoking doubts and debate about a topic.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ControversialOpinion</IRI>
-        <Literal>A statement that express an opinion provoking doubts about a topic.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#ControversialStatementMeme</IRI>
-        <Literal>A meme that express a point of view provoking doubts and debate about a topic.</Literal>
+        <Literal>A statement that express an opinion provoking doubts and debate about a topic.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -627,7 +696,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#NeutralPoliticalClassificationMeme</IRI>
+        <IRI>#NeutralJuxtapositionMeme</IRI>
         <Literal>Meme neutrally displaying differences (often sterotypical ones) among different groups.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -672,13 +741,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SatyricalAssertionMeme</IRI>
+        <IRI>#SatyricalMeme</IRI>
         <Literal>Meme commenting on a sociopolitical eventuality in a satyrical way.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Sentiment</IRI>
-        <Literal>Semantic spectrum of a text.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -687,7 +751,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SociopoliticalMeme</IRI>
+        <IRI>#SocioPoliticalMeme</IRI>
         <Literal>All those memes that refers to sociopolitical phenomena.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
