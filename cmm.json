@@ -1,542 +1,842 @@
 [
     {
-        "eventuality": {"type": "politician", "specific": "Joe Biden"},
-        "template": "ChangeMyMind template",
-        "text": "Biden is the best president; Prove me wrong",
-        "graphicalFeatures": "A person sitting at a table with a sign saying 'Biden is the best president' and a coffee cup; Trees in the background",
+        "eventuality": {
+        "type": "social group",
+        "specific": "Gen Z"
+        },
+        "template": "ChangeMyMind",
+        "text": "Gen Z will save the world with TikTok dances; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by young people doing TikTok dances. The background shows various global issues being solved through dance moves.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Joe Biden"},
-        "template": "ChangeMyMind template",
-        "text": "Biden is too old to govern; Convince me otherwise",
-        "graphicalFeatures": "An elderly person reading a newspaper with Biden's face; A pair of glasses on the table",
+        "eventuality": {
+        "type": "politician",
+        "specific": "Alexandria Ocasio-Cortez"
+        },
+        "template": "ChangeMyMind",
+        "text": "AOC's Twitter clapbacks are a form of political discourse; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a giant smartphone displaying AOC's Twitter feed. The background shows the House floor transformed into a Twitter feed.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Joe Biden"},
-        "template": "ChangeMyMind template",
-        "text": "Biden's policies favor the rich; Change my mind",
-        "graphicalFeatures": "A table with tax documents; A wealthy businessman in the background",
+        "eventuality": {
+        "type": "political event",
+        "specific": "Climate Change Debate"
+        },
+        "template": "ChangeMyMind",
+        "text": "Climate change is just Earth going through a phase; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, wearing sunglasses and a Hawaiian shirt. The background shows melting ice caps and rising sea levels.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": true,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Joe Biden"},
-        "template": "ChangeMyMind template",
-        "text": "Biden will solve climate change; Prove me wrong",
-        "graphicalFeatures": "A globe with climate change infographics; A solar panel on the table",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Joe Biden"},
-        "template": "ChangeMyMind template",
-        "text": "Biden is better than Trump; Change my mind",
-        "graphicalFeatures": "A scale balancing photos of Biden and Trump; An American flag backdrop",
+        "eventuality": {
+        "type": "politician",
+        "specific": "Mitch McConnell"
+        },
+        "template": "ChangeMyMind",
+        "text": "Mitch McConnell is secretly a turtle; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a turtle wearing a suit next to him. The background shows the Senate chamber filled with lettuce.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political event", "specific": "Brexit"},
-        "template": "ChangeMyMind template",
-        "text": "Brexit will save the UK economy; Change my mind",
-        "graphicalFeatures": "A man holding a mug with the UK flag; An outdoor setting with a campus lawn",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "Brexit"},
-        "template": "ChangeMyMind template",
-        "text": "Brexit was a mistake; Convince me otherwise",
-        "graphicalFeatures": "A broken EU-UK flag; A sad expression on the person's face",
+        "eventuality": {
+        "type": "political event",
+        "specific": "US-China Relations"
+        },
+        "template": "ChangeMyMind",
+        "text": "US-China relations are just a really intense game of ping pong; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a ping pong net set up. The background shows the Great Wall of China on one side and the Statue of Liberty on the other.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "Brexit"},
-        "template": "ChangeMyMind template",
-        "text": "Brexit will unite the UK; Prove me wrong",
-        "graphicalFeatures": "An image of UK regions shaking hands; A unity banner in the background",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political event", "specific": "Brexit"},
-        "template": "ChangeMyMind template",
-        "text": "Brexit is irrelevant now; Change my mind",
-        "graphicalFeatures": "A calendar showing past Brexit dates; A person yawning",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": false, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "Brexit"},
-        "template": "ChangeMyMind template",
-        "text": "Brexit was necessary; Convince me otherwise",
-        "graphicalFeatures": "A historical timeline of EU-UK relations; A person pointing to the timeline",
+        "eventuality": {
+        "type": "social group",
+        "specific": "Baby Boomers"
+        },
+        "template": "ChangeMyMind",
+        "text": "Boomers invented 'OK Boomer'; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by older adults holding 'OK Boomer' signs. The background shows a retirement home with a 'Meme Creation Club' sign.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "personal"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Climate Activists"},
-        "template": "ChangeMyMind template",
-        "text": "Climate change is a hoax; Convince me otherwise",
-        "graphicalFeatures": "A table with pamphlets about climate change; A protest banner nearby",
-        "connotation": "offensive",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Climate Activists"},
-        "template": "ChangeMyMind template",
-        "text": "Climate activists exaggerate; Change my mind",
-        "graphicalFeatures": "A cartoon of a polar bear on melting ice; A skeptical person at the table",
+        "eventuality": {
+        "type": "politician",
+        "specific": "Vladimir Putin"
+        },
+        "template": "ChangeMyMind",
+        "text": "Putin's shirtless photos are peak diplomacy; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with shirtless photos of Putin arranged like UN Security Council placards. The background shows world leaders in swimming attire.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Climate Activists"},
-        "template": "ChangeMyMind template",
-        "text": "Renewable energy is the future; Prove me wrong",
-        "graphicalFeatures": "Wind turbines and solar panels in the background; A bright sunny sky",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Climate Activists"},
-        "template": "ChangeMyMind template",
-        "text": "Climate action is urgent; Change my mind",
-        "graphicalFeatures": "A clock ticking down on a planet earth graphic; Environmental protest signs",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Climate Activists"},
-        "template": "ChangeMyMind template",
-        "text": "Greta Thunberg inspires millions; Convince me otherwise",
-        "graphicalFeatures": "A poster of Greta Thunberg; Crowds marching for climate justice",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Trump Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Trump made America great again; Change my mind",
-        "graphicalFeatures": "An American flag on the table; A MAGA hat placed next to a coffee cup",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Trump Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Trump supporters are misinformed; Convince me otherwise",
-        "graphicalFeatures": "A stack of newspapers with Trump headlines; A confused face emoji",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Trump Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Trump supporters value freedom; Prove me wrong",
-        "graphicalFeatures": "A statue of liberty in the background; Freedom slogans on the table",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Trump Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Trump supporters ignore facts; Change my mind",
-        "graphicalFeatures": "A list of statistics with a question mark; A confused person at the table",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Trump Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Trump supporters are patriotic; Convince me otherwise",
-        "graphicalFeatures": "Fireworks over a patriotic parade; A table with US flag motifs",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "COVID-19 Response"},
-        "template": "ChangeMyMind template",
-        "text": "Lockdowns were unnecessary; Prove me wrong",
-        "graphicalFeatures": "An image of a person with a mask hanging from their ear; A table filled with sanitizer bottles",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "COVID-19 Response"},
-        "template": "ChangeMyMind template",
-        "text": "Masks don't work; Change my mind",
-        "graphicalFeatures": "A pile of masks on the table; A person looking skeptical",
-        "connotation": "offensive",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "COVID-19 Response"},
-        "template": "ChangeMyMind template",
-        "text": "Vaccines saved lives; Convince me otherwise",
-        "graphicalFeatures": "A graph showing declining COVID cases; A vaccine vial on the table",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "COVID-19 Response"},
-        "template": "ChangeMyMind template",
-        "text": "COVID-19 was overhyped; Change my mind",
-        "graphicalFeatures": "Newspaper clippings with alarmist headlines; A skeptical person at the table",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "COVID-19 Response"},
-        "template": "ChangeMyMind template",
-        "text": "Remote work is the future; Prove me wrong",
-        "graphicalFeatures": "A laptop and coffee cup on the table; A person in pajamas working from home",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Kamala Harris"},
-        "template": "ChangeMyMind template",
-        "text": "Kamala Harris will be the next president; Convince me otherwise",
-        "graphicalFeatures": "A Democratic Party logo on the table; A photo of Kamala Harris in the background",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Kamala Harris"},
-        "template": "ChangeMyMind template",
-        "text": "Kamala Harris is inexperienced; Change my mind",
-        "graphicalFeatures": "A chart of political experience levels; A person pointing to the chart",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Kamala Harris"},
-        "template": "ChangeMyMind template",
-        "text": "Kamala Harris inspires women; Prove me wrong",
-        "graphicalFeatures": "A group of diverse women cheering; A table with inspirational quotes",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Kamala Harris"},
-        "template": "ChangeMyMind template",
-        "text": "Kamala Harris is too ambitious; Change my mind",
-        "graphicalFeatures": "A ladder reaching for the stars; A person looking at the ladder skeptically",
+        "eventuality": {
+        "type": "political event",
+        "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit is just Britain's way of social distancing from Europe; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a map showing Britain being pushed away from Europe. The background shows Boris Johnson holding a giant bottle of hand sanitizer.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Kamala Harris"},
-        "template": "ChangeMyMind template",
-        "text": "Kamala Harris is a game-changer; Convince me otherwise",
-        "graphicalFeatures": "A chessboard with Kamala as the queen piece; A checkmate in progress",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Anti-Vaxxers"},
-        "template": "ChangeMyMind template",
-        "text": "Vaccines are harmful; Change my mind",
-        "graphicalFeatures": "A stack of anti-vaccine literature; A syringe drawn on the sign",
-        "connotation": "offensive",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Anti-Vaxxers"},
-        "template": "ChangeMyMind template",
-        "text": "Anti-vaxxers spread misinformation; Convince me otherwise",
-        "graphicalFeatures": "Social media icons with warning signs; A stack of debunked myths",
+        "eventuality": {
+        "type": "politician",
+        "specific": "Bernie Sanders"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie's mittens should be on the dollar bill; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a mockup of a dollar bill featuring Bernie's mittens. The background shows people lining up to exchange their money for 'mitten currency'.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Anti-Vaxxers"},
-        "template": "ChangeMyMind template",
-        "text": "Science is on our side; Prove me wrong",
-        "graphicalFeatures": "Scientific journals and articles on the table; A scientist illustration",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Anti-Vaxxers"},
-        "template": "ChangeMyMind template",
-        "text": "Anti-vaxxers are misled; Change my mind",
-        "graphicalFeatures": "A road sign pointing in many directions; A person looking lost",
+        "eventuality": {
+        "type": "political event",
+        "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The 2020 election was actually decided by a dance-off; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with candidates in dance outfits. The background shows a disco ball hanging over the White House.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "personal"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Donald Trump"
+        },
+        "template": "ChangeMyMind",
+        "text": "Trump's tweets were peak entertainment; Change my mind",
+        "graphicalFeatures": "Steven Crowder sitting behind a table with a sign. He's wearing a plaid shirt and has a serious expression. The background shows a college campus with students walking by.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
+        "opinion": "personal"
+    },
+    {
+        "eventuality": {
+        "type": "political event",
+        "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit was a mistake; Change my mind",
+        "graphicalFeatures": "Steven Crowder sitting at a folding table with a sign. He's in an outdoor setting with trees and people walking by in the background.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Anti-Vaxxers"},
-        "template": "ChangeMyMind template",
-        "text": "Vaccines protect society; Convince me otherwise",
-        "graphicalFeatures": "A shield with a vaccine symbol; A diverse group of people standing strong",
+        "eventuality": {
+        "type": "social group",
+        "specific": "Millennials"
+        },
+        "template": "ChangeMyMind",
+        "text": "Millennials aren't killing industries, they're just broke; Change my mind",
+        "graphicalFeatures": "Steven Crowder seated at a table with his signature sign. He's wearing sunglasses and a baseball cap. The background shows a busy city street.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
+        "opinion": "personal"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Joe Biden"
+        },
+        "template": "ChangeMyMind",
+        "text": "Biden's infrastructure plan is actually good; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his usual table with the sign. He's wearing a suit this time. The background shows the White House in the distance.",
         "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "political event",
+        "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The 2020 election was the most dramatic ever; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table with the sign. He's wearing a red, white, and blue outfit. The background shows a polling station with long lines.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": false
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political supporter", "specific": "Bernie Sanders Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Socialism is the future; Prove me wrong",
-        "graphicalFeatures": "A table with a small 'Feel the Bern' sticker; A backdrop of campaign posters",
-        "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Bernie Sanders Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Bernie supporters are naive; Change my mind",
-        "graphicalFeatures": "A cartoon of a young person dreaming big; A bubble above their head with idealistic images",
+        "eventuality": {
+        "type": "politician",
+        "specific": "Donald Trump"
+        },
+        "template": "ChangeMyMind",
+        "text": "Trump's hair is a national treasure; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, wearing an exaggerated blonde wig. The background shows a hair salon with posters of various hairstyles.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political supporter", "specific": "Bernie Sanders Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Bernie inspires change; Convince me otherwise",
-        "graphicalFeatures": "A photo of Bernie at a rally; Enthusiastic supporters in the background",
+        "eventuality": {
+        "type": "political supporter",
+        "specific": "Bernie Sanders supporters"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie supporters are the most passionate; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by people wearing 'Feel the Bern' t-shirts and holding Bernie signs. The background shows a political rally.",
         "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political supporter", "specific": "Bernie Sanders Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Bernie can't win; Change my mind",
-        "graphicalFeatures": "A defeated Bernie on a chessboard; A clock ticking down",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political supporter", "specific": "Bernie Sanders Supporters"},
-        "template": "ChangeMyMind template",
-        "text": "Bernie's ideas are radical; Prove me wrong",
-        "graphicalFeatures": "A radical graph with Bernie's name highlighted; A person studying the graph",
+        "eventuality": {
+        "type": "political event",
+        "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit means Brexit... whatever that means; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, looking confused. He's wearing a Union Jack hat. The background shows the Houses of Parliament in London.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Vladimir Putin"},
-        "template": "ChangeMyMind template",
-        "text": "Putin is a strategic genius; Change my mind",
-        "graphicalFeatures": "A chessboard with Putin's face as the king; A map of Russia behind the table",
-        "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Vladimir Putin"},
-        "template": "ChangeMyMind template",
-        "text": "Putin fears NATO; Convince me otherwise",
-        "graphicalFeatures": "A globe with NATO countries highlighted; A shadowy Putin figure",
-        "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Vladimir Putin"},
-        "template": "ChangeMyMind template",
-        "text": "Putin is Russia's savior; Prove me wrong",
-        "graphicalFeatures": "A heroic portrait of Putin; Russian landmarks in the background",
+        "eventuality": {
+        "type": "social group",
+        "specific": "Millennials"
+        },
+        "template": "ChangeMyMind",
+        "text": "Millennials will save the world; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by young people planting trees and cleaning up trash. The background shows a polluted cityscape transforming into a green one.",
         "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": true,
+        "troll": false
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Joe Biden"
+        },
+        "template": "ChangeMyMind",
+        "text": "Biden's gaffes are endearing; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, wearing oversized aviator sunglasses like Biden's. The background shows a bunch of speech bubbles with misspelled words.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Vladimir Putin"},
-        "template": "ChangeMyMind template",
-        "text": "Putin is too powerful; Change my mind",
-        "graphicalFeatures": "A throne with Putin sitting confidently; Shadows of past leaders around him",
+        "eventuality": {
+        "type": "political event",
+        "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The 2020 election memes were the real winners; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by printouts of various election memes. The background shows social media icons and laughing emojis.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": false
+        },
+        "opinion": "personal"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Donald Trump"
+        },
+        "template": "ChangeMyMind",
+        "text": "Trump's presidency was just one long reality TV show; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a TV camera pointed at him. The background shows a TV studio set with 'The Oval Office' written on it.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
+        "attitude": {
+        "opinionated": true,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Vladimir Putin"},
-        "template": "ChangeMyMind template",
-        "text": "Putin controls the media; Convince me otherwise",
-        "graphicalFeatures": "Television screens displaying Putin; A remote control on the table",
+        "eventuality": {
+        "type": "political supporter",
+        "specific": "Bernie Sanders supporters"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie supporters have the best memes; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by people holding up phones displaying Bernie memes. The background shows a Reddit homepage.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
+        "attitude": {
+        "opinionated": false,
+        "troll": false
+        },
+        "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political event", "specific": "US-Mexico Border Wall"},
-        "template": "ChangeMyMind template",
-        "text": "The wall will stop immigration; Change my mind",
-        "graphicalFeatures": "A long wall stretching across a desert; A sign saying 'Welcome to America'",
+        "eventuality": {
+        "type": "political event",
+        "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit negotiations are more confusing than IKEA instructions; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by scattered IKEA furniture parts and confusing instruction manuals. The background shows the EU and UK flags tangled together.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "US-Mexico Border Wall"},
-        "template": "ChangeMyMind template",
-        "text": "The wall is a waste of money; Convince me otherwise",
-        "graphicalFeatures": "A pile of dollar bills next to the wall; A person holding a calculator",
-        "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "political event", "specific": "US-Mexico Border Wall"},
-        "template": "ChangeMyMind template",
-        "text": "The wall is necessary for security; Prove me wrong",
-        "graphicalFeatures": "A security camera mounted on the wall; A soldier patrolling the area",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political event", "specific": "US-Mexico Border Wall"},
-        "template": "ChangeMyMind template",
-        "text": "The wall will harm wildlife; Change my mind",
-        "graphicalFeatures": "Animals attempting to cross the wall; Environmentalist protest signs",
+        "eventuality": {
+        "type": "social group",
+        "specific": "Millennials"
+        },
+        "template": "ChangeMyMind",
+        "text": "Millennials are killing the 'killing industries' industry; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a millennial-looking person erasing items from a whiteboard titled 'Industries Millennials are Killing'. The background shows various industry logos fading away.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "personal"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Joe Biden"
+        },
+        "template": "ChangeMyMind",
+        "text": "Biden's ice cream obsession is a national security threat; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a melting ice cream cone. The background shows the Pentagon made entirely of ice cream containers.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "personal"
     },
     {
-        "eventuality": {"type": "political event", "specific": "US-Mexico Border Wall"},
-        "template": "ChangeMyMind template",
-        "text": "The wall is a symbol of division; Convince me otherwise",
-        "graphicalFeatures": "A broken heart with the wall running through it; A family separated by the wall",
+        "eventuality": {
+        "type": "political event",
+        "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The real election fraud was the friends we made along the way; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by people from different political parties hugging and smiling. The background shows a 'Mission Accomplished' banner.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": true},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Feminists"},
-        "template": "ChangeMyMind template",
-        "text": "Feminism is unnecessary today; Change my mind",
-        "graphicalFeatures": "A historical timeline showing feminist milestones; A person looking at it skeptically",
+        "eventuality": {
+        "type": "politician",
+        "specific": "Donald Trump"
+        },
+        "template": "ChangeMyMind",
+        "text": "Trump's vocabulary is the best vocabulary; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a dictionary that only has words like 'huge', 'tremendous', and 'bigly'. The background shows a word cloud of Trump's most-used words.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
+        "attitude": {
+        "opinionated": true,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Feminists"},
-        "template": "ChangeMyMind template",
-        "text": "Feminists are too aggressive; Convince me otherwise",
-        "graphicalFeatures": "A group of feminists holding protest signs; A person observing with curiosity",
+        "eventuality": {
+        "type": "political supporter",
+        "specific": "Bernie Sanders supporters"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie supporters are once again asking for your financial support; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a donation box labeled 'Bernie 2024?' in front of him. The background shows a crowd of people holding 'Feel the Bern' signs.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Feminists"},
-        "template": "ChangeMyMind template",
-        "text": "Gender equality benefits everyone; Prove me wrong",
-        "graphicalFeatures": "A balanced scale with male and female symbols; A diverse crowd cheering",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "social group", "specific": "Feminists"},
-        "template": "ChangeMyMind template",
-        "text": "Feminism is just common sense; Change my mind",
-        "graphicalFeatures": "A person holding a book titled 'Common Sense Feminism'; A world map in the background",
-        "connotation": "ironic",
-        "attitude": {"opinionated": false, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "social group", "specific": "Feminists"},
-        "template": "ChangeMyMind template",
-        "text": "Feminism empowers women; Convince me otherwise",
-        "graphicalFeatures": "A superhero cape with a feminist symbol; Women standing tall and confident",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Angela Merkel"},
-        "template": "ChangeMyMind template",
-        "text": "Merkel is the backbone of the EU; Change my mind",
-        "graphicalFeatures": "A map of the EU with Merkel at the center; European flags surrounding the table",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
-        "opinion": "personal"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Angela Merkel"},
-        "template": "ChangeMyMind template",
-        "text": "Merkel is out of touch; Convince me otherwise",
-        "graphicalFeatures": "An outdated newspaper with Merkel's photo; A clock ticking backwards",
+        "eventuality": {
+        "type": "political event",
+        "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit is just Britain's midlife crisis; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, wearing a Union Jack midlife crisis outfit (sports car, hair dye, etc.). The background shows the EU looking concerned.",
         "connotation": "sarcastic",
-        "attitude": {"opinionated": true, "troll": true},
+        "attitude": {
+        "opinionated": true,
+        "troll": true
+        },
         "opinion": "controversial"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Angela Merkel"},
-        "template": "ChangeMyMind template",
-        "text": "Merkel led Germany through crises; Prove me wrong",
-        "graphicalFeatures": "A timeline of crises with Merkel's achievements highlighted; A German flag in the background",
-        "connotation": "motivational",
-        "attitude": {"opinionated": true, "troll": false},
+        "eventuality": {
+        "type": "social group",
+        "specific": "Millennials"
+        },
+        "template": "ChangeMyMind",
+        "text": "Millennials aren't lazy, they're just efficiently unproductive; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a millennial lounging in a hammock with a laptop. The background shows a to-do list with all items crossed out.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Joe Biden"
+        },
+        "template": "ChangeMyMind",
+        "text": "Biden's presidency is just Obama's third term; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with Biden wearing an Obama mask. The background shows the White House with a 'Under New Old Management' sign.",
+        "connotation": "sarcastic",
+        "attitude": {
+        "opinionated": true,
+        "troll": true
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "political event",
+        "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The 2020 election was decided by memes; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by popular political memes from 2020. The background shows a voting booth with a 'Vote for Your Favorite Meme' sign.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "politician",
+        "specific": "Donald Trump"
+        },
+        "template": "ChangeMyMind",
+        "text": "Trump's tweets were modern-day presidential fireside chats; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a smartphone displaying Twitter next to an old radio. The background shows the Oval Office with a fireplace.",
+        "connotation": "sarcastic",
+        "attitude": {
+        "opinionated": true,
+        "troll": true
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "political supporter",
+        "specific": "Bernie Sanders supporters"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie supporters are the true 1%; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by people in Bernie gear looking confused. The background shows Wall Street with Bernie campaign posters.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
+        "opinion": "controversial"
+    },
+    {
+        "eventuality": {
+        "type": "political event",
+        "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit is just a really long tea break; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a giant teacup and the EU flag being used as a tea cozy. The background shows Big Ben with its hands frozen.",
+        "connotation": "ironic",
+        "attitude": {
+        "opinionated": false,
+        "troll": true
+        },
         "opinion": "personal"
     },
     {
-        "eventuality": {"type": "politician", "specific": "Angela Merkel"},
-        "template": "ChangeMyMind template",
-        "text": "Merkel's policies are outdated; Change my mind",
-        "graphicalFeatures": "A dusty policy book with Merkel's name; A person pointing to a modern alternatives chart",
+        "eventuality": {
+          "type": "social group",
+          "specific": "Gen Z"
+        },
+        "template": "ChangeMyMind",
+        "text": "Gen Z communicates exclusively in emojis; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by floating emoji bubbles. The background shows a school with textbooks replaced by smartphones.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": true},
-        "opinion": "controversial"
-    },
-    {
-        "eventuality": {"type": "politician", "specific": "Angela Merkel"},
-        "template": "ChangeMyMind template",
-        "text": "Merkel is too conservative; Convince me otherwise",
-        "graphicalFeatures": "A scale with conservative ideas; Merkel holding a balanced scale",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "Gen Z"
+        },
+        "template": "ChangeMyMind",
+        "text": "Gen Z will solve global warming with their iced coffee addiction; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by Gen Z'ers holding giant iced coffees. The background shows melting icebergs being refrozen with iced coffee.",
+        "connotation": "sarcastic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Alexandria Ocasio-Cortez"
+        },
+        "template": "ChangeMyMind",
+        "text": "AOC's Instagram stories are more informative than C-SPAN; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a split-screen showing AOC's Instagram stories and a C-SPAN broadcast. The background shows people falling asleep watching C-SPAN.",
         "connotation": "ironic",
-        "attitude": {"opinionated": true, "troll": false},
+        "attitude": {
+          "opinionated": true,
+          "troll": false
+        },
         "opinion": "controversial"
-    }
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Alexandria Ocasio-Cortez"
+        },
+        "template": "ChangeMyMind",
+        "text": "AOC's Among Us stream was peak political outreach; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with an Among Us character wearing AOC's signature red lipstick. The background shows traditional campaign rallies being replaced by Twitch streams.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": true,
+          "troll": false
+        },
+        "opinion": "controversial"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "Climate Change Debate"
+        },
+        "template": "ChangeMyMind",
+        "text": "Climate change is a conspiracy by Big Sunscreen; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by oversized sunscreen bottles. The background shows penguins applying sunscreen on a melting iceberg.",
+        "connotation": "sarcastic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "controversial"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "Climate Change Debate"
+        },
+        "template": "ChangeMyMind",
+        "text": "We can solve climate change by turning off the sun; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, wearing sunglasses and holding a giant light switch. The background shows the Earth with a lampshade over it.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Mitch McConnell"
+        },
+        "template": "ChangeMyMind",
+        "text": "Mitch McConnell's real superpower is disappearing bills; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with Mitch McConnell dressed as a magician, making papers disappear. The background shows the Senate floor as a magic show stage.",
+        "connotation": "sarcastic",
+        "attitude": {
+          "opinionated": true,
+          "troll": true
+        },
+        "opinion": "controversial"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Mitch McConnell"
+        },
+        "template": "ChangeMyMind",
+        "text": "Mitch McConnell is actually Benjamin Button; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with a timeline showing Mitch McConnell aging backwards. The background shows the Capitol building getting younger.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "US-China Relations"
+        },
+        "template": "ChangeMyMind",
+        "text": "US-China trade war is just a food fight over who has better cuisine; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, ducking as hamburgers and dumplings fly overhead. The background shows the Great Wall made of fortune cookies and the Washington Monument made of hot dogs.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "US-China Relations"
+        },
+        "template": "ChangeMyMind",
+        "text": "TikTok is the true mediator of US-China relations; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with diplomats from both countries doing TikTok dances. The background shows the UN replaced by a giant smartphone.",
+        "connotation": "sarcastic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "controversial"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "Baby Boomers"
+        },
+        "template": "ChangeMyMind",
+        "text": "Boomers are secretly tech geniuses playing the long con; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with older adults in secret agent outfits using advanced gadgets. The background shows a retirement home that's actually a high-tech command center.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "social group",
+          "specific": "Baby Boomers"
+        },
+        "template": "ChangeMyMind",
+        "text": "Boomers invented avocado toast to troll millennials; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with older adults secretly adding avocados to everything. The background shows a conspiracy board connecting boomers to the rise of avocado prices.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Vladimir Putin"
+        },
+        "template": "ChangeMyMind",
+        "text": "Putin's real goal is to be a world-famous figure skater; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with Putin doing a figure skating pose. The background shows the Kremlin transformed into an ice rink.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Vladimir Putin"
+        },
+        "template": "ChangeMyMind",
+        "text": "Putin's stare can melt glaciers faster than climate change; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, wearing sunglasses and a 'Save the Glaciers' t-shirt. The background shows Putin's eyes shooting laser beams at melting glaciers.",
+        "connotation": "sarcastic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit was inspired by a bad breakup song; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with the UK and EU as a couple in a karaoke bar. The background shows Nigel Farage as a heartbroken singer on stage.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "Brexit"
+        },
+        "template": "ChangeMyMind",
+        "text": "Brexit is just an elaborate scheme to avoid Eurovision; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with the UK sneaking away from a Eurovision stage. The background shows EU countries in glittery costumes looking confused.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Bernie Sanders"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie's mittens contain the secrets of the universe; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with Bernie's mittens glowing and floating. The background shows scientists trying to study the mittens.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "politician",
+          "specific": "Bernie Sanders"
+        },
+        "template": "ChangeMyMind",
+        "text": "Bernie's hair is actually a sentient being advising him; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with Bernie's hair styled into a speaking face. The background shows people bowing to the all-knowing hair.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The 2020 election was actually decided by a nationwide game of rock-paper-scissors; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, with giant hands playing rock-paper-scissors over a map of the US. The background shows polling stations replaced by game arenas.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": true
+        },
+        "opinion": "personal"
+      },
+      {
+        "eventuality": {
+          "type": "political event",
+          "specific": "2020 US Election"
+        },
+        "template": "ChangeMyMind",
+        "text": "The real winner of the 2020 election was internet meme creators; Change my mind",
+        "graphicalFeatures": "Steven Crowder at his table, surrounded by people with laptops creating memes. The background shows a presidential podium with a 'Meme Lord in Chief' sign.",
+        "connotation": "ironic",
+        "attitude": {
+          "opinionated": false,
+          "troll": false
+        },
+        "opinion": "personal"
+      }
 ]
