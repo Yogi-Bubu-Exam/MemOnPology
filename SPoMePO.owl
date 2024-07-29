@@ -140,6 +140,9 @@
         <ObjectProperty IRI="#hasConnotation"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasGraphicContent"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasTemplate"/>
     </Declaration>
     <Declaration>
@@ -175,13 +178,6 @@
     <Declaration>
         <NamedIndividual IRI="#Sarcastic"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Attitude"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasConnotation"/>
-            <Class IRI="#Connotation"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Attitude"/>
         <ObjectSomeValuesFrom>
@@ -487,12 +483,29 @@
         <Class IRI="#Cut"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SocioPoliticalMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGraphicContent"/>
+            <Class IRI="#GraphicContent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SociopoliticalPhenomena"/>
         <Class IRI="#BackgroundKnowledge"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
         <Class IRI="#SocioPoliticalMeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupportiveMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="#PersonalOpinion"/>
+            </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
@@ -584,6 +597,10 @@
         <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGraphicContent"/>
+        <Class IRI="#SocioPoliticalMeme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTemplate"/>
         <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
@@ -637,6 +654,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasConnotation"/>
         <Class IRI="#Connotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGraphicContent"/>
+        <Class IRI="#GraphicContent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTemplate"/>
