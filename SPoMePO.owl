@@ -122,9 +122,6 @@
         <Class IRI="#tOpinionated"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#constituentOf"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#contrasts"/>
     </Declaration>
     <Declaration>
@@ -140,10 +137,16 @@
         <ObjectProperty IRI="#hasConnotation"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasConstituent"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasGraphicContent"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTemplate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConstituentOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isContentOf"/>
@@ -254,12 +257,7 @@
         <Class IRI="#ControversialMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTemplate"/>
-            <ObjectIntersectionOf>
-                <Class IRI="#Template"/>
-                <ObjectComplementOf>
-                    <Class IRI="#PoliticalCompassTemplate"/>
-                </ObjectComplementOf>
-            </ObjectIntersectionOf>
+            <Class IRI="#Template"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -308,7 +306,7 @@
     <SubClassOf>
         <Class IRI="#MediaFrame"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#constituentOf"/>
+            <ObjectProperty IRI="#isConstituentOf"/>
             <Class IRI="#MemeticLens"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -531,7 +529,7 @@
     <SubClassOf>
         <Class IRI="#Template"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#constituentOf"/>
+            <ObjectProperty IRI="#isConstituentOf"/>
             <Class IRI="#MemeticLens"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -563,19 +561,13 @@
         <Class IRI="#Connotation"/>
         <NamedIndividual IRI="#Sarcastic"/>
     </ClassAssertion>
-    <AsymmetricObjectProperty>
-        <ObjectProperty IRI="#constituentOf"/>
-    </AsymmetricObjectProperty>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasConstituent"/>
+        <ObjectProperty IRI="#isConstituentOf"/>
+    </InverseObjectProperties>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#hasTemplate"/>
     </AsymmetricObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#constituentOf"/>
-        <ObjectUnionOf>
-            <Class IRI="#MediaFrame"/>
-            <Class IRI="#Template"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#contrasts"/>
         <Class IRI="#Cut"/>
@@ -597,12 +589,23 @@
         <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasConstituent"/>
+        <Class IRI="#MemeticLens"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGraphicContent"/>
         <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTemplate"/>
         <Class IRI="#SocioPoliticalMeme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isConstituentOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#MediaFrame"/>
+            <Class IRI="#Template"/>
+        </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isContentOf"/>
@@ -629,10 +632,6 @@
         <Class IRI="#Attitude"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#constituentOf"/>
-        <Class IRI="#MemeticLens"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#contrasts"/>
         <Class IRI="#Cut"/>
     </ObjectPropertyRange>
@@ -656,12 +655,23 @@
         <Class IRI="#Connotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasConstituent"/>
+        <ObjectUnionOf>
+            <Class IRI="#MediaFrame"/>
+            <Class IRI="#Template"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGraphicContent"/>
         <Class IRI="#GraphicContent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTemplate"/>
         <Class IRI="#Template"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isConstituentOf"/>
+        <Class IRI="#MemeticLens"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isContentOf"/>
@@ -835,6 +845,21 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasConstituent</IRI>
+        <Literal>ODP we adopt to describe the layering of signs that constitutes a internet meme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#hasConstituent</IRI>
+        <Literal>http://www.ontologydesignpatterns.org/cp/owl/constituency.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#isConstituentOf</IRI>
+        <Literal>http://www.ontologydesignpatterns.org/cp/owl/constituency.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#isContentOf</IRI>
         <Literal>Relation establishing that a Mediaframe actsas the content of a template.</Literal>
     </AnnotationAssertion>
@@ -857,5 +882,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
