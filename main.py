@@ -2,7 +2,7 @@ from pprint import pprint as pp
 import pandas as pd
 import json
 
-path = "pc.json"
+path = "comp.json"
 with open(path, mode="r", encoding="utf-8") as d:
     data = json.load(d)
 print(len(data))

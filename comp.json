@@ -497,7 +497,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "2016 vs 2020 US Presidential Elections"
+        "specific": "2016 vs 2020 US Presidential Elections"
         },
         "template": "How It Started vs How It's Going",
         "text": "2016: 'It's rigged!'; 2020: 'It's rigged!'",
@@ -512,7 +512,7 @@
     {
         "eventuality": {
         "type": "social group",
-        "subject": "Baby Boomers vs Gen Z"
+        "specific": "Baby Boomers vs Gen Z"
         },
         "template": "Buff Doge vs Cheems",
         "text": "Boomers at age 20: Buying a house and starting a family; Gen Z at age 20: Can I afford ramen this week?",
@@ -527,7 +527,7 @@
     {
         "eventuality": {
         "type": "political supporters",
-        "subject": "Democrats vs Republicans"
+        "specific": "Democrats vs Republicans"
         },
         "template": "Spider-Man Pointing at Spider-Man",
         "text": "Democrats blaming Republicans for government dysfunction; Republicans blaming Democrats for government dysfunction",
@@ -542,7 +542,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "Climate change action vs Economic growth"
+        "specific": "Climate change action vs Economic growth"
         },
         "template": "Distracted Boyfriend",
         "text": "Politicians; Economic growth; Climate change action",
@@ -557,7 +557,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "Universal Healthcare vs Private Insurance"
+        "specific": "Universal Healthcare vs Private Insurance"
         },
         "template": "Drake Hotline Bling",
         "text": "Private health insurance; Universal healthcare",
@@ -572,7 +572,7 @@
     {
         "eventuality": {
         "type": "social group",
-        "subject": "Political activists vs Apathetic voters"
+        "specific": "Political activists vs Apathetic voters"
         },
         "template": "Buff Doge vs Cheems",
         "text": "Political activists: Organizing rallies, phone banking, canvassing; Apathetic voters: I forgot to register",
@@ -587,7 +587,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "Traditional media vs Social media in elections"
+        "specific": "Traditional media vs Social media in elections"
         },
         "template": "Distracted Boyfriend",
         "text": "Voters; Social media; Traditional news outlets",
@@ -602,7 +602,7 @@
     {
         "eventuality": {
         "type": "political supporters",
-        "subject": "Progressives vs Moderates in Democratic Party"
+        "specific": "Progressives vs Moderates in Democratic Party"
         },
         "template": "Woman Yelling at Cat",
         "text": "Progressives: We need radical change!; Moderates: We need to appeal to centrists!",
@@ -617,7 +617,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "Electoral College vs Popular Vote"
+        "specific": "Electoral College vs Popular Vote"
         },
         "template": "Drake Hotline Bling",
         "text": "Winning the popular vote; Winning the Electoral College",
@@ -632,7 +632,7 @@
     {
         "eventuality": {
         "type": "social group",
-        "subject": "Political extremists vs Centrists"
+        "specific": "Political extremists vs Centrists"
         },
         "template": "Buff Doge vs Cheems",
         "text": "Political extremists: My way or the highway!; Centrists: Can't we all just get along?",
@@ -647,7 +647,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "Grassroots campaigns vs Big money politics"
+        "specific": "Grassroots campaigns vs Big money politics"
         },
         "template": "David vs Goliath",
         "text": "Grassroots campaigns; Big money Super PACs",
@@ -662,7 +662,7 @@
     {
         "eventuality": {
         "type": "political supporters",
-        "subject": "Single-issue voters vs Holistic voters"
+        "specific": "Single-issue voters vs Holistic voters"
         },
         "template": "Distracted Boyfriend",
         "text": "Voters; Single hot-button issue; Comprehensive policy platforms",
@@ -677,7 +677,7 @@
     {
         "eventuality": {
         "type": "social group",
-        "subject": "Urban elites vs Rural working class"
+        "specific": "Urban elites vs Rural working class"
         },
         "template": "Woman Yelling at Cat",
         "text": "Urban elites: We need to address climate change!; Rural working class: We need jobs!",
@@ -692,7 +692,7 @@
     {
         "eventuality": {
         "type": "political event",
-        "subject": "Traditional campaigning vs Digital campaigning"
+        "specific": "Traditional campaigning vs Digital campaigning"
         },
         "template": "Expanding Brain",
         "text": "Door-to-door canvassing; TV ads; Social media campaigns; Meme warfare",
@@ -703,5 +703,159 @@
         "troll": false
         },
         "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Boys vs Girls Locker Room",
+      "text": "Girls locker room: I hate PE class; Boys locker room: Let's recreate the Battle of Waterloo with water bottles",
+      "graphicalFeatures": "Two-panel meme. Left panel shows girls talking calmly. Right panel shows boys in chaotic, exaggerated battle poses with water bottles.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Drake Hotline Bling",
+      "text": "Girls: Using hair dryer to dry hair; Boys: Using hair dryer as a microphone for karaoke",
+      "graphicalFeatures": "Two-panel meme. Top panel shows Drake looking displeased at normal hair dryer use. Bottom panel shows Drake smiling and pointing approvingly at using it as a microphone.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Distracted Boyfriend",
+      "text": "Boys; Video games; Studying",
+      "graphicalFeatures": "Man looking back at woman in red dress (video games), while his girlfriend (studying) looks shocked.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Buff Doge vs Cheems",
+      "text": "Girls packing for a weekend trip: Full suitcase, 5 outfit changes; Boys packing for a weekend trip: One t-shirt and hope for the best",
+      "graphicalFeatures": "Two-panel meme. Left shows a muscular Doge representing girls with a large suitcase, right shows a weak Cheems representing boys with a small backpack.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Woman Yelling at Cat",
+      "text": "Girls: We need to plan our group project carefully!; Boys: Let's do it all the night before",
+      "graphicalFeatures": "Left panel shows woman (girls) yelling, right panel shows confused white cat (boys) at dinner table.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    
+
+
+
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Boys vs Girls",
+      "text": "Girls with time machine: I'm your granddaughter; Boys with time machine: (to ancient Roman soldier) You guys are going to love pizza",
+      "graphicalFeatures": "Split image. Left side shows a girl talking to her grandmother. Right side shows a boy talking to a confused Roman soldier about pizza.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Boys vs Girls",
+      "text": "Girls' handwriting: Neat, organized notes with different colors; Boys' handwriting: Doctor's prescription-level hieroglyphics",
+      "graphicalFeatures": "Split image. Left side shows colorful, organized notebook. Right side shows messy, barely legible scribbles.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Boys vs Girls",
+      "text": "Girls in online games: Actually playing the game; Boys in online games: Arguing about who's the imposter for 10 minutes straight",
+      "graphicalFeatures": "Split image. Left side shows a girl focused on her game. Right side shows boys in heated debate, ignoring the game.",
+      "connotation": "sarcastic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Boys vs Girls",
+      "text": "Girls' closet: Organized by color, type, and season; Boys' closet: If it doesn't smell, it's clean",
+      "graphicalFeatures": "Split image. Left side shows a neatly organized closet. Right side shows a messy pile of clothes on the floor.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
+    },
+    {
+      "eventuality": {
+        "type": "social group",
+        "specific": "Gender differences"
+      },
+      "template": "Boys vs Girls",
+      "text": "Girls taking selfies: 50 shots to get the perfect angle; Boys taking selfies: First try, posts it even if eyes are closed",
+      "graphicalFeatures": "Split image. Left side shows a girl taking multiple selfies. Right side shows a boy posting a blurry, imperfect selfie.",
+      "connotation": "ironic",
+      "attitude": {
+        "opinionated": true,
+        "troll": false
+      },
+      "opinion": "personal"
     }
 ]
