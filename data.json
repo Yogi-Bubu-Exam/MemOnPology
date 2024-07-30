@@ -166,21 +166,6 @@
   },
   {
     "eventuality": {
-      "type": "political supporters",
-      "specific": "MAGA supporters"
-    },
-    "template": "Galaxy Brain (Image Macro)",
-    "text": "Believing in democracy; Accepting election results; Claiming fraud without evidence; Storming the Capitol",
-    "graphicalFeatures": "Four-panel image showing increasingly glowing brains, representing expanding levels of intellect.",
-    "connotation": "sarcastic",
-    "attitude": {
-      "opinionated": true,
-      "troll": true
-    },
-    "opinion": "controversial"
-  },
-  {
-    "eventuality": {
       "type": "politician",
       "specific": "Vladimir Putin"
     },
@@ -2962,6 +2947,51 @@
     "template": "ChangeMyMind",
     "text": "The real winner of the 2020 election was internet meme creators; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by people with laptops creating memes. The background shows a presidential podium with a 'Meme Lord in Chief' sign.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "personal"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Political Compass",
+    "text": "AuthLeft: Brexit means no more EU regulations!; AuthRight: Brexit means controlling our borders!; LibLeft: Brexit is xenophobic!; LibRight: Brexit means new trade deals!",
+    "graphicalFeatures": "A square divided into four quadrants, each representing a different political ideology. Each quadrant contains a character or symbol associated with that ideology, expressing their view on Brexit.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "personal"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Political Compass",
+    "text": "AuthLeft: NHS will collapse without EU workers; AuthRight: We'll take back control from Brussels; LibLeft: Freedom of movement is a human right; LibRight: Think of all the deregulation!",
+    "graphicalFeatures": "Four-quadrant grid with colored squares. Each quadrant contains a caricature representing different political ideologies, with speech bubbles expressing their Brexit opinions.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "personal"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Political Compass",
+    "text": "AuthLeft: Brexit will destroy workers' rights; AuthRight: Brexit will preserve British culture; LibLeft: Brexit is a disaster for the environment; LibRight: Brexit means escaping EU bureaucracy",
+    "graphicalFeatures": "A 2x2 grid with each quadrant colored differently. Each section contains a stereotypical figure representing that political leaning, reacting to Brexit with their ideology-specific concerns.",
     "connotation": "ironic",
     "attitude": {
       "opinionated": false,
