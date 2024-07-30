@@ -12,7 +12,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -27,7 +27,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -42,7 +42,7 @@
       "opinionated": true,
       "troll": true
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -57,7 +57,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -72,7 +72,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -84,10 +84,10 @@
     "graphicalFeatures": "Keanu Reeves from the movie Bill and Ted's Excellent Adventure, with a shocked and contemplative expression.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": true
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -102,7 +102,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -114,7 +114,7 @@
     "graphicalFeatures": "Man tapping his temple with his index finger, smiling knowingly.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "controversial"
@@ -147,7 +147,7 @@
       "opinionated": true,
       "troll": true
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -162,7 +162,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -192,7 +192,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -207,7 +207,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -257,7 +257,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "Brexit negotiations"
+      "specific": "Brexit"
     },
     "template": "Distracted Boyfriend (Image Macro)",
     "text": "UK; EU; Hard Brexit",
@@ -282,7 +282,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -297,7 +297,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -327,7 +327,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -402,7 +402,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -447,7 +447,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -477,7 +477,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -492,7 +492,7 @@
       "opinionated": true,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -582,7 +582,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -612,7 +612,7 @@
        "opinionated":false,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -642,7 +642,7 @@
        "opinionated":true,
        "troll":true
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -672,7 +672,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -702,7 +702,7 @@
        "opinionated":false,
        "troll":true
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -747,7 +747,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -762,7 +762,7 @@
        "opinionated":false,
        "troll":true
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -777,7 +777,7 @@
        "opinionated":false,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -807,7 +807,7 @@
        "opinionated":false,
        "troll":true
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -822,7 +822,7 @@
        "opinionated":false,
        "troll":true
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -852,7 +852,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -942,7 +942,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -972,7 +972,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -987,7 +987,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1002,7 +1002,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1032,7 +1032,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1062,7 +1062,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1122,7 +1122,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1182,7 +1182,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1197,7 +1197,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1212,7 +1212,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1242,7 +1242,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1257,7 +1257,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1272,7 +1272,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1287,7 +1287,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1302,7 +1302,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1317,7 +1317,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1332,7 +1332,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1347,7 +1347,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1362,7 +1362,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1377,7 +1377,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"personal"
+    "opinion":"uncontroversial"
  },
  {
   "eventuality": {
@@ -1392,7 +1392,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1407,7 +1407,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1452,7 +1452,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1467,7 +1467,7 @@
     "opinionated": false,
     "troll": true
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1482,7 +1482,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1497,7 +1497,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1512,22 +1512,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "Climate Change Debate"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Eco-socialism; Auth Right: Geoengineering; Lib Left: Community gardens; Lib Right: Electric vehicle tax credits",
-  "graphicalFeatures": "Each quadrant depicts a different climate change solution. The background transitions from a smoky industrial landscape to a clean, futuristic city.",
-  "connotation": "motivational",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1542,7 +1527,7 @@
     "opinionated": false,
     "troll": true
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1572,7 +1557,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1602,7 +1587,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1722,7 +1707,7 @@
     "opinionated": false,
     "troll": true
   },
-  "opinion": "personal"
+  "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -1767,7 +1752,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -1782,7 +1767,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -1797,7 +1782,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -1812,7 +1797,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -1842,7 +1827,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -1872,7 +1857,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -1902,7 +1887,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -1917,7 +1902,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -1947,7 +1932,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2007,7 +1992,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2022,7 +2007,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2067,7 +2052,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2127,7 +2112,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2172,7 +2157,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2187,7 +2172,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2202,7 +2187,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2232,7 +2217,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2247,7 +2232,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2262,7 +2247,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2277,7 +2262,7 @@
     "opinionated": true,
     "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2307,7 +2292,7 @@
     "opinionated": true,
     "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2337,7 +2322,7 @@
     "opinionated": false,
     "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2352,7 +2337,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2367,7 +2352,7 @@
     "opinionated": true,
     "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2412,7 +2397,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2427,7 +2412,7 @@
     "opinionated": false,
     "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2457,7 +2442,7 @@
     "opinionated": false,
     "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2472,7 +2457,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2487,7 +2472,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2502,7 +2487,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2547,7 +2532,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2652,7 +2637,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2667,7 +2652,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2682,7 +2667,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2742,7 +2727,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2772,7 +2757,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2787,7 +2772,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2817,7 +2802,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2832,7 +2817,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2847,7 +2832,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2862,7 +2847,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2877,7 +2862,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2892,7 +2877,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2907,7 +2892,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2922,7 +2907,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2937,7 +2922,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2952,7 +2937,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2967,7 +2952,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2982,7 +2967,7 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -2997,6 +2982,6 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "personal"
+    "opinion": "uncontroversial"
   }
 ]

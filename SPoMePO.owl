@@ -74,9 +74,6 @@
         <Class IRI="#Opinionated"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PersonalOpinion"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#PoliticalActivity"/>
     </Declaration>
     <Declaration>
@@ -114,6 +111,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Troll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UncontroversialOpinion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#tNonOpinionated"/>
@@ -203,7 +203,7 @@
         <Class IRI="#Caption"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#expresses"/>
-            <Class IRI="#PersonalOpinion"/>
+            <Class IRI="#UncontroversialOpinion"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -259,10 +259,6 @@
             <ObjectProperty IRI="#hasTemplate"/>
             <Class IRI="#Template"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ControversialOpinion"/>
-        <Class IRI="#PersonalOpinion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cut"/>
@@ -370,8 +366,18 @@
             <ObjectProperty IRI="#hasCaption"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#expresses"/>
-                <Class IRI="#PersonalOpinion"/>
+                <Class IRI="#UncontroversialOpinion"/>
             </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeutralJuxtapositionMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConnotation"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Ironic"/>
+                <NamedIndividual IRI="#Sarcastic"/>
+            </ObjectOneOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -444,7 +450,7 @@
             <ObjectProperty IRI="#hasCaption"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#expresses"/>
-                <Class IRI="#PersonalOpinion"/>
+                <Class IRI="#UncontroversialOpinion"/>
             </ObjectAllValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -501,7 +507,7 @@
             <ObjectProperty IRI="#hasCaption"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#expresses"/>
-                <Class IRI="#PersonalOpinion"/>
+                <Class IRI="#UncontroversialOpinion"/>
             </ObjectAllValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -639,7 +645,7 @@
         <ObjectProperty IRI="#expresses"/>
         <ObjectUnionOf>
             <Class IRI="#ControversialOpinion"/>
-            <Class IRI="#PersonalOpinion"/>
+            <Class IRI="#UncontroversialOpinion"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -780,11 +786,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#PersonalOpinion</IRI>
-        <Literal>A text that express a subjective statement about some topic.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PoliticalActivity</IRI>
         <Literal>E.g. &apos;elections&apos;, &apos;impeachment&apos; etc..</Literal>
     </AnnotationAssertion>
@@ -842,6 +843,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Troll</IRI>
         <Literal>Intent to annoy, offend  or simply elicit a strong reaction form others.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#UncontroversialOpinion</IRI>
+        <Literal>A statement that express a moderate view about some topic.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

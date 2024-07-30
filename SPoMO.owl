@@ -45,6 +45,15 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasConstituent">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#isConstituentOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#GraphicContent"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
     </owl:ObjectProperty>
     
 

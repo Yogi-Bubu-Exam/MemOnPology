@@ -25,7 +25,6 @@ def create_datagraph(graphUrl, json_file):
     Caption = URIRef(spomepo.Caption)
     Connotation = URIRef(spomepo.Connotation)
     GraphicContent = URIRef(spomepo.GraphicContent)
-    Template = URIRef(spomepo.Template)
     Comparative = URIRef(spomepo.ComparativeTemplate)
     ChangeMyMind = URIRef(spomepo.ChangeMyMindTemplate)
     PoliticalCompass = URIRef(spomepo.PoliticalCompassTemplate)
@@ -34,16 +33,12 @@ def create_datagraph(graphUrl, json_file):
     Politician = URIRef(spomepo.Politician)
     PoliticalSupporter = URIRef(spomepo.PoliticalSupporter)
     PoliticalActivity = URIRef(spomepo.PoliticalActivity)
-    PersonalOpinion = URIRef(spomepo.PersonalOpinion)
+    UncontroversialOpinion = URIRef(spomepo.UncontroversialOpinion)
     ControversialOpinion = URIRef(spomepo.ControversialOpinion)
-    NonTroll = URIRef(spomepo.NonTroll)
     NonOpinionated = URIRef(spomepo.NonOpinionated)
     Opinionated = URIRef(spomepo.Opinionated)
-    Troll = URIRef(spomepo.Troll)
     tNonOpinionated = URIRef(spomepo.tNonOpinionated)
     tOpinionated = URIRef(spomepo.tOpinionated)
-    tOpinionated = URIRef(spomepo.tOpinionated)
-    SocioPoliticalMeme = URIRef(spomepo.SocioPoliticalMeme)
     ControversialMeme = URIRef(spomepo.ControversialMeme)
     MockingJuxtapositionMeme = URIRef(spomepo.MockinJuxtapositionMeme)
     NeutralJuxtapositionMeme = URIRef(spomepo.NeutralJuxtapositionMeme)
@@ -88,8 +83,8 @@ def create_datagraph(graphUrl, json_file):
         graphData.add((ca, RDF.type, Caption))
         if "controversial" in dict["opinion"]:
             graphData.add((ca, expresses, ControversialOpinion))
-        elif "personal" in dict["opinion"]:
-            graphData.add((ca, expresses, PersonalOpinion))
+        elif "uncontroversial" in dict["opinion"]:
+            graphData.add((ca, expresses, UncontroversialOpinion))
         graphData.add((ca, hasValue, Literal(dict["text"])))
 
         # Connotation
@@ -141,37 +136,40 @@ def create_datagraph(graphUrl, json_file):
         elif not troll and not opinionated:
             graphData.add((a, RDF.type, NonOpinionated))     
         
-        # Cut map
-        meme_identifier = {"ControversialOpinion":{"Offensive":"ControversialMeme"},
-                           "PersonalOpinion":{"PoliticalCompassTemplate":"NeutralJuxtapositionMeme",
-                                              "ComparativeTemplate":"MockingJuxtapositionMeme",
-                                              "Connotation":{"Motivational":"SupportiveMeme",
-                                                             "Sarcastic":"SatyricalMeme",
-                                                             "Ironic":"SatyricalMeme"}}}
-        if dict["opinion"].lower() in "personalopinion":
-            if dict["template"].lower() in meme_identifier["PersonalOpinion"]:
-                if dict["template"].lower() == "politicalcompasstemplate":
-                    graphData.add((m, RDF.type, NeutralJuxtapositionMeme))
-                else:
-                    graphData.add((m, RDF.type, MockingJuxtapositionMeme))
-            elif dict["connotation"].lower().capitalize() in meme_identifier["PersonalOpinion"]["Connotation"]:
-                if dict["connotation"].lower() == "ironic" or dict["connotation"].lower() == "sarcastic":
-                    graphData.add((m, RDF.type, SatyricalMeme))
-                else:
-                    graphData.add((m, RDF.type, SupportiveMeme))
-        elif dict["connotation"].lower() == "offensive":
-            graphData.add((m, RDF.type, ControversialMeme))
+        # Cut map: if controversial and not comparative, then controversial meme; 
+        #          if personal and sarcastic/ironic and not comparativeTemp or PolComp, then Satyrical
+        #                   {"ControversialOpinion":{"ComparativeTemplate":"MockingJuxtapositionMeme"},
+        #                    "PersonalOpinion":{"Motivational":"SupportiveMeme",
+        #                                       "Sarcastic, Ironic":{"Comparative":"NeutralJuxtapositionMeme",
+        #                                                            "Political Compass":"NeutralJuxtapositionMeme"}}
+        #                                        "Offensive": "MockingJuxtapositionMeme"}
+                          
+        meme_frame = dict["template"]
+        meme_conn = dict["connotation"]
+        if dict["opinion"] == "controversial":
+            if "Comparative" not in meme_frame:
+                graphData.add((m, RDF.type, ControversialMeme))
+            else:
+                graphData.add((m, RDF.type, MockingJuxtapositionMeme))
+        elif meme_conn == "motivational":
+            graphData.add((m, RDF.type, SupportiveMeme))
+        elif meme_conn == "offensive":
+            graphData.add((m, RDF.type, MockingJuxtapositionMeme))
+        elif meme_frame not in "ComparativePolitical Compass":
+            graphData.add((m, RDF.type, SatyricalMeme))
+        else:
+            graphData.add((m, RDF.type, NeutralJuxtapositionMeme))
+        
         
         n += 1
 
     # Sending the graph to the database
-        store = SPARQLUpdateStore()
+    store = SPARQLUpdateStore()
+    store.open((endpoint, endpoint))
 
-        store.open((endpoint, endpoint))
+    for triple in graphData.triples((None, None, None)):
+        store.add(triple)
 
-        for triple in graphData.triples((None, None, None)):
-            store.add(triple)
+    store.close()
 
-        store.close()
-
-create_datagraph("http://192.168.1.56:9999/blazegraph/", "cmm.json")
+create_datagraph("http://192.168.1.3:9999/blazegraph/", "data.json")
