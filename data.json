@@ -241,21 +241,6 @@
   },
   {
     "eventuality": {
-      "type": "political event",
-      "specific": "Gun control debate"
-    },
-    "template": "Change My Mind (Image Macro)",
-    "text": "The Second Amendment is not absolute; Change my mind",
-    "graphicalFeatures": "Man sitting at a table with a sign, inviting debate, in an outdoor setting, likely a college campus.",
-    "connotation": "ironic",
-    "attitude": {
-      "opinionated": true,
-      "troll": false
-    },
-    "opinion": "controversial"
-  },
-  {
-    "eventuality": {
       "type": "political supporters",
       "specific": "Libertarians"
     },
@@ -341,21 +326,6 @@
     "attitude": {
       "opinionated": true,
       "troll": false
-    },
-    "opinion": "controversial"
-  },
-  {
-    "eventuality": {
-      "type": "political supporters",
-      "specific": "Flat Earth believers"
-    },
-    "template": "Expanding Brain (Image Macro)",
-    "text": "Earth is round; Earth is flat; Earth is a cube; Earth doesn't exist",
-    "graphicalFeatures": "Four-panel image showing increasingly glowing brains, representing expanding levels of intellect.",
-    "connotation": "sarcastic",
-    "attitude": {
-      "opinionated": true,
-      "troll": true
     },
     "opinion": "controversial"
   },
@@ -1273,21 +1243,6 @@
        "troll":false
     },
     "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Traditional campaigning vs Digital campaigning"
-    },
-    "template":"Expanding Brain (Comparative)",
-    "text":"Door-to-door canvassing; TV ads; Social media campaigns; Meme warfare",
-    "graphicalFeatures":"Four-panel meme showing increasingly glowing brains, representing levels of campaign sophistication.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"personal"
  },
  {
     "eventuality":{
