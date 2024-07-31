@@ -389,7 +389,6 @@
     <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme">
-        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/SocioPoliticalMeme"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasCaption"/>
@@ -455,12 +454,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/SocioPoliticalMeme -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/SocioPoliticalMeme"/>
     
 
 

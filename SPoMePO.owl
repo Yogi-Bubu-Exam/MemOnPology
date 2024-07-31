@@ -21,6 +21,9 @@
         <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Attitude"/>
     </Declaration>
     <Declaration>
@@ -34,9 +37,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ComparativeTemplate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Connotation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ControversialMeme"/>
@@ -197,6 +197,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Attitude"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#towards"/>
@@ -211,14 +218,7 @@
         <Class IRI="#Caption"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#expresses"/>
-            <Class IRI="#ControversialOpinion"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Caption"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#expresses"/>
-            <Class IRI="#UncontroversialOpinion"/>
+            <Class IRI="#Opinion"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -235,13 +235,6 @@
     <SubClassOf>
         <Class IRI="#ComparativeTemplate"/>
         <Class IRI="#Template"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Connotation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasValue"/>
-            <Datatype abbreviatedIRI="rdfs:Literal"/>
-        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
@@ -561,19 +554,19 @@
         <Class IRI="#Troll"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Ironic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Motivational"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Offensive"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Sarcastic"/>
     </ClassAssertion>
     <InverseObjectProperties>
@@ -667,7 +660,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasConnotation"/>
-        <Class IRI="#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasConstituent"/>
@@ -715,8 +708,8 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasValue"/>
         <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
             <Class IRI="#Caption"/>
-            <Class IRI="#Connotation"/>
             <Class IRI="#GraphicContent"/>
             <Class IRI="#PoliticalActivity"/>
             <Class IRI="#PoliticalSupporter"/>
@@ -735,6 +728,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation</IRI>
+        <Literal>The idea suggested by a message in addition to its main meaning. For this project connotation assumes another level of sense: the final sense obtained from the combination between the caption sentiment analysis and the image sense extraction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Caption</IRI>
         <Literal>A text overlapped to the graphic content or written in the upper or lower edge of a graphic content</Literal>
     </AnnotationAssertion>
@@ -747,11 +745,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ComparativeTemplate</IRI>
         <Literal>Broader category comprising templates that compare two or more elements (represented graphically or textually in the mediaframe), often featuring a grid-like structure.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Connotation</IRI>
-        <Literal>The idea suggested by a message in addition to its main meaning. For this project connotation assumes another level of sense: the final sense obtained from the combination between the caption sentiment analysis and the image sense extraction.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -775,6 +768,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ironic</IRI>
+        <Literal>Connotation characterized by a mostly mild and unharmful kind of humor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MediaFrame</IRI>
         <Literal>A Media Frame is a multimedia object used to represent a “memeable” situation, i.e., one that is familiar to the creator and a broader community. It has a tetual component (the meme caption) and often also a graphical one, specifying what the meme refers to exactly.</Literal>
     </AnnotationAssertion>
@@ -790,6 +788,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Motivational</IRI>
+        <Literal>Connotation motivating towards a positive stance towards certain topics or people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NeutralJuxtapositionMeme</IRI>
         <Literal>Meme neutrally displaying differences (often sterotypical ones) among different groups.</Literal>
     </AnnotationAssertion>
@@ -797,6 +800,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NonTroll</IRI>
         <Literal>¬Troll</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Offensive</IRI>
+        <Literal>Connotation characterised by an aggressive stance towards some topics or people, diminishing them.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -827,6 +835,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Politician</IRI>
         <Literal>Class for members of an administration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sarcastic</IRI>
+        <Literal>Connotation characterised by a darker kind of humor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -897,5 +910,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
