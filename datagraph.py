@@ -81,10 +81,10 @@ def create_datagraph(graphUrl, json_file):
         # Caption and Opinion
         graphData.add((m, hasCaption, ca))
         graphData.add((ca, RDF.type, Caption))
-        if "controversial" in dict["opinion"]:
-            graphData.add((ca, expresses, ControversialOpinion))
-        elif "uncontroversial" in dict["opinion"]:
+        if "uncontroversial" in dict["opinion"]:
             graphData.add((ca, expresses, UncontroversialOpinion))
+        else:
+            graphData.add((ca, expresses, ControversialOpinion))
         graphData.add((ca, hasValue, Literal(dict["text"])))
 
         # Connotation
