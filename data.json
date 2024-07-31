@@ -1411,8 +1411,8 @@
 },
 {
   "eventuality": {
-    "type": "political supporters",
-    "specific": "Bernie Sanders supporters"
+    "type": "politician",
+    "specific": "Bernie Sanders"
   },
   "template": "Political compass",
   "text": "Auth Left: Free college for all; Auth Right: Anti-establishment rhetoric; Lib Left: Medicare for All; Lib Right: Breaking up big banks",

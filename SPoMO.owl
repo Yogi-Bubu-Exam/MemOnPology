@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:spomepo="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO">
         <rdfs:comment>SPoMO: SocioPolitical Meme Ontology. An ontology to describe the entities and properties of a sociopolitical meme in order to recognize one.</rdfs:comment>
     </owl:Ontology>
@@ -388,6 +389,7 @@
     <!-- http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/SocioPoliticalMeme"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#hasCaption"/>
@@ -453,6 +455,12 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/SocioPoliticalMeme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMePO/SocioPoliticalMeme"/>
     
 
 

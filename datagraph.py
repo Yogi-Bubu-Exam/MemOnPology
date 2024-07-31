@@ -42,7 +42,7 @@ def create_datagraph(graphUrl, json_file):
     ControversialMeme = URIRef(spomepo.ControversialMeme)
     MockingJuxtapositionMeme = URIRef(spomepo.MockinJuxtapositionMeme)
     NeutralJuxtapositionMeme = URIRef(spomepo.NeutralJuxtapositionMeme)
-    SatyricalMeme = URIRef(spomepo.SatyricalMeme)
+    HumorousMeme = URIRef(spomepo.HumorousMeme)
     SupportiveMeme = URIRef(spomepo.SupportiveMeme)
         
 
@@ -137,9 +137,9 @@ def create_datagraph(graphUrl, json_file):
             graphData.add((a, RDF.type, NonOpinionated))     
         
         # Cut map: if controversial and not comparative, then controversial meme; 
-        #          if personal and sarcastic/ironic and not comparativeTemp or PolComp, then Satyrical
+        #          if personal and sarcastic/ironic and not comparativeTemp or PolComp, then Humorous
         #                   {"ControversialOpinion":{"ComparativeTemplate":"MockingJuxtapositionMeme"},
-        #                    "PersonalOpinion":{"Motivational":"SupportiveMeme",
+        #                    "UncontroversialOpinion":{"Motivational":"SupportiveMeme",
         #                                       "Sarcastic, Ironic":{"Comparative":"NeutralJuxtapositionMeme",
         #                                                            "Political Compass":"NeutralJuxtapositionMeme"}}
         #                                        "Offensive": "MockingJuxtapositionMeme"}
@@ -147,16 +147,16 @@ def create_datagraph(graphUrl, json_file):
         meme_frame = dict["template"]
         meme_conn = dict["connotation"]
         if dict["opinion"] == "controversial":
-            if "Comparative" not in meme_frame:
-                graphData.add((m, RDF.type, ControversialMeme))
-            else:
+            if "Comparative" in meme_frame:
                 graphData.add((m, RDF.type, MockingJuxtapositionMeme))
-        elif meme_conn == "motivational":
+            else:
+                graphData.add((m, RDF.type, ControversialMeme))
+        elif meme_conn == "motivational" and meme_frame != "Political Compass":
             graphData.add((m, RDF.type, SupportiveMeme))
+        elif "Comparative" not in meme_frame and meme_frame != "Political Compass":
+            graphData.add((m, RDF.type, HumorousMeme))
         elif meme_conn == "offensive":
             graphData.add((m, RDF.type, MockingJuxtapositionMeme))
-        elif meme_frame not in "ComparativePolitical Compass":
-            graphData.add((m, RDF.type, SatyricalMeme))
         else:
             graphData.add((m, RDF.type, NeutralJuxtapositionMeme))
         
