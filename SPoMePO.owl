@@ -12,10 +12,14 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="spomo" IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO/"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>SocioPolitical Meme Perspectivisation ontology. An ontology to describe perspectivisation shot through sociopolitical memes.</Literal>
     </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#Attitude"/>
     </Declaration>
@@ -50,6 +54,9 @@
         <Class IRI="#GraphicContent"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#HumorousMeme"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lens"/>
     </Declaration>
     <Declaration>
@@ -69,6 +76,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#NonTroll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opinion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Opinionated"/>
@@ -92,13 +102,7 @@
         <Class IRI="#Politician"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SatyricalMeme"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#SocialGroup"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SocioPoliticalMeme"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SociopoliticalPhenomena"/>
@@ -182,6 +186,17 @@
         <NamedIndividual IRI="#Sarcastic"/>
     </Declaration>
     <SubClassOf>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="#Cut"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGraphicContent"/>
+            <Class IRI="#GraphicContent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Attitude"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#towards"/>
@@ -230,7 +245,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
-        <Class IRI="#SocioPoliticalMeme"/>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
@@ -259,6 +274,10 @@
             <ObjectProperty IRI="#hasTemplate"/>
             <Class IRI="#Template"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControversialOpinion"/>
+        <Class IRI="#Opinion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cut"/>
@@ -300,6 +319,37 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#HumorousMeme"/>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumorousMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCaption"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#expresses"/>
+                <Class IRI="#UncontroversialOpinion"/>
+            </ObjectAllValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumorousMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConnotation"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Ironic"/>
+                <NamedIndividual IRI="#Sarcastic"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumorousMeme"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTemplate"/>
+            <Class IRI="#Template"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MediaFrame"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#isConstituentOf"/>
@@ -326,16 +376,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MockingJuxtapositionMeme"/>
-        <Class IRI="#SocioPoliticalMeme"/>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MockingJuxtapositionMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCaption"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#expresses"/>
-                <Class IRI="#ControversialOpinion"/>
-            </ObjectAllValuesFrom>
+            <Class IRI="#Opinion"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -358,7 +405,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NeutralJuxtapositionMeme"/>
-        <Class IRI="#SocioPoliticalMeme"/>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NeutralJuxtapositionMeme"/>
@@ -441,37 +488,6 @@
         <Class IRI="#PoliticalAgent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SatyricalMeme"/>
-        <Class IRI="#SocioPoliticalMeme"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SatyricalMeme"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCaption"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#expresses"/>
-                <Class IRI="#UncontroversialOpinion"/>
-            </ObjectAllValuesFrom>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SatyricalMeme"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasConnotation"/>
-            <ObjectOneOf>
-                <NamedIndividual IRI="#Ironic"/>
-                <NamedIndividual IRI="#Sarcastic"/>
-            </ObjectOneOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SatyricalMeme"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTemplate"/>
-            <Class IRI="#Template"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#SocialGroup"/>
         <Class IRI="#Eventuality"/>
     </SubClassOf>
@@ -483,23 +499,12 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SocioPoliticalMeme"/>
-        <Class IRI="#Cut"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SocioPoliticalMeme"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasGraphicContent"/>
-            <Class IRI="#GraphicContent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#SociopoliticalPhenomena"/>
         <Class IRI="#BackgroundKnowledge"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
-        <Class IRI="#SocioPoliticalMeme"/>
+        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
@@ -542,6 +547,10 @@
     <SubClassOf>
         <Class IRI="#Troll"/>
         <Class IRI="#Attitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UncontroversialOpinion"/>
+        <Class IRI="#Opinion"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#tNonOpinionated"/>
@@ -587,24 +596,8 @@
         <Class IRI="#Eventuality"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCaption"/>
-        <Class IRI="#SocioPoliticalMeme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasConnotation"/>
-        <Class IRI="#SocioPoliticalMeme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasConstituent"/>
         <Class IRI="#MemeticLens"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasGraphicContent"/>
-        <Class IRI="#SocioPoliticalMeme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTemplate"/>
-        <Class IRI="#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isConstituentOf"/>
@@ -720,6 +713,11 @@
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>spomo:SocioPoliticalMeme</AbbreviatedIRI>
+        <Literal>https://github.com/Yogi-Bubu-Exam/MemOnPology/blob/main/SPoMO.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Caption</IRI>
         <Literal>A text overlapped to the graphic content or written in the upper or lower edge of a graphic content</Literal>
@@ -742,7 +740,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ControversialMeme</IRI>
-        <Literal>A meme that express a point of view provoking doubts and debate about a topic.</Literal>
+        <Literal>A meme that expresses a point of view provoking doubts and debate about a topic.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -753,6 +751,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#GraphicContent</IRI>
         <Literal>Images, videos, GIFs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HumorousMeme</IRI>
+        <Literal>Meme commenting on a sociopolitical eventuality in a humorous  way, without adressing controversial topics.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -777,7 +780,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NonTroll</IRI>
-        <Literal>¬TrollAtt</Literal>
+        <Literal>¬Troll</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -811,18 +814,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SatyricalMeme</IRI>
-        <Literal>Meme commenting on a sociopolitical eventuality in a satyrical way.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SocialGroup</IRI>
         <Literal>E.g. &apos;Females&apos;, &apos;Males&apos;, etc..</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SocioPoliticalMeme</IRI>
-        <Literal>All those memes that refers to sociopolitical phenomena.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
