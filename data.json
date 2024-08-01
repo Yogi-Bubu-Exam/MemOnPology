@@ -1120,7 +1120,7 @@
     "connotation":"ironic",
     "attitude":{
        "opinionated":true,
-       "troll":false
+       "troll":true
     },
     "opinion":"uncontroversial"
  },
@@ -1209,7 +1209,7 @@
     "graphicalFeatures":"Man looking back at woman in red dress (single issue), while his girlfriend (comprehensive policies) looks shocked.",
     "connotation":"ironic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":false
     },
     "opinion":"uncontroversial"
@@ -1224,10 +1224,10 @@
     "graphicalFeatures":"Left panel shows woman (urban elites) yelling, right panel shows confused white cat (rural working class) at dinner table.",
     "connotation":"ironic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1262,14 +1262,14 @@
  {
     "eventuality":{
        "type":"social group",
-       "specific":"Gender differences"
+       "specific":"Boys"
     },
     "template":"Distracted Boyfriend (Comparative)",
     "text":"Boys; Video games; Studying",
     "graphicalFeatures":"Man looking back at woman in red dress (video games), while his girlfriend (studying) looks shocked.",
     "connotation":"ironic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":false
     },
     "opinion":"uncontroversial"
@@ -1420,9 +1420,9 @@
   "connotation": "ironic",
   "attitude": {
     "opinionated": false,
-    "troll": true
+    "troll": false
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1437,7 +1437,7 @@
     "opinionated": false,
     "troll": true
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1525,7 +1525,7 @@
   "connotation": "sarcastic",
   "attitude": {
     "opinionated": false,
-    "troll": true
+    "troll": false
   },
   "opinion": "uncontroversial"
 },
@@ -1542,7 +1542,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1572,7 +1572,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1602,7 +1602,7 @@
     "opinionated": false,
     "troll": false
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1615,9 +1615,9 @@
   "connotation": "sarcastic",
   "attitude": {
     "opinionated": false,
-    "troll": true
+    "troll": false
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1630,9 +1630,9 @@
   "connotation": "sarcastic",
   "attitude": {
     "opinionated": false,
-    "troll": true
+    "troll": false
   },
-  "opinion": "controversial"
+  "opinion": "uncontroversial"
 },
 {
   "eventuality": {
@@ -1660,7 +1660,7 @@
   "connotation": "sarcastic",
   "attitude": {
     "opinionated": false,
-    "troll": true
+    "troll": false
   },
   "opinion": "controversial"
 },
@@ -1707,7 +1707,7 @@
     "opinionated": false,
     "troll": true
   },
-  "opinion": "uncontroversial"
+  "opinion": "controversial"
 },
 {
     "eventuality": {
@@ -1732,7 +1732,7 @@
     "template": "Political compass",
     "text": "Auth Left: Trump Tower in every city; Auth Right: Build the wall higher; Lib Left: Twitter should be a public utility; Lib Right: Gold standard but it's all Trump-branded gold",
     "graphicalFeatures": "Each quadrant features caricatures of Trump supporters with exaggerated features and MAGA gear. The center shows a golden combover swirl.",
-    "connotation": "offensive",
+    "connotation": "sarcastic",
     "attitude": {
     "opinionated": false,
     "troll": true
@@ -1752,7 +1752,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "uncontroversial"
+    "opinion": "controversial"
 },
 {
     "eventuality": {
@@ -2982,6 +2982,6 @@
       "opinionated": false,
       "troll": false
     },
-    "opinion": "uncontroversial"
+    "opinion": "controversial"
   }
 ]
