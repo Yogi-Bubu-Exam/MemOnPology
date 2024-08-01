@@ -9,7 +9,7 @@
     "graphicalFeatures": "Close-up image of Donald Trump's distinctive hairstyle, with his face partially visible, looking stern and confident.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "uncontroversial"
@@ -24,7 +24,7 @@
     "graphicalFeatures": "Woman with a confused expression, surrounded by floating mathematical equations and symbols.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "uncontroversial"
@@ -39,7 +39,7 @@
     "graphicalFeatures": "Gene Wilder as Willy Wonka, leaning forward with a smug, condescending expression.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": true
     },
     "opinion": "uncontroversial"
@@ -62,14 +62,14 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "2020 US Presidential Election"
+      "specific": "2020 US elections"
     },
     "template": "This Is Fine (Image Macro)",
     "text": "Everything is totally normal and fine",
     "graphicalFeatures": "Cartoon dog sitting calmly in a chair while the room around him is engulfed in flames.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "uncontroversial"
@@ -107,7 +107,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "Climate change denial"
+      "specific": "Climate change"
     },
     "template": "Roll Safe (Image Macro)",
     "text": "Can't be affected by climate change; If you don't believe in it",
@@ -144,7 +144,7 @@
     "graphicalFeatures": "Joe Biden with eyes half-closed, looking tired or drowsy, possibly at a podium.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": true
     },
     "opinion": "uncontroversial"
@@ -152,14 +152,14 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "Student loan debt crisis"
+      "specific": "Student loan debt"
     },
     "template": "Disaster Girl (Image Macro)",
     "text": "Me watching my student loan debt grow",
     "graphicalFeatures": "Young girl smirking at the camera with a house on fire in the background.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "uncontroversial"
@@ -204,7 +204,7 @@
     "graphicalFeatures": "Elderly woman looking surprised while using a computer, wearing reading glasses.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "uncontroversial"
@@ -232,7 +232,7 @@
     "template": "Ancient Aliens Guy (Image Macro)",
     "text": "I'm not saying it was the free market; But it was the free market",
     "graphicalFeatures": "Man with wild hair and a surprised expression, gesturing with his hands as if explaining something incredible.",
-    "connotation": "sarcastic",
+    "connotation": "ironic",
     "attitude": {
       "opinionated": true,
       "troll": false
@@ -249,10 +249,10 @@
     "graphicalFeatures": "Nancy Pelosi clapping with an exaggerated, seemingly sarcastic expression during a State of the Union address.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -264,10 +264,10 @@
     "graphicalFeatures": "Man looking back at another woman while walking with his girlfriend. Labels added to each person.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -332,7 +332,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "Global warming"
+      "specific": "Climate change"
     },
     "template": "This Is Fine (Image Macro)",
     "text": "The Earth right now",
@@ -354,10 +354,10 @@
     "graphicalFeatures": "Two muscular arms clasping hands in agreement, typically from the movie Predator.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -369,7 +369,7 @@
     "graphicalFeatures": "Kim Jong-un inspecting various objects or locations with a serious expression, often accompanied by officials taking notes.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "controversial"
@@ -384,10 +384,10 @@
     "graphicalFeatures": "Close-up of Pikachu with a shocked expression, mouth agape in surprise.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": true
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality": {
@@ -459,7 +459,7 @@
     "graphicalFeatures": "Man tapping his temple with his index finger, smiling knowingly.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "controversial"
@@ -489,7 +489,7 @@
     "graphicalFeatures": "Boromir from Lord of the Rings, looking serious and gesturing with his hand.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "uncontroversial"
@@ -504,7 +504,7 @@
     "graphicalFeatures": "Spongebob Squarepants character gesturing with his hands to form a rainbow, with a sparkly, imaginary text above.",
     "connotation": "sarcastic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
     "opinion": "controversial"
@@ -520,24 +520,24 @@
     "connotation": "sarcastic",
     "attitude": {
       "opinionated": true,
-      "troll": false
+      "troll": true
     },
     "opinion": "controversial"
   },
   {
     "eventuality": {
       "type": "political supporters",
-      "specific": "Trump supporters"
+      "specific": "2020 US elections"
     },
     "template": "Confused Nick Young (Image Macro)",
     "text": "When you realize Trump lost but Republicans gained House seats",
     "graphicalFeatures": "Basketball player Nick Young looking confused with question marks around his head.",
     "connotation": "ironic",
     "attitude": {
-      "opinionated": true,
+      "opinionated": false,
       "troll": false
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
   },
   {
     "eventuality":{
@@ -549,10 +549,10 @@
     "graphicalFeatures":"Two panels side by side. Left panel shows a bustling Twitter feed with millions of followers. Right panel shows a tumbleweeds rolling across an empty Truth Social interface.",
     "connotation":"sarcastic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":true
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -594,10 +594,10 @@
     "graphicalFeatures":"Left panel shows Biden stumbling on Air Force One stairs. Right panel shows Trump cautiously descending a ramp at West Point. Both images are freeze-framed at awkward moments.",
     "connotation":"sarcastic",
     "attitude":{
-       "opinionated":true,
-       "troll":true
+       "opinionated":false,
+       "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -609,7 +609,7 @@
     "graphicalFeatures":"Left panel shows young, enthusiastic supporters at a rally. Right panel depicts the same supporters, now with gray hair and exhausted expressions, still holding 'Feel the Bern' signs.",
     "connotation":"ironic",
     "attitude":{
-       "opinionated":false,
+       "opinionated":true,
        "troll":false
     },
     "opinion":"uncontroversial"
@@ -617,7 +617,7 @@
  {
     "eventuality":{
        "type":"political event",
-       "specific":"2020 US Election"
+       "specific":"2020 US elections"
     },
     "template":"Comparative (multi-panel)",
     "text":"Election night; One week later; One month later; January 6th",
@@ -627,7 +627,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -639,7 +639,7 @@
     "graphicalFeatures":"Left panel zooms in on Trump's hands, appearing small. Right panel shows average-sized hands for comparison. Both panels have measuring tape for scale.",
     "connotation":"offensive",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":true
     },
     "opinion":"uncontroversial"
@@ -655,7 +655,7 @@
     "connotation":"sarcastic",
     "attitude":{
        "opinionated":true,
-       "troll":true
+       "troll":false
     },
     "opinion":"controversial"
  },
@@ -687,7 +687,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -697,9 +697,9 @@
     "template":"Comparative (two-panel)",
     "text":"What Bernie supporters think they look like; What they actually look like",
     "graphicalFeatures":"Left panel shows heroic revolutionaries. Right panel depicts regular people in Bernie merchandise looking slightly disappointed.",
-    "connotation":"ironic",
+    "connotation":"sarcastic",
     "attitude":{
-       "opinionated":false,
+       "opinionated":true,
        "troll":true
     },
     "opinion":"uncontroversial"
@@ -707,32 +707,32 @@
  {
     "eventuality":{
        "type":"political event",
-       "specific":"2020 US Election"
+       "specific":"2020 US elections"
     },
     "template":"Comparative (two-panel)",
     "text":"Mail-in voting; In-person voting",
     "graphicalFeatures":"Left panel shows a person calmly filling out a ballot at home. Right panel depicts long lines and stressed voters at polling stations.",
     "connotation":"ironic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
        "type":"politician",
-       "specific":"Donald Trump"
+       "specific":"Donald Trump vs Joe Biden inaugurations"
     },
     "template":"Comparative (two-panel)",
     "text":"Trump's inauguration crowd; Biden's inauguration crowd",
     "graphicalFeatures":"Left panel shows Trump's inauguration with visible empty spaces. Right panel depicts Biden's socially distanced inauguration with flags representing attendees.",
     "connotation":"sarcastic",
     "attitude":{
-       "opinionated":true,
-       "troll":true
+       "opinionated":false,
+       "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -747,7 +747,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"uncontroversial"
+    "opinion":"controversial"
  },
  {
     "eventuality":{
@@ -772,7 +772,7 @@
     "template":"Comparative (two-panel)",
     "text":"Biden with aviators; Biden without aviators",
     "graphicalFeatures":"Left panel shows Biden looking cool in his signature aviators. Right panel depicts Biden squinting awkwardly without them.",
-    "connotation":"ironic",
+    "connotation":"offensive",
     "attitude":{
        "opinionated":false,
        "troll":false
@@ -797,7 +797,7 @@
  {
     "eventuality":{
        "type":"political event",
-       "specific":"2020 US Election"
+       "specific":"2020 US elections"
     },
     "template":"Comparative (two-panel)",
     "text":"2016 election memes; 2020 election memes",
@@ -805,7 +805,7 @@
     "connotation":"ironic",
     "attitude":{
        "opinionated":false,
-       "troll":true
+       "troll":false
     },
     "opinion":"uncontroversial"
  },
@@ -817,7 +817,7 @@
     "template":"Comparative (two-panel)",
     "text":"Trump's hair in calm weather; Trump's hair in windy weather",
     "graphicalFeatures":"Left panel shows Trump's typical hairstyle. Right panel depicts his hair wildly disheveled by wind, revealing an intricate and improbable styling structure.",
-    "connotation":"sarcastic",
+    "connotation":"offensive",
     "attitude":{
        "opinionated":false,
        "troll":true
@@ -867,7 +867,7 @@
        "opinionated":true,
        "troll":true
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -880,14 +880,14 @@
     "connotation":"sarcastic",
     "attitude":{
        "opinionated":true,
-       "troll":true
+       "troll":false
     },
     "opinion":"controversial"
  },
  {
     "eventuality":{
        "type":"political event",
-       "specific":"2020 US Election"
+       "specific":"2020 US elections"
     },
     "template":"Comparative (two-panel)",
     "text":"How Americans see the election; How the rest of the world sees the election",
@@ -897,7 +897,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -912,7 +912,7 @@
        "opinionated":true,
        "troll":true
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -955,7 +955,7 @@
     "connotation":"sarcastic",
     "attitude":{
        "opinionated":true,
-       "troll":false
+       "troll":true
     },
     "opinion":"controversial"
  },
@@ -999,7 +999,7 @@
     "graphicalFeatures":"Man looking back at woman in red dress, while his girlfriend looks shocked.",
     "connotation":"ironic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":false
     },
     "opinion":"uncontroversial"
@@ -1014,10 +1014,10 @@
     "graphicalFeatures":"Woman yelling at confused white cat sitting at dinner table.",
     "connotation":"sarcastic",
     "attitude":{
-       "opinionated":true,
+       "opinionated":false,
        "troll":true
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1027,7 +1027,7 @@
     "template":"Drake Hotline Bling (Comparative)",
     "text":"Establishment Democrats; Bernie Sanders",
     "graphicalFeatures":"Two-panel meme. Top panel shows Drake looking displeased, gesturing rejection. Bottom panel shows Drake smiling and pointing approvingly.",
-    "connotation":"ironic",
+    "connotation":"motivational",
     "attitude":{
        "opinionated":true,
        "troll":false
@@ -1037,7 +1037,7 @@
  {
     "eventuality":{
        "type":"political event",
-       "specific":"2016 vs 2020 US Presidential Elections"
+       "specific":"2016 vs 2020 US Presidential elections"
     },
     "template":"How It Started vs How It's Going (Comparative)",
     "text":"2016: 'It's rigged!'; 2020: 'It's rigged!'",
@@ -1045,7 +1045,7 @@
     "connotation":"ironic",
     "attitude":{
        "opinionated":true,
-       "troll":false
+       "troll":true
     },
     "opinion":"controversial"
  },
@@ -1137,7 +1137,7 @@
        "opinionated":true,
        "troll":false
     },
-    "opinion":"controversial"
+    "opinion":"uncontroversial"
  },
  {
     "eventuality":{
@@ -1180,9 +1180,9 @@
     "connotation":"sarcastic",
     "attitude":{
        "opinionated":true,
-       "troll":false
+       "troll":true
     },
-    "opinion":"uncontroversial"
+    "opinion":"controversial"
  },
  {
     "eventuality":{
@@ -1382,7 +1382,7 @@
  {
   "eventuality": {
     "type": "political event",
-    "specific": "2024 US Presidential Election"
+    "specific": "2024 US Presidential elections"
   },
   "template": "Political compass",
   "text": "Auth Left: State-mandated voting; Auth Right: Voter ID laws; Lib Left: Ranked choice voting; Lib Right: Blockchain voting",
@@ -1472,7 +1472,7 @@
 {
   "eventuality": {
     "type": "political event",
-    "specific": "2024 US Presidential Election"
+    "specific": "2024 US Presidential elections"
   },
   "template": "Political compass",
   "text": "Auth Left: Abolish Electoral College; Auth Right: Stricter voting regulations; Lib Left: National popular vote; Lib Right: Decentralized online voting",
@@ -1562,7 +1562,7 @@
 {
   "eventuality": {
     "type": "political event",
-    "specific": "2024 US Presidential Election"
+    "specific": "2024 US Presidential elections"
   },
   "template": "Political compass",
   "text": "Auth Left: Mandatory voting; Auth Right: Voter Roll Purges; Lib Left: Automatic voter registration; Lib Right: Vote by app",
@@ -1607,7 +1607,7 @@
 {
   "eventuality": {
     "type": "political event",
-    "specific": "Climate Change Debate"
+    "specific": "Climate Change"
   },
   "template": "Political compass",
   "text": "Auth Left: Planned economy for sustainability; Auth Right: Climate change denial; Lib Left: Degrowth movement; Lib Right: Cap and trade",
@@ -1667,7 +1667,7 @@
 {
   "eventuality": {
     "type": "political event",
-    "specific": "2024 US Presidential Election"
+    "specific": "2024 US Presidential elections"
   },
   "template": "Political compass",
   "text": "Auth Left: One person, one vote; Auth Right: Electoral college on steroids; Lib Left: Proportional representation; Lib Right: Pay-per-vote system",
@@ -1712,7 +1712,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "Climate Change Debate"
+    "specific": "Climate Change"
     },
     "template": "Political compass",
     "text": "Auth Left: Mandatory veganism; Auth Right: Nuke the hurricanes; Lib Left: Hug the trees; Lib Right: Sell the rainforests",
@@ -1772,7 +1772,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "2024 US Presidential Election"
+    "specific": "2024 US Presidential elections"
     },
     "template": "Political compass",
     "text": "Auth Left: Only cats can vote; Auth Right: Voting but it's a battle royale; Lib Left: Elections decided by dance-off; Lib Right: Highest bidder wins",
@@ -1932,7 +1932,7 @@
       "opinionated": false,
       "troll": true
     },
-    "opinion": "uncontroversial"
+    "opinion": "controversial"
   },
   {
     "eventuality": {
@@ -2132,7 +2132,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "Climate Change Debate"
+    "specific": "Climate Change"
     },
     "template": "ChangeMyMind",
     "text": "Climate change is just Earth going through a phase; Change my mind",
@@ -2202,7 +2202,7 @@
     "opinionated": false,
     "troll": true
     },
-    "opinion": "controversial"
+    "opinion": "uncontroversial"
 },
 {
     "eventuality": {
@@ -2237,7 +2237,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "2020 US Election"
+    "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was actually decided by a dance-off; Change my mind",
@@ -2312,7 +2312,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "2020 US Election"
+    "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was the most dramatic ever; Change my mind",
@@ -2402,7 +2402,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "2020 US Election"
+    "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election memes were the real winners; Change my mind",
@@ -2492,7 +2492,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "2020 US Election"
+    "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The real election fraud was the friends we made along the way; Change my mind",
@@ -2582,7 +2582,7 @@
 {
     "eventuality": {
     "type": "political event",
-    "specific": "2020 US Election"
+    "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was decided by memes; Change my mind",
@@ -2702,7 +2702,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "Climate Change Debate"
+      "specific": "Climate Change"
     },
     "template": "ChangeMyMind",
     "text": "Climate change is a conspiracy by Big Sunscreen; Change my mind",
@@ -2717,7 +2717,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "Climate Change Debate"
+      "specific": "Climate Change"
     },
     "template": "ChangeMyMind",
     "text": "We can solve climate change by turning off the sun; Change my mind",
@@ -2912,7 +2912,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "2020 US Election"
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was actually decided by a nationwide game of rock-paper-scissors; Change my mind",
@@ -2927,7 +2927,7 @@
   {
     "eventuality": {
       "type": "political event",
-      "specific": "2020 US Election"
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The real winner of the 2020 election was internet meme creators; Change my mind",

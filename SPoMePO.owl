@@ -244,21 +244,17 @@
         <Class IRI="#ControversialMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCaption"/>
-            <ObjectAllValuesFrom>
+            <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#expresses"/>
-                <Class IRI="#ControversialOpinion"/>
-            </ObjectAllValuesFrom>
+                <Class IRI="#Opinion"/>
+            </ObjectSomeValuesFrom>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasConnotation"/>
-            <ObjectOneOf>
-                <NamedIndividual IRI="#Ironic"/>
-                <NamedIndividual IRI="#Offensive"/>
-                <NamedIndividual IRI="#Sarcastic"/>
-            </ObjectOneOf>
+            <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -749,7 +745,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#ControversialMeme</IRI>
-        <Literal>A meme that expresses a point of view provoking doubts and debate about a topic.</Literal>
+        <Literal>A meme that expresses a point of view provoking doubts and debate about a topic or attacks a certain individual or group in the sociopolitical landscape.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -784,7 +780,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MockingJuxtapositionMeme</IRI>
-        <Literal>Memes representing differences between groups or individuals in an openly mocking fashion, often diminishing one party while celebrating the other.</Literal>
+        <Literal>Memes representing differences between sociopolitical entities or events in an openly mocking fashion, often diminishing one part of the comparison while celebrating the other one.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -794,7 +790,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#NeutralJuxtapositionMeme</IRI>
-        <Literal>Meme neutrally displaying differences (often sterotypical ones) among different groups.</Literal>
+        <Literal>Meme neutrally displaying differences (often sterotypical ones) between different sociopolitical groups or other phenomena, according to a certain eventuality.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

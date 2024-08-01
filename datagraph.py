@@ -277,19 +277,21 @@ def create_datagraph(graphUrl, json_file):
                           
         meme_frame = dict["template"]
         meme_conn = dict["connotation"]
-        if dict["opinion"] == "controversial":
+        if dict["opinion"] == "controversial" or meme_conn == "offensive":
             if "Comparative" in meme_frame:
                 graphData.add((m, RDF.type, MockingJuxtapositionMeme))
             else:
                 graphData.add((m, RDF.type, ControversialMeme))
-        elif meme_conn == "motivational" and meme_frame != "Political Compass":
+        elif meme_conn == "motivational":
             graphData.add((m, RDF.type, SupportiveMeme))
-        elif "Comparative" not in meme_frame and meme_frame != "Political Compass":
-            graphData.add((m, RDF.type, HumorousMeme))
-        elif meme_conn == "offensive":
+
+        elif "Comparative" in meme_frame and meme_conn == "sarcastic":
             graphData.add((m, RDF.type, MockingJuxtapositionMeme))
-        else:
+            
+        elif meme_frame == "Political Compass" or ("Comparative" in meme_frame and meme_conn == "ironic"):
             graphData.add((m, RDF.type, NeutralJuxtapositionMeme))
+        else:
+            graphData.add((m, RDF.type, HumorousMeme))
         
         
         n += 1
