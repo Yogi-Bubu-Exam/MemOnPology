@@ -288,10 +288,10 @@ def create_datagraph(graphUrl, json_file):
         elif "Comparative" in meme_frame and meme_conn == "sarcastic":
             graphData.add((m, RDF.type, MockingJuxtapositionMeme))
             
-        elif meme_frame == "Political Compass" or ("Comparative" in meme_frame and meme_conn == "ironic"):
-            graphData.add((m, RDF.type, NeutralJuxtapositionMeme))
-        else:
+        elif meme_frame != "Political Compass" or ("Comparative" in meme_frame and meme_conn == "ironic"):
             graphData.add((m, RDF.type, HumorousMeme))
+        else:
+            graphData.add((m, RDF.type, NeutralJuxtapositionMeme))
         
         
         n += 1
