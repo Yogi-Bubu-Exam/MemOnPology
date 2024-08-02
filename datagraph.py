@@ -1,6 +1,5 @@
 from json import load
 from rdflib import Graph, URIRef, Namespace, Literal, RDF, OWL, RDFS
-from sparql_dataframe import get
 from rdflib.plugins.stores.sparqlstore import SPARQLUpdateStore
 
 # Function to create a graph from a .json file.
