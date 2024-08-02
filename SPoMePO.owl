@@ -18,19 +18,37 @@
         <Literal>SocioPolitical Meme Perspectivisation ontology. An ontology to describe perspectivisation shot through sociopolitical memes.</Literal>
     </Annotation>
     <Declaration>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Attitude"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BackgroundKnowledge"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Caption"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ChangeMyMindTemplate"/>
@@ -60,9 +78,6 @@
         <Class IRI="#Lens"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MediaFrame"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MemeticLens"/>
     </Declaration>
     <Declaration>
@@ -87,31 +102,16 @@
         <Class IRI="#PoliticalActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PoliticalAgent"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#PoliticalCompassTemplate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PoliticalImageMacro"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PoliticalSupporter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Politician"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SocialGroup"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#SociopoliticalPhenomena"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SupportiveMeme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Template"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Troll"/>
@@ -186,22 +186,98 @@
         <NamedIndividual IRI="#Sarcastic"/>
     </Declaration>
     <SubClassOf>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#expresses"/>
+            <Class IRI="#Opinion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isConstituentOf"/>
+            <Class IRI="#MemeticLens"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isContentOf"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#refersTo"/>
+            <Class IRI="#Eventuality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+        <Class IRI="#Eventuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+        <Class IRI="#Eventuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
         <Class IRI="#Cut"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasGraphicContent"/>
             <Class IRI="#GraphicContent"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasValue"/>
-            <Datatype abbreviatedIRI="rdfs:Literal"/>
-        </DataSomeValuesFrom>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isConstituentOf"/>
+            <Class IRI="#MemeticLens"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Attitude"/>
@@ -211,34 +287,16 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Caption"/>
-        <Class IRI="#MediaFrame"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Caption"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#expresses"/>
-            <Class IRI="#Opinion"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Caption"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasValue"/>
-            <Datatype abbreviatedIRI="rdfs:Literal"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ChangeMyMindTemplate"/>
-        <Class IRI="#Template"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ComparativeTemplate"/>
-        <Class IRI="#Template"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
@@ -254,14 +312,14 @@
         <Class IRI="#ControversialMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasConnotation"/>
-            <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ControversialMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTemplate"/>
-            <Class IRI="#Template"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -298,7 +356,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GraphicContent"/>
-        <Class IRI="#MediaFrame"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GraphicContent"/>
@@ -309,7 +367,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HumorousMeme"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HumorousMeme"/>
@@ -335,28 +393,7 @@
         <Class IRI="#HumorousMeme"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTemplate"/>
-            <Class IRI="#Template"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MediaFrame"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isConstituentOf"/>
-            <Class IRI="#MemeticLens"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MediaFrame"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isContentOf"/>
-            <Class IRI="#Template"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MediaFrame"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#refersTo"/>
-            <Class IRI="#Eventuality"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -365,7 +402,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MockingJuxtapositionMeme"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MockingJuxtapositionMeme"/>
@@ -394,7 +431,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NeutralJuxtapositionMeme"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NeutralJuxtapositionMeme"/>
@@ -450,42 +487,12 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PoliticalAgent"/>
-        <Class IRI="#Eventuality"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PoliticalAgent"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasValue"/>
-            <Datatype abbreviatedIRI="rdfs:Literal"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#PoliticalCompassTemplate"/>
-        <Class IRI="#Template"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoliticalImageMacro"/>
-        <Class IRI="#Template"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PoliticalSupporter"/>
-        <Class IRI="#PoliticalAgent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Politician"/>
-        <Class IRI="#PoliticalAgent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SocialGroup"/>
-        <Class IRI="#Eventuality"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SocialGroup"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasValue"/>
-            <Datatype abbreviatedIRI="rdfs:Literal"/>
-        </DataSomeValuesFrom>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SociopoliticalPhenomena"/>
@@ -493,7 +500,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
@@ -519,18 +526,11 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTemplate"/>
             <ObjectIntersectionOf>
-                <Class IRI="#Template"/>
+                <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
                 <ObjectComplementOf>
                     <Class IRI="#PoliticalCompassTemplate"/>
                 </ObjectComplementOf>
             </ObjectIntersectionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Template"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isConstituentOf"/>
-            <Class IRI="#MemeticLens"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -550,19 +550,19 @@
         <Class IRI="#Troll"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Ironic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Motivational"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Offensive"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
         <NamedIndividual IRI="#Sarcastic"/>
     </ClassAssertion>
     <InverseObjectProperties>
@@ -578,7 +578,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#expresses"/>
-        <Class IRI="#Caption"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#extractedFrom"/>
@@ -586,11 +586,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCaption"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasConnotation"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasConstituent"/>
@@ -598,22 +598,22 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGraphicContent"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTemplate"/>
-        <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isConstituentOf"/>
         <ObjectUnionOf>
-            <Class IRI="#MediaFrame"/>
-            <Class IRI="#Template"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isContentOf"/>
-        <Class IRI="#MediaFrame"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#perspectivisedAs"/>
@@ -625,7 +625,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#refersTo"/>
-        <Class IRI="#MediaFrame"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#shotThrough"/>
@@ -652,17 +652,17 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCaption"/>
-        <Class IRI="#Caption"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasConnotation"/>
-        <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasConstituent"/>
         <ObjectUnionOf>
-            <Class IRI="#MediaFrame"/>
-            <Class IRI="#Template"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -671,7 +671,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTemplate"/>
-        <Class IRI="#Template"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isConstituentOf"/>
@@ -679,7 +679,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isContentOf"/>
-        <Class IRI="#Template"/>
+        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#perspectivisedAs"/>
@@ -704,13 +704,13 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasValue"/>
         <ObjectUnionOf>
-            <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
-            <Class IRI="#Caption"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
             <Class IRI="#GraphicContent"/>
             <Class IRI="#PoliticalActivity"/>
-            <Class IRI="#PoliticalSupporter"/>
-            <Class IRI="#Politician"/>
-            <Class IRI="#SocialGroup"/>
         </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyRange>
@@ -718,19 +718,44 @@
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <AbbreviatedIRI>spomo:SocioPoliticalMeme</AbbreviatedIRI>
-        <Literal>https://github.com/Yogi-Bubu-Exam/MemOnPology/raw/main/SPoMO.owl</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption</IRI>
+        <Literal>A text overlapped to the graphic content or written in the upper or lower edge of a graphic content</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation</IRI>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation</IRI>
         <Literal>The idea suggested by a message in addition to its main meaning. For this project connotation assumes another level of sense: the final sense obtained from the combination between the caption sentiment analysis and the image sense extraction.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Caption</IRI>
-        <Literal>A text overlapped to the graphic content or written in the upper or lower edge of a graphic content</Literal>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame</IRI>
+        <Literal>A Media Frame is a multimedia object used to represent a “memeable” situation, i.e., one that is familiar to the creator and a broader community. It has a tetual component (the meme caption) and often also a graphical one, specifying what the meme refers to exactly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter</IRI>
+        <Literal>Political active member of a community not member of an administration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician</IRI>
+        <Literal>Class for members of an administration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup</IRI>
+        <Literal>E.g. &apos;Females&apos;, &apos;Males&apos;, etc..</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocioPoliticalMeme</IRI>
+        <Literal>https://github.com/Yogi-Bubu-Exam/MemOnPology/raw/main/SPoMO.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template</IRI>
+        <Literal>All the possible forms intended to be filled with a mediaframe in order to create a meme. For our project only four were been classified.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -766,11 +791,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Ironic</IRI>
         <Literal>Connotation characterized by a mostly mild and unharmful kind of humor.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#MediaFrame</IRI>
-        <Literal>A Media Frame is a multimedia object used to represent a “memeable” situation, i.e., one that is familiar to the creator and a broader community. It has a tetual component (the meme caption) and often also a graphical one, specifying what the meme refers to exactly.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -824,23 +844,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#PoliticalSupporter</IRI>
-        <Literal>Political active member of a community not member of an administration.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Politician</IRI>
-        <Literal>Class for members of an administration.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Sarcastic</IRI>
         <Literal>Connotation characterised by a darker kind of humor.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SocialGroup</IRI>
-        <Literal>E.g. &apos;Females&apos;, &apos;Males&apos;, etc..</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -851,11 +856,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SupportiveMeme</IRI>
         <Literal>A meme that express support to someone or something in a particular circumstance.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Template</IRI>
-        <Literal>All the possible forms intended to be filled with a mediaframe in order to create a meme. For our project only four were been classified.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -906,5 +906,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
