@@ -540,1266 +540,1266 @@
     "opinion": "uncontroversial"
   },
   {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Donald Trump"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Trump's Twitter account; Trump's Truth Social account",
-    "graphicalFeatures":"Two panels side by side. Left panel shows a bustling Twitter feed with millions of followers. Right panel shows a tumbleweeds rolling across an empty Truth Social interface.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":false,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Brexit"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"What Brexiteers promised; What Britain got",
-    "graphicalFeatures":"Left panel shows a sunny, prosperous Britain with Union Jacks waving. Right panel depicts rainy empty supermarket shelves and long queues at petrol stations.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Boomers buying a house in 1980; Millennials trying to buy a house in 2023",
-    "graphicalFeatures":"Left panel shows a young couple easily purchasing a home with a small down payment. Right panel depicts millennials drowning in a sea of student debt, avocado toast, and sky-high housing prices.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Joe Biden"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Biden climbing stairs; Trump walking down a ramp",
-    "graphicalFeatures":"Left panel shows Biden stumbling on Air Force One stairs. Right panel shows Trump cautiously descending a ramp at West Point. Both images are freeze-framed at awkward moments.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Bernie Sanders supporters"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Bernie supporters in 2016; Bernie supporters in 2020",
-    "graphicalFeatures":"Left panel shows young, enthusiastic supporters at a rally. Right panel depicts the same supporters, now with gray hair and exhausted expressions, still holding 'Feel the Bern' signs.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"2020 US elections"
-    },
-    "template":"Comparative (multi-panel)",
-    "text":"Election night; One week later; One month later; January 6th",
-    "graphicalFeatures":"Four panels showing the progression of events: 1) News anchors reporting results, 2) Vote counting continues, 3) Legal challenges being filed, 4) Capitol riot scene.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Donald Trump"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Trump's hands; Average hands",
-    "graphicalFeatures":"Left panel zooms in on Trump's hands, appearing small. Right panel shows average-sized hands for comparison. Both panels have measuring tape for scale.",
-    "connotation":"offensive",
-    "attitude":{
-       "opinionated":false,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Brexit"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"EU membership benefits; Brexit benefits",
-    "graphicalFeatures":"Left panel lists numerous EU membership benefits with colorful icons. Right panel shows an empty list with a small Union Jack in the corner.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Millennial culture; Boomer understanding of Millennial culture",
-    "graphicalFeatures":"Left panel shows diverse millennials engaged in various activities (working, volunteering, using technology). Right panel depicts millennials as lazy avocado toast eaters glued to their phones.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Joe Biden"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Biden's gaffes; Trump's gaffes",
-    "graphicalFeatures":"Both panels show word clouds. Biden's contains harmless mix-ups, while Trump's features more controversial statements. The size of words represents frequency.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Bernie Sanders supporters"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"What Bernie supporters think they look like; What they actually look like",
-    "graphicalFeatures":"Left panel shows heroic revolutionaries. Right panel depicts regular people in Bernie merchandise looking slightly disappointed.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"2020 US elections"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Mail-in voting; In-person voting",
-    "graphicalFeatures":"Left panel shows a person calmly filling out a ballot at home. Right panel depicts long lines and stressed voters at polling stations.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Donald Trump vs Joe Biden inaugurations"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Trump's inauguration crowd; Biden's inauguration crowd",
-    "graphicalFeatures":"Left panel shows Trump's inauguration with visible empty spaces. Right panel depicts Biden's socially distanced inauguration with flags representing attendees.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Brexit"
-    },
-    "template":"Comparative (multi-panel)",
-    "text":"Brexit negotiations: Year 1; Year 2; Year 3; Year 4",
-    "graphicalFeatures":"Four panels showing increasingly frazzled UK and EU negotiators, with stacks of papers growing taller and more chaotic in each panel.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Millennial savings account; Millennial avocado toast budget",
-    "graphicalFeatures":"Left panel shows a piggy bank with cobwebs. Right panel depicts a detailed, color-coded budget chart dominated by avocado toast expenses.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Joe Biden"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Biden with aviators; Biden without aviators",
-    "graphicalFeatures":"Left panel shows Biden looking cool in his signature aviators. Right panel depicts Biden squinting awkwardly without them.",
-    "connotation":"offensive",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Bernie Sanders supporters"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Bernie's policies; Establishment Democrats' understanding of Bernie's policies",
-    "graphicalFeatures":"Left panel lists Bernie's actual policy proposals. Right panel shows a caricature of socialism with hammers and sickles.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"2020 US elections"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"2016 election memes; 2020 election memes",
-    "graphicalFeatures":"Left panel shows relatively tame 2016 memes. Right panel depicts more extreme and absurd 2020 memes, reflecting escalated political tensions.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Donald Trump"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Trump's hair in calm weather; Trump's hair in windy weather",
-    "graphicalFeatures":"Left panel shows Trump's typical hairstyle. Right panel depicts his hair wildly disheveled by wind, revealing an intricate and improbable styling structure.",
-    "connotation":"offensive",
-    "attitude":{
-       "opinionated":false,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Brexit"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"UK entering the EU; UK leaving the EU",
-    "graphicalFeatures":"Left panel shows a young, optimistic Britain joining the EU. Right panel depicts an older, grumpy Britain struggling to leave through a complex maze.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Comparative (multi-panel)",
-    "text":"Boomers' career path; Gen X career path; Millennial career path; Gen Z career path",
-    "graphicalFeatures":"Four panels showing increasingly complex and convoluted career paths for each generation, with Millennials and Gen Z paths resembling a chaotic roller coaster.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Joe Biden"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Biden's ice cream budget; US infrastructure budget",
-    "graphicalFeatures":"Left panel shows a massive, detailed ice cream budget. Right panel depicts a comically small infrastructure budget with band-aids and duct tape.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Bernie Sanders supporters"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Bernie supporters online; Bernie supporters at the polls",
-    "graphicalFeatures":"Left panel shows a massive online presence with trending hashtags and viral content. Right panel depicts a much smaller turnout at actual polling stations.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"2020 US elections"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"How Americans see the election; How the rest of the world sees the election",
-    "graphicalFeatures":"Left panel shows a serious, high-stakes political event. Right panel depicts a chaotic reality TV show with global audiences watching in disbelief.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Donald Trump"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Trump's self-image; Reality",
-    "graphicalFeatures":"Left panel shows Trump as a muscular, heroic figure. Right panel depicts actual photos of Trump in unflattering situations.",
-    "connotation":"offensive",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Brexit"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Brexit plan; Brexit execution",
-    "graphicalFeatures":"Left panel shows a neat, orderly flowchart. Right panel depicts a tangled mess of spaghetti-like lines and confusion.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Comparative (two-panel)",
-    "text":"Millennial expectations vs reality",
-    "graphicalFeatures":"Left panel shows idealistic career and life goals. Right panel depicts the harsh realities of student debt, gig economy, and housing crisis.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Trump supporters"
-    },
-    "template":"Drake Hotline Bling (Comparative)",
-    "text":"Wearing a mask during a pandemic; Wearing a MAGA hat",
-    "graphicalFeatures":"Two-panel meme. Top panel shows Drake looking displeased, gesturing rejection. Bottom panel shows Drake smiling and pointing approvingly.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Bernie Sanders"
-    },
-    "template":"Distracted Boyfriend (Comparative)",
-    "text":"Voters; Bernie Sanders; Establishment Democrats",
-    "graphicalFeatures":"Three people walking. Man looking back at woman in red dress, while his girlfriend looks shocked.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Woman Yelling at Cat (Comparative)",
-    "text":"Boomers: You need to work harder!; Millennials: We're working three jobs and can't afford a house",
-    "graphicalFeatures":"Two-panel meme. Left panel shows woman yelling, right panel shows confused white cat at dinner table.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Millennials"
-    },
-    "template":"Distracted Boyfriend (Comparative)",
-    "text":"Millennials; Side hustles; 9-5 jobs",
-    "graphicalFeatures":"Man looking back at woman in red dress, while his girlfriend looks shocked.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Alexandria Ocasio-Cortez"
-    },
-    "template":"Woman Yelling at Cat (Comparative)",
-    "text":"Conservatives; AOC",
-    "graphicalFeatures":"Woman yelling at confused white cat sitting at dinner table.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":false,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"politician",
-       "specific":"Bernie Sanders"
-    },
-    "template":"Drake Hotline Bling (Comparative)",
-    "text":"Establishment Democrats; Bernie Sanders",
-    "graphicalFeatures":"Two-panel meme. Top panel shows Drake looking displeased, gesturing rejection. Bottom panel shows Drake smiling and pointing approvingly.",
-    "connotation":"motivational",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"2016 vs 2020 US Presidential elections"
-    },
-    "template":"How It Started vs How It's Going (Comparative)",
-    "text":"2016: 'It's rigged!'; 2020: 'It's rigged!'",
-    "graphicalFeatures":"Two-panel meme. Left panel shows Trump in 2016, right panel shows Biden in 2020, both with similar expressions.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Baby Boomers vs Gen Z"
-    },
-    "template":"Buff Doge vs Cheems (Comparative)",
-    "text":"Boomers at age 20: Buying a house and starting a family; Gen Z at age 20: Can I afford ramen this week?",
-    "graphicalFeatures":"Two-panel meme. Left shows a muscular Doge representing Boomers, right shows a weak Cheems representing Gen Z.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Democrats vs Republicans"
-    },
-    "template":"Spider-Man Pointing at Spider-Man (Comparative)",
-    "text":"Democrats blaming Republicans for government dysfunction; Republicans blaming Democrats for government dysfunction",
-    "graphicalFeatures":"Two identical Spider-Man characters pointing at each other accusingly.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Climate change action vs Economic growth"
-    },
-    "template":"Distracted Boyfriend (Comparative)",
-    "text":"Politicians; Economic growth; Climate change action",
-    "graphicalFeatures":"Man looking back at woman in red dress (economic growth), while his girlfriend (climate change action) looks shocked.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Universal Healthcare vs Private Insurance"
-    },
-    "template":"Drake Hotline Bling (Comparative)",
-    "text":"Private health insurance; Universal healthcare",
-    "graphicalFeatures":"Two-panel meme. Top panel shows Drake looking displeased at private health insurance. Bottom panel shows Drake smiling and pointing approvingly at universal healthcare.",
-    "connotation":"motivational",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Political activists vs Apathetic voters"
-    },
-    "template":"Buff Doge vs Cheems (Comparative)",
-    "text":"Political activists: Organizing rallies, phone banking, canvassing; Apathetic voters: I forgot to register",
-    "graphicalFeatures":"Two-panel meme. Left shows a muscular Doge representing activists, right shows a weak Cheems representing apathetic voters.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Traditional media vs Social media in elections"
-    },
-    "template":"Distracted Boyfriend (Comparative)",
-    "text":"Voters; Social media; Traditional news outlets",
-    "graphicalFeatures":"Man looking back at woman in red dress (social media), while his girlfriend (traditional news outlets) looks shocked.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Progressives vs Moderates in Democratic Party"
-    },
-    "template":"Woman Yelling at Cat (Comparative)",
-    "text":"Progressives: We need radical change!; Moderates: We need to appeal to centrists!",
-    "graphicalFeatures":"Left panel shows woman (progressives) yelling, right panel shows confused white cat (moderates) at dinner table.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Electoral College vs Popular Vote"
-    },
-    "template":"Drake Hotline Bling (Comparative)",
-    "text":"Winning the popular vote; Winning the Electoral College",
-    "graphicalFeatures":"Two-panel meme. Top panel shows Drake looking displeased at popular vote. Bottom panel shows Drake smiling and pointing approvingly at Electoral College.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Political extremists vs Centrists"
-    },
-    "template":"Buff Doge vs Cheems (Comparative)",
-    "text":"Political extremists: My way or the highway!; Centrists: Can't we all just get along?",
-    "graphicalFeatures":"Two-panel meme. Left shows a muscular Doge representing extremists, right shows a weak Cheems representing centrists.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":true
-    },
-    "opinion":"controversial"
- },
- {
-    "eventuality":{
-       "type":"political event",
-       "specific":"Grassroots campaigns vs Big money politics"
-    },
-    "template":"David vs Goliath (Comparative)",
-    "text":"Grassroots campaigns; Big money Super PACs",
-    "graphicalFeatures":"Small figure of David (grassroots) facing giant Goliath (big money politics).",
-    "connotation":"motivational",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"political supporters",
-       "specific":"Single-issue voters vs Holistic voters"
-    },
-    "template":"Distracted Boyfriend (Comparative)",
-    "text":"Voters; Single hot-button issue; Comprehensive policy platforms",
-    "graphicalFeatures":"Man looking back at woman in red dress (single issue), while his girlfriend (comprehensive policies) looks shocked.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Urban elites vs Rural working class"
-    },
-    "template":"Woman Yelling at Cat (Comparative)",
-    "text":"Urban elites: We need to address climate change!; Rural working class: We need jobs!",
-    "graphicalFeatures":"Left panel shows woman (urban elites) yelling, right panel shows confused white cat (rural working class) at dinner table.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Boys vs Girls Locker Room (Comparative)",
-    "text":"Girls locker room: I hate PE class; Boys locker room: Let's recreate the Battle of Waterloo with water bottles",
-    "graphicalFeatures":"Two-panel meme. Left panel shows girls talking calmly. Right panel shows boys in chaotic, exaggerated battle poses with water bottles.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Drake Hotline Bling (Comparative)",
-    "text":"Girls: Using hair dryer to dry hair; Boys: Using hair dryer as a microphone for karaoke",
-    "graphicalFeatures":"Two-panel meme. Top panel shows Drake looking displeased at normal hair dryer use. Bottom panel shows Drake smiling and pointing approvingly at using it as a microphone.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Boys"
-    },
-    "template":"Distracted Boyfriend (Comparative)",
-    "text":"Boys; Video games; Studying",
-    "graphicalFeatures":"Man looking back at woman in red dress (video games), while his girlfriend (studying) looks shocked.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":false,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Buff Doge vs Cheems (Comparative)",
-    "text":"Girls packing for a weekend trip: Full suitcase, 5 outfit changes; Boys packing for a weekend trip: One t-shirt and hope for the best",
-    "graphicalFeatures":"Two-panel meme. Left shows a muscular Doge representing girls with a large suitcase, right shows a weak Cheems representing boys with a small backpack.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Woman Yelling at Cat (Comparative)",
-    "text":"Girls: We need to plan our group project carefully!; Boys: Let's do it all the night before",
-    "graphicalFeatures":"Left panel shows woman (girls) yelling, right panel shows confused white cat (boys) at dinner table.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Boys vs Girls (Comparative)",
-    "text":"Girls with time machine: I'm your granddaughter; Boys with time machine: (to ancient Roman soldier) You guys are going to love pizza",
-    "graphicalFeatures":"Split image. Left side shows a girl talking to her grandmother. Right side shows a boy talking to a confused Roman soldier about pizza.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Boys vs Girls (Comparative)",
-    "text":"Girls' handwriting: Neat, organized notes with different colors; Boys' handwriting: Doctor's prescription-level hieroglyphics",
-    "graphicalFeatures":"Split image. Left side shows colorful, organized notebook. Right side shows messy, barely legible scribbles.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Boys vs Girls (Comparative)",
-    "text":"Girls in online games: Actually playing the game; Boys in online games: Arguing about who's the imposter for 10 minutes straight",
-    "graphicalFeatures":"Split image. Left side shows a girl focused on her game. Right side shows boys in heated debate, ignoring the game.",
-    "connotation":"sarcastic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Boys vs Girls (Comparative)",
-    "text":"Girls' closet: Organized by color, type, and season; Boys' closet: If it doesn't smell, it's clean",
-    "graphicalFeatures":"Split image. Left side shows a neatly organized closet. Right side shows a messy pile of clothes on the floor.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-    "eventuality":{
-       "type":"social group",
-       "specific":"Gender differences"
-    },
-    "template":"Boys vs Girls (Comparative)",
-    "text":"Girls taking selfies: 50 shots to get the perfect angle; Boys taking selfies: First try, posts it even if eyes are closed",
-    "graphicalFeatures":"Split image. Left side shows a girl taking multiple selfies. Right side shows a boy posting a blurry, imperfect selfie.",
-    "connotation":"ironic",
-    "attitude":{
-       "opinionated":true,
-       "troll":false
-    },
-    "opinion":"uncontroversial"
- },
- {
-  "eventuality": {
-    "type": "political event",
-    "specific": "2024 US Presidential elections"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: State-mandated voting; Auth Right: Voter ID laws; Lib Left: Ranked choice voting; Lib Right: Blockchain voting",
-  "graphicalFeatures": "A 2x2 grid with each quadrant containing a cartoon representation of the voting method. The Auth Left shows people in uniform lines, Auth Right displays a strict ID check, Lib Left has a colorful ballot with multiple choices, and Lib Right shows people voting on smartphones.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Gen Z voters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: TikTok political campaigns; Auth Right: Patriotic meme warfare; Lib Left: Cancel culture as political strategy; Lib Right: Crypto donations",
-  "graphicalFeatures": "Each quadrant features Gen Z characters engaging in their respective political activities. The background is filled with smartphone screens, social media icons, and trending hashtags.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "politician",
-    "specific": "Bernie Sanders"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Free college for all; Auth Right: Anti-establishment rhetoric; Lib Left: Medicare for All; Lib Right: Breaking up big banks",
-  "graphicalFeatures": "Each quadrant shows Bernie Sanders in different outfits representing the political leanings. The center of the compass features Bernie's iconic mittens.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political supporters",
-    "specific": "Trump supporters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: America First trade policies; Auth Right: Build the Wall; Lib Left: Drain the Swamp; Lib Right: Tax cuts",
-  "graphicalFeatures": "Each quadrant features caricatures of Trump supporters wearing MAGA hats and engaging in activities related to their quadrant's policy. The center shows a golden 'T' logo.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": true
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "COVID-19 Pandemic Response"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Mandatory vaccinations; Auth Right: Travel bans; Lib Left: Universal basic income; Lib Right: Anti-lockdown protests",
-  "graphicalFeatures": "Each quadrant shows different pandemic responses. The background is filled with virus particles and medical symbols.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Millennials in Politics"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Universal Wi-Fi; Auth Right: Mandatory financial literacy classes; Lib Left: Student loan forgiveness; Lib Right: Gig economy deregulation",
-  "graphicalFeatures": "Each quadrant features millennial politicians proposing their ideas. The background is filled with avocado toasts, smartphones, and coffee cups.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": true
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "2024 US Presidential elections"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Abolish Electoral College; Auth Right: Stricter voting regulations; Lib Left: National popular vote; Lib Right: Decentralized online voting",
-  "graphicalFeatures": "Each quadrant shows a different voting scenario. The center features a question mark shaped like the United States.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Gen Z voters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Mandatory climate education; Auth Right: Bring back national service; Lib Left: Universal mental health care; Lib Right: Cryptocurrency as legal tender",
-  "graphicalFeatures": "Each quadrant shows Gen Z characters advocating for their positions. The background is a swirl of social media icons and climate change symbols.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political supporters",
-    "specific": "Bernie Sanders supporters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Workers' co-ops; Auth Right: Term limits for Congress; Lib Left: Legalize marijuana; Lib Right: Audit the Fed",
-  "graphicalFeatures": "Each quadrant features Bernie's supporters with different expressions and attire. The center shows a pair of glasses and tousled white hair.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political supporters",
-    "specific": "Trump supporters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Tariffs on imports; Auth Right: Strong military; Lib Left: Anti-political correctness; Lib Right: School choice",
-  "graphicalFeatures": "Each quadrant shows Trump supporters rallying for different causes. The center features a red 'Make America Great Again' hat.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "COVID-19 Pandemic Response"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Nationalized healthcare; Auth Right: Closed borders; Lib Left: Mutual aid networks; Lib Right: Telemedicine expansion",
-  "graphicalFeatures": "Each quadrant illustrates a different pandemic policy. The background shows a globe with mask-wearing figures.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Millennials in Politics"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: 4-day work week; Auth Right: Mandatory national service; Lib Left: Universal basic income; Lib Right: Cryptocurrency deregulation",
-  "graphicalFeatures": "Each quadrant features millennial politicians with their signature proposals. The background is filled with emojis, memes, and social media symbols.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "2024 US Presidential elections"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Mandatory voting; Auth Right: Voter Roll Purges; Lib Left: Automatic voter registration; Lib Right: Vote by app",
-  "graphicalFeatures": "Each quadrant depicts a different voting scenario. The center shows a ballot box with question marks coming out of it.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Gen Z voters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Free public transport; Auth Right: Mandatory financial education; Lib Left: Universal basic internet; Lib Right: Abolish minimum wage",
-  "graphicalFeatures": "Each quadrant shows Gen Z voters advocating for their positions. The background is a collage of smartphones, social media apps, and protest signs.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political supporters",
-    "specific": "Bernie Sanders supporters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Maximum wage cap; Auth Right: Break up Big Tech; Lib Left: Abolish ICE; Lib Right: End the Fed",
-  "graphicalFeatures": "Each quadrant features Bernie supporters with different slogans and signs. The center shows a bird perched on a podium, referencing the famous campaign moment.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "Climate Change"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Planned economy for sustainability; Auth Right: Climate change denial; Lib Left: Degrowth movement; Lib Right: Cap and trade",
-  "graphicalFeatures": "Each quadrant illustrates a different stance on climate change. The background shows a thermometer gradually rising from blue to red.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political supporters",
-    "specific": "Trump supporters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Protectionist trade policies; Auth Right: Law and order; Lib Left: Drain the swamp; Lib Right: Deregulation",
-  "graphicalFeatures": "Each quadrant shows Trump supporters with different MAGA-themed accessories. The center features a golden Trump Tower.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "uncontroversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "COVID-19 Pandemic Response"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Government-produced vaccines; Auth Right: Military-enforced lockdowns; Lib Left: Community-based contact tracing; Lib Right: Private vaccine passports",
-  "graphicalFeatures": "Each quadrant depicts a different pandemic response strategy. The background shows a world map with spreading virus particles.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "controversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Millennials in Politics"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Abolish private schools; Auth Right: Mandatory military service; Lib Left: Legalize all drugs; Lib Right: Flat tax rate",
-  "graphicalFeatures": "Each quadrant features millennial politicians with their policy proposals. The background is a collage of millennial stereotypes: avocados, participation trophies, and student loan documents.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": false
-  },
-  "opinion": "controversial"
-},
-{
-  "eventuality": {
-    "type": "political event",
-    "specific": "2024 US Presidential elections"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: One person, one vote; Auth Right: Electoral college on steroids; Lib Left: Proportional representation; Lib Right: Pay-per-vote system",
-  "graphicalFeatures": "Each quadrant shows a different voting method. The center features a question mark shaped like the presidential seal.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": true
-  },
-  "opinion": "controversial"
-},
-{
-  "eventuality": {
-    "type": "social group",
-    "specific": "Gen Z voters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Nationalize social media; Auth Right: Mandatory patriotism classes; Lib Left: Universal basic housing; Lib Right: Abolish age restrictions on everything",
-  "graphicalFeatures": "Each quadrant depicts Gen Z voters with exaggerated characteristics of their political leanings. The background is a swirl of trending hashtags and viral video thumbnails.",
-  "connotation": "sarcastic",
-  "attitude": {
-    "opinionated": false,
-    "troll": true
-  },
-  "opinion": "controversial"
-},
-{
-  "eventuality": {
-    "type": "political supporters",
-    "specific": "Bernie Sanders supporters"
-  },
-  "template": "Political compass",
-  "text": "Auth Left: Seize the means of production; Auth Right: America First (but make it leftist); Lib Left: Fully automated luxury gay space communism; Lib Right: End all wars",
-  "graphicalFeatures": "Each quadrant shows Bernie supporters with increasingly absurd versions of his policies. The center features a comically large pair of mittens.",
-  "connotation": "ironic",
-  "attitude": {
-    "opinionated": false,
-    "troll": true
-  },
-  "opinion": "controversial"
-},
-{
     "eventuality": {
-    "type": "political event",
-    "specific": "Climate Change"
+      "type": "politician",
+      "specific": "Donald Trump"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Trump's Twitter account; Trump's Truth Social account",
+    "graphicalFeatures": "Two panels side by side. Left panel shows a bustling Twitter feed with millions of followers. Right panel shows a tumbleweeds rolling across an empty Truth Social interface.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "What Brexiteers promised; What Britain got",
+    "graphicalFeatures": "Left panel shows a sunny, prosperous Britain with Union Jacks waving. Right panel depicts rainy empty supermarket shelves and long queues at petrol stations.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Boomers buying a house in 1980; Millennials trying to buy a house in 2023",
+    "graphicalFeatures": "Left panel shows a young couple easily purchasing a home with a small down payment. Right panel depicts millennials drowning in a sea of student debt, avocado toast, and sky-high housing prices.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Joe Biden"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Biden climbing stairs; Trump walking down a ramp",
+    "graphicalFeatures": "Left panel shows Biden stumbling on Air Force One stairs. Right panel shows Trump cautiously descending a ramp at West Point. Both images are freeze-framed at awkward moments.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Bernie supporters in 2016; Bernie supporters in 2020",
+    "graphicalFeatures": "Left panel shows young, enthusiastic supporters at a rally. Right panel depicts the same supporters, now with gray hair and exhausted expressions, still holding 'Feel the Bern' signs.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2020 US elections"
+    },
+    "template": "Comparative (multi-panel)",
+    "text": "Election night; One week later; One month later; January 6th",
+    "graphicalFeatures": "Four panels showing the progression of events: 1) News anchors reporting results, 2) Vote counting continues, 3) Legal challenges being filed, 4) Capitol riot scene.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Donald Trump"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Trump's hands; Average hands",
+    "graphicalFeatures": "Left panel zooms in on Trump's hands, appearing small. Right panel shows average-sized hands for comparison. Both panels have measuring tape for scale.",
+    "connotation": "offensive",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "EU membership benefits; Brexit benefits",
+    "graphicalFeatures": "Left panel lists numerous EU membership benefits with colorful icons. Right panel shows an empty list with a small Union Jack in the corner.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Millennial culture; Boomer understanding of Millennial culture",
+    "graphicalFeatures": "Left panel shows diverse millennials engaged in various activities (working, volunteering, using technology). Right panel depicts millennials as lazy avocado toast eaters glued to their phones.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Joe Biden"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Biden's gaffes; Trump's gaffes",
+    "graphicalFeatures": "Both panels show word clouds. Biden's contains harmless mix-ups, while Trump's features more controversial statements. The size of words represents frequency.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "What Bernie supporters think they look like; What they actually look like",
+    "graphicalFeatures": "Left panel shows heroic revolutionaries. Right panel depicts regular people in Bernie merchandise looking slightly disappointed.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2020 US elections"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Mail-in voting; In-person voting",
+    "graphicalFeatures": "Left panel shows a person calmly filling out a ballot at home. Right panel depicts long lines and stressed voters at polling stations.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Donald Trump vs Joe Biden inaugurations"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Trump's inauguration crowd; Biden's inauguration crowd",
+    "graphicalFeatures": "Left panel shows Trump's inauguration with visible empty spaces. Right panel depicts Biden's socially distanced inauguration with flags representing attendees.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Comparative (multi-panel)",
+    "text": "Brexit negotiations: Year 1; Year 2; Year 3; Year 4",
+    "graphicalFeatures": "Four panels showing increasingly frazzled UK and EU negotiators, with stacks of papers growing taller and more chaotic in each panel.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Millennial savings account; Millennial avocado toast budget",
+    "graphicalFeatures": "Left panel shows a piggy bank with cobwebs. Right panel depicts a detailed, color-coded budget chart dominated by avocado toast expenses.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Joe Biden"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Biden with aviators; Biden without aviators",
+    "graphicalFeatures": "Left panel shows Biden looking cool in his signature aviators. Right panel depicts Biden squinting awkwardly without them.",
+    "connotation": "offensive",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Bernie's policies; Establishment Democrats' understanding of Bernie's policies",
+    "graphicalFeatures": "Left panel lists Bernie's actual policy proposals. Right panel shows a caricature of socialism with hammers and sickles.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2020 US elections"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "2016 election memes; 2020 election memes",
+    "graphicalFeatures": "Left panel shows relatively tame 2016 memes. Right panel depicts more extreme and absurd 2020 memes, reflecting escalated political tensions.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Donald Trump"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Trump's hair in calm weather; Trump's hair in windy weather",
+    "graphicalFeatures": "Left panel shows Trump's typical hairstyle. Right panel depicts his hair wildly disheveled by wind, revealing an intricate and improbable styling structure.",
+    "connotation": "offensive",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "UK entering the EU; UK leaving the EU",
+    "graphicalFeatures": "Left panel shows a young, optimistic Britain joining the EU. Right panel depicts an older, grumpy Britain struggling to leave through a complex maze.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Comparative (multi-panel)",
+    "text": "Boomers' career path; Gen X career path; Millennial career path; Gen Z career path",
+    "graphicalFeatures": "Four panels showing increasingly complex and convoluted career paths for each generation, with Millennials and Gen Z paths resembling a chaotic roller coaster.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Joe Biden"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Biden's ice cream budget; US infrastructure budget",
+    "graphicalFeatures": "Left panel shows a massive, detailed ice cream budget. Right panel depicts a comically small infrastructure budget with band-aids and duct tape.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Bernie supporters online; Bernie supporters at the polls",
+    "graphicalFeatures": "Left panel shows a massive online presence with trending hashtags and viral content. Right panel depicts a much smaller turnout at actual polling stations.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2020 US elections"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "How Americans see the election; How the rest of the world sees the election",
+    "graphicalFeatures": "Left panel shows a serious, high-stakes political event. Right panel depicts a chaotic reality TV show with global audiences watching in disbelief.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Donald Trump"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Trump's self-image; Reality",
+    "graphicalFeatures": "Left panel shows Trump as a muscular, heroic figure. Right panel depicts actual photos of Trump in unflattering situations.",
+    "connotation": "offensive",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Brexit"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Brexit plan; Brexit execution",
+    "graphicalFeatures": "Left panel shows a neat, orderly flowchart. Right panel depicts a tangled mess of spaghetti-like lines and confusion.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Comparative (two-panel)",
+    "text": "Millennial expectations vs reality",
+    "graphicalFeatures": "Left panel shows idealistic career and life goals. Right panel depicts the harsh realities of student debt, gig economy, and housing crisis.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Trump supporters"
+    },
+    "template": "Drake Hotline Bling (Comparative)",
+    "text": "Wearing a mask during a pandemic; Wearing a MAGA hat",
+    "graphicalFeatures": "Two-panel meme. Top panel shows Drake looking displeased, gesturing rejection. Bottom panel shows Drake smiling and pointing approvingly.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Bernie Sanders"
+    },
+    "template": "Distracted Boyfriend (Comparative)",
+    "text": "Voters; Bernie Sanders; Establishment Democrats",
+    "graphicalFeatures": "Three people walking. Man looking back at woman in red dress, while his girlfriend looks shocked.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Woman Yelling at Cat (Comparative)",
+    "text": "Boomers: You need to work harder!; Millennials: We're working three jobs and can't afford a house",
+    "graphicalFeatures": "Two-panel meme. Left panel shows woman yelling, right panel shows confused white cat at dinner table.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials"
+    },
+    "template": "Distracted Boyfriend (Comparative)",
+    "text": "Millennials; Side hustles; 9-5 jobs",
+    "graphicalFeatures": "Man looking back at woman in red dress, while his girlfriend looks shocked.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Alexandria Ocasio-Cortez"
+    },
+    "template": "Woman Yelling at Cat (Comparative)",
+    "text": "Conservatives; AOC",
+    "graphicalFeatures": "Woman yelling at confused white cat sitting at dinner table.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Bernie Sanders"
+    },
+    "template": "Drake Hotline Bling (Comparative)",
+    "text": "Establishment Democrats; Bernie Sanders",
+    "graphicalFeatures": "Two-panel meme. Top panel shows Drake looking displeased, gesturing rejection. Bottom panel shows Drake smiling and pointing approvingly.",
+    "connotation": "motivational",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2016 vs 2020 US Presidential elections"
+    },
+    "template": "How It Started vs How It's Going (Comparative)",
+    "text": "2016: 'It's rigged!'; 2020: 'It's rigged!'",
+    "graphicalFeatures": "Two-panel meme. Left panel shows Trump in 2016, right panel shows Biden in 2020, both with similar expressions.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Baby Boomers vs Gen Z"
+    },
+    "template": "Buff Doge vs Cheems (Comparative)",
+    "text": "Boomers at age 20: Buying a house and starting a family; Gen Z at age 20: Can I afford ramen this week?",
+    "graphicalFeatures": "Two-panel meme. Left shows a muscular Doge representing Boomers, right shows a weak Cheems representing Gen Z.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Democrats vs Republicans"
+    },
+    "template": "Spider-Man Pointing at Spider-Man (Comparative)",
+    "text": "Democrats blaming Republicans for government dysfunction; Republicans blaming Democrats for government dysfunction",
+    "graphicalFeatures": "Two identical Spider-Man characters pointing at each other accusingly.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Climate change action vs Economic growth"
+    },
+    "template": "Distracted Boyfriend (Comparative)",
+    "text": "Politicians; Economic growth; Climate change action",
+    "graphicalFeatures": "Man looking back at woman in red dress (economic growth), while his girlfriend (climate change action) looks shocked.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Universal Healthcare vs Private Insurance"
+    },
+    "template": "Drake Hotline Bling (Comparative)",
+    "text": "Private health insurance; Universal healthcare",
+    "graphicalFeatures": "Two-panel meme. Top panel shows Drake looking displeased at private health insurance. Bottom panel shows Drake smiling and pointing approvingly at universal healthcare.",
+    "connotation": "motivational",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Political activists vs Apathetic voters"
+    },
+    "template": "Buff Doge vs Cheems (Comparative)",
+    "text": "Political activists: Organizing rallies, phone banking, canvassing; Apathetic voters: I forgot to register",
+    "graphicalFeatures": "Two-panel meme. Left shows a muscular Doge representing activists, right shows a weak Cheems representing apathetic voters.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Traditional media vs Social media in elections"
+    },
+    "template": "Distracted Boyfriend (Comparative)",
+    "text": "Voters; Social media; Traditional news outlets",
+    "graphicalFeatures": "Man looking back at woman in red dress (social media), while his girlfriend (traditional news outlets) looks shocked.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Progressives vs Moderates in Democratic Party"
+    },
+    "template": "Woman Yelling at Cat (Comparative)",
+    "text": "Progressives: We need radical change!; Moderates: We need to appeal to centrists!",
+    "graphicalFeatures": "Left panel shows woman (progressives) yelling, right panel shows confused white cat (moderates) at dinner table.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Electoral College vs Popular Vote"
+    },
+    "template": "Drake Hotline Bling (Comparative)",
+    "text": "Winning the popular vote; Winning the Electoral College",
+    "graphicalFeatures": "Two-panel meme. Top panel shows Drake looking displeased at popular vote. Bottom panel shows Drake smiling and pointing approvingly at Electoral College.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Political extremists vs Centrists"
+    },
+    "template": "Buff Doge vs Cheems (Comparative)",
+    "text": "Political extremists: My way or the highway!; Centrists: Can't we all just get along?",
+    "graphicalFeatures": "Two-panel meme. Left shows a muscular Doge representing extremists, right shows a weak Cheems representing centrists.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": true
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Grassroots campaigns vs Big money politics"
+    },
+    "template": "David vs Goliath (Comparative)",
+    "text": "Grassroots campaigns; Big money Super PACs",
+    "graphicalFeatures": "Small figure of David (grassroots) facing giant Goliath (big money politics).",
+    "connotation": "motivational",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Single-issue voters vs Holistic voters"
+    },
+    "template": "Distracted Boyfriend (Comparative)",
+    "text": "Voters; Single hot-button issue; Comprehensive policy platforms",
+    "graphicalFeatures": "Man looking back at woman in red dress (single issue), while his girlfriend (comprehensive policies) looks shocked.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Urban elites vs Rural working class"
+    },
+    "template": "Woman Yelling at Cat (Comparative)",
+    "text": "Urban elites: We need to address climate change!; Rural working class: We need jobs!",
+    "graphicalFeatures": "Left panel shows woman (urban elites) yelling, right panel shows confused white cat (rural working class) at dinner table.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Boys vs Girls Locker Room (Comparative)",
+    "text": "Girls locker room: I hate PE class; Boys locker room: Let's recreate the Battle of Waterloo with water bottles",
+    "graphicalFeatures": "Two-panel meme. Left panel shows girls talking calmly. Right panel shows boys in chaotic, exaggerated battle poses with water bottles.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Drake Hotline Bling (Comparative)",
+    "text": "Girls: Using hair dryer to dry hair; Boys: Using hair dryer as a microphone for karaoke",
+    "graphicalFeatures": "Two-panel meme. Top panel shows Drake looking displeased at normal hair dryer use. Bottom panel shows Drake smiling and pointing approvingly at using it as a microphone.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Boys"
+    },
+    "template": "Distracted Boyfriend (Comparative)",
+    "text": "Boys; Video games; Studying",
+    "graphicalFeatures": "Man looking back at woman in red dress (video games), while his girlfriend (studying) looks shocked.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Buff Doge vs Cheems (Comparative)",
+    "text": "Girls packing for a weekend trip: Full suitcase, 5 outfit changes; Boys packing for a weekend trip: One t-shirt and hope for the best",
+    "graphicalFeatures": "Two-panel meme. Left shows a muscular Doge representing girls with a large suitcase, right shows a weak Cheems representing boys with a small backpack.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Woman Yelling at Cat (Comparative)",
+    "text": "Girls: We need to plan our group project carefully!; Boys: Let's do it all the night before",
+    "graphicalFeatures": "Left panel shows woman (girls) yelling, right panel shows confused white cat (boys) at dinner table.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Boys vs Girls (Comparative)",
+    "text": "Girls with time machine: I'm your granddaughter; Boys with time machine: (to ancient Roman soldier) You guys are going to love pizza",
+    "graphicalFeatures": "Split image. Left side shows a girl talking to her grandmother. Right side shows a boy talking to a confused Roman soldier about pizza.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Boys vs Girls (Comparative)",
+    "text": "Girls' handwriting: Neat, organized notes with different colors; Boys' handwriting: Doctor's prescription-level hieroglyphics",
+    "graphicalFeatures": "Split image. Left side shows colorful, organized notebook. Right side shows messy, barely legible scribbles.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Boys vs Girls (Comparative)",
+    "text": "Girls in online games: Actually playing the game; Boys in online games: Arguing about who's the imposter for 10 minutes straight",
+    "graphicalFeatures": "Split image. Left side shows a girl focused on her game. Right side shows boys in heated debate, ignoring the game.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Boys vs Girls (Comparative)",
+    "text": "Girls' closet: Organized by color, type, and season; Boys' closet: If it doesn't smell, it's clean",
+    "graphicalFeatures": "Split image. Left side shows a neatly organized closet. Right side shows a messy pile of clothes on the floor.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gender differences"
+    },
+    "template": "Boys vs Girls (Comparative)",
+    "text": "Girls taking selfies: 50 shots to get the perfect angle; Boys taking selfies: First try, posts it even if eyes are closed",
+    "graphicalFeatures": "Split image. Left side shows a girl taking multiple selfies. Right side shows a boy posting a blurry, imperfect selfie.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": true,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2024 US Presidential elections"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: State-mandated voting; Auth Right: Voter ID laws; Lib Left: Ranked choice voting; Lib Right: Blockchain voting",
+    "graphicalFeatures": "A 2x2 grid with each quadrant containing a cartoon representation of the voting method. The Auth Left shows people in uniform lines, Auth Right displays a strict ID check, Lib Left has a colorful ballot with multiple choices, and Lib Right shows people voting on smartphones.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gen Z voters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: TikTok political campaigns; Auth Right: Patriotic meme warfare; Lib Left: Cancel culture as political strategy; Lib Right: Crypto donations",
+    "graphicalFeatures": "Each quadrant features Gen Z characters engaging in their respective political activities. The background is filled with smartphone screens, social media icons, and trending hashtags.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "politician",
+      "specific": "Bernie Sanders"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Free college for all; Auth Right: Anti-establishment rhetoric; Lib Left: Medicare for All; Lib Right: Breaking up big banks",
+    "graphicalFeatures": "Each quadrant shows Bernie Sanders in different outfits representing the political leanings. The center of the compass features Bernie's iconic mittens.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Trump supporters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: America First trade policies; Auth Right: Build the Wall; Lib Left: Drain the Swamp; Lib Right: Tax cuts",
+    "graphicalFeatures": "Each quadrant features caricatures of Trump supporters wearing MAGA hats and engaging in activities related to their quadrant's policy. The center shows a golden 'T' logo.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "COVID-19 Pandemic Response"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Mandatory vaccinations; Auth Right: Travel bans; Lib Left: Universal basic income; Lib Right: Anti-lockdown protests",
+    "graphicalFeatures": "Each quadrant shows different pandemic responses. The background is filled with virus particles and medical symbols.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials in Politics"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Universal Wi-Fi; Auth Right: Mandatory financial literacy classes; Lib Left: Student loan forgiveness; Lib Right: Gig economy deregulation",
+    "graphicalFeatures": "Each quadrant features millennial politicians proposing their ideas. The background is filled with avocado toasts, smartphones, and coffee cups.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2024 US Presidential elections"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Abolish Electoral College; Auth Right: Stricter voting regulations; Lib Left: National popular vote; Lib Right: Decentralized online voting",
+    "graphicalFeatures": "Each quadrant shows a different voting scenario. The center features a question mark shaped like the United States.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gen Z voters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Mandatory climate education; Auth Right: Bring back national service; Lib Left: Universal mental health care; Lib Right: Cryptocurrency as legal tender",
+    "graphicalFeatures": "Each quadrant shows Gen Z characters advocating for their positions. The background is a swirl of social media icons and climate change symbols.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Workers' co-ops; Auth Right: Term limits for Congress; Lib Left: Legalize marijuana; Lib Right: Audit the Fed",
+    "graphicalFeatures": "Each quadrant features Bernie's supporters with different expressions and attire. The center shows a pair of glasses and tousled white hair.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Trump supporters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Tariffs on imports; Auth Right: Strong military; Lib Left: Anti-political correctness; Lib Right: School choice",
+    "graphicalFeatures": "Each quadrant shows Trump supporters rallying for different causes. The center features a red 'Make America Great Again' hat.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "COVID-19 Pandemic Response"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Nationalized healthcare; Auth Right: Closed borders; Lib Left: Mutual aid networks; Lib Right: Telemedicine expansion",
+    "graphicalFeatures": "Each quadrant illustrates a different pandemic policy. The background shows a globe with mask-wearing figures.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials in Politics"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: 4-day work week; Auth Right: Mandatory national service; Lib Left: Universal basic income; Lib Right: Cryptocurrency deregulation",
+    "graphicalFeatures": "Each quadrant features millennial politicians with their signature proposals. The background is filled with emojis, memes, and social media symbols.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2024 US Presidential elections"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Mandatory voting; Auth Right: Voter Roll Purges; Lib Left: Automatic voter registration; Lib Right: Vote by app",
+    "graphicalFeatures": "Each quadrant depicts a different voting scenario. The center shows a ballot box with question marks coming out of it.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gen Z voters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Free public transport; Auth Right: Mandatory financial education; Lib Left: Universal basic internet; Lib Right: Abolish minimum wage",
+    "graphicalFeatures": "Each quadrant shows Gen Z voters advocating for their positions. The background is a collage of smartphones, social media apps, and protest signs.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Maximum wage cap; Auth Right: Break up Big Tech; Lib Left: Abolish ICE; Lib Right: End the Fed",
+    "graphicalFeatures": "Each quadrant features Bernie supporters with different slogans and signs. The center shows a bird perched on a podium, referencing the famous campaign moment.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Climate Change"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Planned economy for sustainability; Auth Right: Climate change denial; Lib Left: Degrowth movement; Lib Right: Cap and trade",
+    "graphicalFeatures": "Each quadrant illustrates a different stance on climate change. The background shows a thermometer gradually rising from blue to red.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Trump supporters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Protectionist trade policies; Auth Right: Law and order; Lib Left: Drain the swamp; Lib Right: Deregulation",
+    "graphicalFeatures": "Each quadrant shows Trump supporters with different MAGA-themed accessories. The center features a golden Trump Tower.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "uncontroversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "COVID-19 Pandemic Response"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Government-produced vaccines; Auth Right: Military-enforced lockdowns; Lib Left: Community-based contact tracing; Lib Right: Private vaccine passports",
+    "graphicalFeatures": "Each quadrant depicts a different pandemic response strategy. The background shows a world map with spreading virus particles.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Millennials in Politics"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Abolish private schools; Auth Right: Mandatory military service; Lib Left: Legalize all drugs; Lib Right: Flat tax rate",
+    "graphicalFeatures": "Each quadrant features millennial politicians with their policy proposals. The background is a collage of millennial stereotypes: avocados, participation trophies, and student loan documents.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": false
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "2024 US Presidential elections"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: One person, one vote; Auth Right: Electoral college on steroids; Lib Left: Proportional representation; Lib Right: Pay-per-vote system",
+    "graphicalFeatures": "Each quadrant shows a different voting method. The center features a question mark shaped like the presidential seal.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "social group",
+      "specific": "Gen Z voters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Nationalize social media; Auth Right: Mandatory patriotism classes; Lib Left: Universal basic housing; Lib Right: Abolish age restrictions on everything",
+    "graphicalFeatures": "Each quadrant depicts Gen Z voters with exaggerated characteristics of their political leanings. The background is a swirl of trending hashtags and viral video thumbnails.",
+    "connotation": "sarcastic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political supporters",
+      "specific": "Bernie Sanders supporters"
+    },
+    "template": "Political compass",
+    "text": "Auth Left: Seize the means of production; Auth Right: America First (but make it leftist); Lib Left: Fully automated luxury gay space communism; Lib Right: End all wars",
+    "graphicalFeatures": "Each quadrant shows Bernie supporters with increasingly absurd versions of his policies. The center features a comically large pair of mittens.",
+    "connotation": "ironic",
+    "attitude": {
+      "opinionated": false,
+      "troll": true
+    },
+    "opinion": "controversial"
+  },
+  {
+    "eventuality": {
+      "type": "political event",
+      "specific": "Climate Change"
     },
     "template": "Political compass",
     "text": "Auth Left: Mandatory veganism; Auth Right: Nuke the hurricanes; Lib Left: Hug the trees; Lib Right: Sell the rainforests",
     "graphicalFeatures": "Each quadrant shows an extreme approach to climate change. The background transitions from a scorched earth to a utopian green paradise, with a question mark in the center.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political supporters",
-    "specific": "Trump supporters"
+      "type": "political supporters",
+      "specific": "Trump supporters"
     },
     "template": "Political compass",
     "text": "Auth Left: Trump Tower in every city; Auth Right: Build the wall higher; Lib Left: Twitter should be a public utility; Lib Right: Gold standard but it's all Trump-branded gold",
     "graphicalFeatures": "Each quadrant features caricatures of Trump supporters with exaggerated features and MAGA gear. The center shows a golden combover swirl.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "COVID-19 Pandemic Response"
+      "type": "political event",
+      "specific": "COVID-19 Pandemic Response"
     },
     "template": "Political compass",
     "text": "Auth Left: Permanent lockdown; Auth Right: Survival of the fittest; Lib Left: Herd immunity through group hugs; Lib Right: Sell your own organs to pay for treatment",
     "graphicalFeatures": "Each quadrant depicts an absurd pandemic response scenario. The background shows a virus particle wearing different political symbols in each corner.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Millennials in Politics"
+      "type": "social group",
+      "specific": "Millennials in Politics"
     },
     "template": "Political compass",
     "text": "Auth Left: Mandatory avocado rations; Auth Right: Make Adulting Great Again; Lib Left: Memes as legal tender; Lib Right: Unpaid internships for everyone",
     "graphicalFeatures": "Each quadrant shows millennial politicians with exaggerated stereotypical traits. The background is a chaotic collage of participation trophies, avocados, and student loan documents on fire.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "2024 US Presidential elections"
+      "type": "political event",
+      "specific": "2024 US Presidential elections"
     },
     "template": "Political compass",
     "text": "Auth Left: Only cats can vote; Auth Right: Voting but it's a battle royale; Lib Left: Elections decided by dance-off; Lib Right: Highest bidder wins",
     "graphicalFeatures": "Each quadrant illustrates an absurd voting method. The center features Lady Liberty facepalming.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Gen Z voters"
+      "type": "social group",
+      "specific": "Gen Z voters"
     },
     "template": "Political compass",
     "text": "Auth Left: TikTok dances replace the pledge of allegiance; Auth Right: Mandatory 'ok boomer' training; Lib Left: Govern by meme council; Lib Right: Sell your vote as an NFT",
     "graphicalFeatures": "Each quadrant shows Gen Z voters in increasingly absurd political scenarios. The background is a dizzying array of emojis, memes, and social media notifications.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
       "type": "political event",
       "specific": "Global Trade Relations"
@@ -2101,545 +2101,545 @@
   },
   {
     "eventuality": {
-    "type": "social group",
-    "specific": "Gen Z"
+      "type": "social group",
+      "specific": "Gen Z"
     },
     "template": "ChangeMyMind",
     "text": "Gen Z will save the world with TikTok dances; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by young people doing TikTok dances. The background shows various global issues being solved through dance moves.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Alexandria Ocasio-Cortez"
+      "type": "politician",
+      "specific": "Alexandria Ocasio-Cortez"
     },
     "template": "ChangeMyMind",
     "text": "AOC's Twitter clapbacks are a form of political discourse; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a giant smartphone displaying AOC's Twitter feed. The background shows the House floor transformed into a Twitter feed.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Climate Change"
+      "type": "political event",
+      "specific": "Climate Change"
     },
     "template": "ChangeMyMind",
     "text": "Climate change is just Earth going through a phase; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, wearing sunglasses and a Hawaiian shirt. The background shows melting ice caps and rising sea levels.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": true
+      "opinionated": true,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Mitch McConnell"
+      "type": "politician",
+      "specific": "Mitch McConnell"
     },
     "template": "ChangeMyMind",
     "text": "Mitch McConnell is secretly a turtle; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a turtle wearing a suit next to him. The background shows the Senate chamber filled with lettuce.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "US-China Relations"
+      "type": "political event",
+      "specific": "US-China Relations"
     },
     "template": "ChangeMyMind",
     "text": "US-China relations are just a really intense game of ping pong; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a ping pong net set up. The background shows the Great Wall of China on one side and the Statue of Liberty on the other.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Baby Boomers"
+      "type": "social group",
+      "specific": "Baby Boomers"
     },
     "template": "ChangeMyMind",
     "text": "Boomers invented 'OK Boomer'; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by older adults holding 'OK Boomer' signs. The background shows a retirement home with a 'Meme Creation Club' sign.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Vladimir Putin"
+      "type": "politician",
+      "specific": "Vladimir Putin"
     },
     "template": "ChangeMyMind",
     "text": "Putin's shirtless photos are peak diplomacy; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with shirtless photos of Putin arranged like UN Security Council placards. The background shows world leaders in swimming attire.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Brexit"
+      "type": "political event",
+      "specific": "Brexit"
     },
     "template": "ChangeMyMind",
     "text": "Brexit is just Britain's way of social distancing from Europe; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a map showing Britain being pushed away from Europe. The background shows Boris Johnson holding a giant bottle of hand sanitizer.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Bernie Sanders"
+      "type": "politician",
+      "specific": "Bernie Sanders"
     },
     "template": "ChangeMyMind",
     "text": "Bernie's mittens should be on the dollar bill; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a mockup of a dollar bill featuring Bernie's mittens. The background shows people lining up to exchange their money for 'mitten currency'.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "2020 US elections"
+      "type": "political event",
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was actually decided by a dance-off; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with candidates in dance outfits. The background shows a disco ball hanging over the White House.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Donald Trump"
+      "type": "politician",
+      "specific": "Donald Trump"
     },
     "template": "ChangeMyMind",
     "text": "Trump's tweets were peak entertainment; Change my mind",
     "graphicalFeatures": "Steven Crowder sitting behind a table with a sign. He's wearing a plaid shirt and has a serious expression. The background shows a college campus with students walking by.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Brexit"
+      "type": "political event",
+      "specific": "Brexit"
     },
     "template": "ChangeMyMind",
     "text": "Brexit was a mistake; Change my mind",
     "graphicalFeatures": "Steven Crowder sitting at a folding table with a sign. He's in an outdoor setting with trees and people walking by in the background.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Millennials"
+      "type": "social group",
+      "specific": "Millennials"
     },
     "template": "ChangeMyMind",
     "text": "Millennials aren't killing industries, they're just broke; Change my mind",
     "graphicalFeatures": "Steven Crowder seated at a table with his signature sign. He's wearing sunglasses and a baseball cap. The background shows a busy city street.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Joe Biden"
+      "type": "politician",
+      "specific": "Joe Biden"
     },
     "template": "ChangeMyMind",
     "text": "Biden's infrastructure plan is actually good; Change my mind",
     "graphicalFeatures": "Steven Crowder at his usual table with the sign. He's wearing a suit this time. The background shows the White House in the distance.",
     "connotation": "motivational",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "2020 US elections"
+      "type": "political event",
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was the most dramatic ever; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table with the sign. He's wearing a red, white, and blue outfit. The background shows a polling station with long lines.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": false
+      "opinionated": false,
+      "troll": false
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Donald Trump"
+      "type": "politician",
+      "specific": "Donald Trump"
     },
     "template": "ChangeMyMind",
     "text": "Trump's hair is a national treasure; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, wearing an exaggerated blonde wig. The background shows a hair salon with posters of various hairstyles.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political supporter",
-    "specific": "Bernie Sanders supporters"
+      "type": "political supporter",
+      "specific": "Bernie Sanders supporters"
     },
     "template": "ChangeMyMind",
     "text": "Bernie supporters are the most passionate; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by people wearing 'Feel the Bern' t-shirts and holding Bernie signs. The background shows a political rally.",
     "connotation": "motivational",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Brexit"
+      "type": "political event",
+      "specific": "Brexit"
     },
     "template": "ChangeMyMind",
     "text": "Brexit means Brexit... whatever that means; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, looking confused. He's wearing a Union Jack hat. The background shows the Houses of Parliament in London.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Millennials"
+      "type": "social group",
+      "specific": "Millennials"
     },
     "template": "ChangeMyMind",
     "text": "Millennials will save the world; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by young people planting trees and cleaning up trash. The background shows a polluted cityscape transforming into a green one.",
     "connotation": "motivational",
     "attitude": {
-    "opinionated": true,
-    "troll": false
+      "opinionated": true,
+      "troll": false
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Joe Biden"
+      "type": "politician",
+      "specific": "Joe Biden"
     },
     "template": "ChangeMyMind",
     "text": "Biden's gaffes are endearing; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, wearing oversized aviator sunglasses like Biden's. The background shows a bunch of speech bubbles with misspelled words.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "2020 US elections"
+      "type": "political event",
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election memes were the real winners; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by printouts of various election memes. The background shows social media icons and laughing emojis.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": false
+      "opinionated": false,
+      "troll": false
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Donald Trump"
+      "type": "politician",
+      "specific": "Donald Trump"
     },
     "template": "ChangeMyMind",
     "text": "Trump's presidency was just one long reality TV show; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a TV camera pointed at him. The background shows a TV studio set with 'The Oval Office' written on it.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": true
+      "opinionated": true,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political supporter",
-    "specific": "Bernie Sanders supporters"
+      "type": "political supporter",
+      "specific": "Bernie Sanders supporters"
     },
     "template": "ChangeMyMind",
     "text": "Bernie supporters have the best memes; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by people holding up phones displaying Bernie memes. The background shows a Reddit homepage.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": false
+      "opinionated": false,
+      "troll": false
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Brexit"
+      "type": "political event",
+      "specific": "Brexit"
     },
     "template": "ChangeMyMind",
     "text": "Brexit negotiations are more confusing than IKEA instructions; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by scattered IKEA furniture parts and confusing instruction manuals. The background shows the EU and UK flags tangled together.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Millennials"
+      "type": "social group",
+      "specific": "Millennials"
     },
     "template": "ChangeMyMind",
     "text": "Millennials are killing the 'killing industries' industry; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a millennial-looking person erasing items from a whiteboard titled 'Industries Millennials are Killing'. The background shows various industry logos fading away.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Joe Biden"
+      "type": "politician",
+      "specific": "Joe Biden"
     },
     "template": "ChangeMyMind",
     "text": "Biden's ice cream obsession is a national security threat; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a melting ice cream cone. The background shows the Pentagon made entirely of ice cream containers.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "2020 US elections"
+      "type": "political event",
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The real election fraud was the friends we made along the way; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by people from different political parties hugging and smiling. The background shows a 'Mission Accomplished' banner.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Donald Trump"
+      "type": "politician",
+      "specific": "Donald Trump"
     },
     "template": "ChangeMyMind",
     "text": "Trump's vocabulary is the best vocabulary; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a dictionary that only has words like 'huge', 'tremendous', and 'bigly'. The background shows a word cloud of Trump's most-used words.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": true
+      "opinionated": true,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political supporter",
-    "specific": "Bernie Sanders supporters"
+      "type": "political supporter",
+      "specific": "Bernie Sanders supporters"
     },
     "template": "ChangeMyMind",
     "text": "Bernie supporters are once again asking for your financial support; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a donation box labeled 'Bernie 2024?' in front of him. The background shows a crowd of people holding 'Feel the Bern' signs.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Brexit"
+      "type": "political event",
+      "specific": "Brexit"
     },
     "template": "ChangeMyMind",
     "text": "Brexit is just Britain's midlife crisis; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, wearing a Union Jack midlife crisis outfit (sports car, hair dye, etc.). The background shows the EU looking concerned.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": true
+      "opinionated": true,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "social group",
-    "specific": "Millennials"
+      "type": "social group",
+      "specific": "Millennials"
     },
     "template": "ChangeMyMind",
     "text": "Millennials aren't lazy, they're just efficiently unproductive; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a millennial lounging in a hammock with a laptop. The background shows a to-do list with all items crossed out.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Joe Biden"
+      "type": "politician",
+      "specific": "Joe Biden"
     },
     "template": "ChangeMyMind",
     "text": "Biden's presidency is just Obama's third term; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with Biden wearing an Obama mask. The background shows the White House with a 'Under New Old Management' sign.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": true
+      "opinionated": true,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "2020 US elections"
+      "type": "political event",
+      "specific": "2020 US elections"
     },
     "template": "ChangeMyMind",
     "text": "The 2020 election was decided by memes; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by popular political memes from 2020. The background shows a voting booth with a 'Vote for Your Favorite Meme' sign.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "politician",
-    "specific": "Donald Trump"
+      "type": "politician",
+      "specific": "Donald Trump"
     },
     "template": "ChangeMyMind",
     "text": "Trump's tweets were modern-day presidential fireside chats; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a smartphone displaying Twitter next to an old radio. The background shows the Oval Office with a fireplace.",
     "connotation": "sarcastic",
     "attitude": {
-    "opinionated": true,
-    "troll": true
+      "opinionated": true,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political supporter",
-    "specific": "Bernie Sanders supporters"
+      "type": "political supporter",
+      "specific": "Bernie Sanders supporters"
     },
     "template": "ChangeMyMind",
     "text": "Bernie supporters are the true 1%; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, surrounded by people in Bernie gear looking confused. The background shows Wall Street with Bernie campaign posters.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "controversial"
-},
-{
+  },
+  {
     "eventuality": {
-    "type": "political event",
-    "specific": "Brexit"
+      "type": "political event",
+      "specific": "Brexit"
     },
     "template": "ChangeMyMind",
     "text": "Brexit is just a really long tea break; Change my mind",
     "graphicalFeatures": "Steven Crowder at his table, with a giant teacup and the EU flag being used as a tea cozy. The background shows Big Ben with its hands frozen.",
     "connotation": "ironic",
     "attitude": {
-    "opinionated": false,
-    "troll": true
+      "opinionated": false,
+      "troll": true
     },
     "opinion": "uncontroversial"
-},
-{
+  },
+  {
     "eventuality": {
       "type": "social group",
       "specific": "Gen Z"

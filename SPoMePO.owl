@@ -12,6 +12,7 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="persp" IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl"/>
     <Prefix name="spomo" IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO/"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -22,12 +23,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Attitude"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BackgroundKnowledge"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Caption"/>
@@ -45,19 +40,10 @@
         <Class IRI="#ControversialOpinion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cut"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Eventuality"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#GraphicContent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HumorousMeme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lens"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MediaFrame"/>
@@ -126,6 +112,21 @@
         <Class IRI="#tOpinionated"/>
     </Declaration>
     <Declaration>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#BackgroundKnowledge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#contrasts"/>
     </Declaration>
     <Declaration>
@@ -187,7 +188,7 @@
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
-        <Class IRI="#Cut"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="spomo:SocioPoliticalMeme"/>
@@ -202,13 +203,6 @@
             <DataProperty IRI="#hasValue"/>
             <Datatype abbreviatedIRI="rdfs:Literal"/>
         </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Attitude"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#towards"/>
-            <Class IRI="#Cut"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Caption"/>
@@ -267,34 +261,6 @@
     <SubClassOf>
         <Class IRI="#ControversialOpinion"/>
         <Class IRI="#Opinion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cut"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#shotThrough"/>
-            <Class IRI="#Lens"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Eventuality"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#extractedFrom"/>
-            <Class IRI="#BackgroundKnowledge"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Eventuality"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#perspectivisedAs"/>
-            <Class IRI="#Cut"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Eventuality"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#perspectivisedThrough"/>
-            <Class IRI="#Lens"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GraphicContent"/>
@@ -356,12 +322,12 @@
         <Class IRI="#MediaFrame"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#refersTo"/>
-            <Class IRI="#Eventuality"/>
+            <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MemeticLens"/>
-        <Class IRI="#Lens"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MockingJuxtapositionMeme"/>
@@ -432,7 +398,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NonTroll"/>
-        <Class IRI="#Attitude"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Opinionated"/>
@@ -440,7 +406,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoliticalActivity"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoliticalActivity"/>
@@ -451,7 +417,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoliticalAgent"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoliticalAgent"/>
@@ -478,7 +444,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SocialGroup"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SocialGroup"/>
@@ -489,7 +455,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SociopoliticalPhenomena"/>
-        <Class IRI="#BackgroundKnowledge"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#BackgroundKnowledge"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupportiveMeme"/>
@@ -535,7 +501,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Troll"/>
-        <Class IRI="#Attitude"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UncontroversialOpinion"/>
@@ -548,6 +514,41 @@
     <SubClassOf>
         <Class IRI="#tOpinionated"/>
         <Class IRI="#Troll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#towards"/>
+            <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#shotThrough"/>
+            <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#extractedFrom"/>
+            <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#BackgroundKnowledge"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#perspectivisedAs"/>
+            <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#perspectivisedThrough"/>
+            <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#Connotation"/>
@@ -574,7 +575,7 @@
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#contrasts"/>
-        <Class IRI="#Cut"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#expresses"/>
@@ -582,7 +583,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#extractedFrom"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCaption"/>
@@ -617,11 +618,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#perspectivisedAs"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#perspectivisedThrough"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#refersTo"/>
@@ -629,15 +630,15 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#shotThrough"/>
-        <Class IRI="#Cut"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#towards"/>
-        <Class IRI="#Attitude"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#contrasts"/>
-        <Class IRI="#Cut"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#expresses"/>
@@ -648,7 +649,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#extractedFrom"/>
-        <Class IRI="#BackgroundKnowledge"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#BackgroundKnowledge"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCaption"/>
@@ -683,23 +684,23 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#perspectivisedAs"/>
-        <Class IRI="#Cut"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#perspectivisedThrough"/>
-        <Class IRI="#Lens"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#refersTo"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#shotThrough"/>
-        <Class IRI="#Lens"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#towards"/>
-        <Class IRI="#Cut"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#hasValue"/>
@@ -901,6 +902,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#tOpinionated</IRI>
         <Literal>Attitude that produces opinion manipulation by making an offensive comment that  influences opinion about a topic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Attitude</IRI>
+        <Literal>ontologydesignpatterns.org/ont/persp/perspectivisation.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>ontologydesignpatterns.org/ont/persp/perspectivisation.owl#BackgroundKnowledge</IRI>
+        <Literal>ontologydesignpatterns.org/ont/persp/perspectivisation.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut</IRI>
+        <Literal>ontologydesignpatterns.org/ont/persp/perspectivisation.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality</IRI>
+        <Literal>ontologydesignpatterns.org/ont/persp/perspectivisation.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens</IRI>
+        <Literal>ontologydesignpatterns.org/ont/persp/perspectivisation.owl</Literal>
     </AnnotationAssertion>
 </Ontology>
 
