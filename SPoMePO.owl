@@ -29,15 +29,6 @@
         <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
     </Declaration>
     <Declaration>
@@ -65,13 +56,7 @@
         <Class IRI="#ControversialOpinion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Eventuality"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#HumorousMeme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lens"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MemeticLens"/>
@@ -171,13 +156,8 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#contrasts"/>
-        <ObjectProperty IRI="#contrasts"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#expresses"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#extractedFrom"/>
         <ObjectProperty IRI="#expresses"/>
     </Declaration>
     <Declaration>
@@ -248,41 +228,13 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#refersTo"/>
-            <Class IRI="#Eventuality"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isContentOf"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
             <ObjectProperty IRI="#isContentOf"/>
             <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
-        <Class IRI="#Eventuality"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#hasValue"/>
-            <Datatype abbreviatedIRI="rdfs:Literal"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
-        <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalAgent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
-        <Class IRI="#Eventuality"/>
+        <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Eventuality"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
@@ -707,8 +659,6 @@
         <ObjectUnionOf>
             <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
             <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -770,18 +720,6 @@
         <ObjectProperty IRI="#towards"/>
         <Class IRI="ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
     </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#hasValue"/>
-        <ObjectUnionOf>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Caption"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Connotation"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician"/>
-            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#SocialGroup"/>
-            <Class IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#GraphicContent"/>
-            <Class IRI="#PoliticalActivity"/>
-        </ObjectUnionOf>
-    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="http://www.semanticweb.org/valen/ontologies/2024/6/SPoMO#hasValue"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
@@ -830,16 +768,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Offensive</IRI>
         <Literal>Connotation characterised by an aggressive stance towards some topics or people, diminishing them.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#PoliticalSupporter</IRI>
-        <Literal>Political active member of a community not member of an administration.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician</IRI>
-        <Literal>Class for members of an administration.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
