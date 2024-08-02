@@ -14,16 +14,21 @@ def create_datagraph(graphUrl, json_file):
     # base url for project uris'.
     spomepo = Namespace("https://github.com/Yogi-Bubu-Exam/MemOnPology/raw/main/SPoMePO.owl#")
     spomo = Namespace("https://github.com/Yogi-Bubu-Exam/MemOnPology/raw/main/SPoMO.owl#")
+    cons = Namespace("http://www.ontologydesignpatterns.org/cp/owl/constituency.owl#")
+    persp = Namespace("ontologydesignpatterns.org/ont/persp/perspectivisation.owl#")
     project_url = "https://github.com/Yogi-Bubu-Exam/MemOnPology/"
 
     # Creating graph, binding namespaces
     graphData = Graph()
     graphData.bind("spomepo", spomepo)
+    graphData.bind("spomo", spomo)
+    graphData.bind("cons", cons)
+    graphData.bind("persp", persp)
     graphData.bind("project", project_url)
 
     # Creating classes
     # Background Knowledge
-    BackgroundKnowledge = URIRef(spomepo.BackgroundKnowledge)
+    BackgroundKnowledge = URIRef(persp.BackgroundKnowledge)
     graphData.add((BackgroundKnowledge, RDF.type, OWL.Class))
     SocioPoliticalPhenomena = URIRef(spomepo.SocioPoliticalPhenomena)
     graphData.add((SocioPoliticalPhenomena, RDF.type, OWL.Class))
@@ -31,34 +36,34 @@ def create_datagraph(graphUrl, json_file):
 
 
     # Eventuality
-    Eventuality = URIRef(spomepo.Eventuality)
+    Eventuality = URIRef(persp.Eventuality)
     graphData.add((Eventuality, RDF.type, OWL.Class))
-    PoliticalAgent = URIRef(spomepo.PoliticalAgent)
+    PoliticalAgent = URIRef(spomo.PoliticalAgent)
     graphData.add((PoliticalAgent, RDF.type, OWL.Class))
     graphData.add((PoliticalAgent, RDFS.subClassOf, Eventuality))
-    SocialGroup = URIRef(spomepo.SocialGroup)
+    SocialGroup = URIRef(spomo.SocialGroup)
     graphData.add((SocialGroup, RDF.type, OWL.Class))
     graphData.add((SocialGroup, RDFS.subClassOf, Eventuality))
-    Politician = URIRef(spomepo.Politician)
+    Politician = URIRef(spomo.Politician)
     graphData.add((Politician, RDF.type, OWL.Class))
     graphData.add((Politician, RDFS.subClassOf, PoliticalAgent))
-    PoliticalSupporter = URIRef(spomepo.PoliticalSupporter)
+    PoliticalSupporter = URIRef(spomo.PoliticalSupporter)
     graphData.add((PoliticalSupporter, RDF.type, OWL.Class))
     graphData.add((PoliticalSupporter, RDFS.subClassOf, PoliticalAgent))   
-    PoliticalActivity = URIRef(spomepo.PoliticalActivity)
+    PoliticalActivity = URIRef(spomo.PoliticalActivity)
     graphData.add((PoliticalActivity, RDF.type, OWL.Class))
     graphData.add((PoliticalActivity, RDFS.subClassOf, Eventuality))
 
 
     # Lens
-    Lens = URIRef(spomepo.Lens)
+    Lens = URIRef(persp.Lens)
     graphData.add((Lens, RDF.type, OWL.Class))
     
     MemeticLens = URIRef(spomepo.MemeticLens)
     graphData.add((MemeticLens, RDF.type, OWL.Class))
     graphData.add((MemeticLens, RDFS.subClassOf, Lens))
     # Template
-    Template = URIRef(spomepo.Template)
+    Template = URIRef(spomo.Template)
     graphData.add((Template, RDF.type, OWL.Class))
     graphData.add((Template, RDFS.subClassOf, Template))
     Comparative = URIRef(spomepo.ComparativeTemplate)
@@ -75,21 +80,21 @@ def create_datagraph(graphUrl, json_file):
     graphData.add((Macro, RDFS.subClassOf, Template))
 
     # Mediaframe
-    MediaFrame = URIRef(spomepo.MediaFrame)
+    MediaFrame = URIRef(spomo.MediaFrame)
     graphData.add((MediaFrame, RDF.type, OWL.Class))
-    Caption = URIRef(spomepo.Caption)
+    Caption = URIRef(spomo.Caption)
     graphData.add((Caption, RDF.type, OWL.Class))
     graphData.add((Caption, RDFS.subClassOf, MediaFrame))
-    GraphicContent = URIRef(spomepo.GraphicContent)
+    GraphicContent = URIRef(spomo.GraphicContent)
     graphData.add((GraphicContent, RDF.type, OWL.Class))
     graphData.add((GraphicContent, RDFS.subClassOf, MediaFrame))
     
     #Connotation
-    Connotation = URIRef(spomepo.Connotation)
+    Connotation = URIRef(spomo.Connotation)
     graphData.add((Connotation, RDF.type, OWL.Class))
 
     # Cut
-    Cut = URIRef(spomepo.Cut)
+    Cut = URIRef(persp.Cut)
     graphData.add((Cut, RDF.type, OWL.Class))
     SocioPoliticalMeme = URIRef(spomo.SocioPoliticalMeme)
     graphData.add((SocioPoliticalMeme, RDF.type, OWL.Class))
@@ -121,7 +126,7 @@ def create_datagraph(graphUrl, json_file):
     graphData.add((ControversialOpinion, RDFS.subClassOf, Opinion))
     
     # Attitude
-    Attitude = URIRef(spomepo.Attitude)
+    Attitude = URIRef(persp.Attitude)
     graphData.add((Attitude, RDF.type, OWL.Class))
 
     NonTroll = URIRef(spomepo.NonTroll)
@@ -150,39 +155,39 @@ def create_datagraph(graphUrl, json_file):
         
 
     # Creating relations
-    hasValue = URIRef(spomepo.hasValue)
+    hasValue = URIRef(spomo.hasValue)
     graphData.add((hasValue, RDF.type, OWL.DatatypeProperty))
-    hasCaption = URIRef(spomepo.hasCaption)
+    hasCaption = URIRef(spomo.hasCaption)
     graphData.add((hasCaption, RDF.type, OWL.ObjectProperty))
-    hasConnotation = URIRef(spomepo.hasConnotation)
+    hasConnotation = URIRef(spomo.hasConnotation)
     graphData.add((hasConnotation, RDF.type, OWL.ObjectProperty))   
-    hasGraphicContent = URIRef(spomepo.hasGraphicContent)
+    hasGraphicContent = URIRef(spomo.hasGraphicContent)
     graphData.add((hasGraphicContent, RDF.type, OWL.ObjectProperty))
-    hasTemplate = URIRef(spomepo.hasTemplate)
+    hasTemplate = URIRef(spomo.hasTemplate)
     graphData.add((hasTemplate, RDF.type, OWL.ObjectProperty))
     graphData.add((SocioPoliticalMeme, hasTemplate, Template))
     expresses = URIRef(spomepo.expresses)
     graphData.add((expresses, RDF.type, OWL.ObjectProperty))
-    perspectivisedAs = URIRef(spomepo.perspectivisedAs)
+    perspectivisedAs = URIRef(persp.perspectivisedAs)
     graphData.add((perspectivisedAs, RDF.type, OWL.ObjectProperty))
     graphData.add((Eventuality, perspectivisedAs, Cut))
-    perspectivisedThrough = URIRef(spomepo.perspectivisedThrough)
+    perspectivisedThrough = URIRef(persp.perspectivisedThrough)
     graphData.add((perspectivisedThrough, RDF.type, OWL.ObjectProperty))
     graphData.add((Eventuality, perspectivisedThrough, Lens))
-    towards = URIRef(spomepo.towards)
+    towards = URIRef(persp.towards)
     graphData.add((towards, RDF.type, OWL.ObjectProperty))
     graphData.add((Attitude, towards, Cut))
-    extractedFrom = URIRef(spomepo.extractedFrom)
+    extractedFrom = URIRef(persp.extractedFrom)
     graphData.add((extractedFrom, RDF.type, OWL.ObjectProperty))
     graphData.add((Eventuality, extractedFrom, SocioPoliticalPhenomena))
-    isConstituentOf = URIRef(spomepo.isConstituentOf)
+    isConstituentOf = URIRef(cons.isConstituentOf)
     graphData.add((isConstituentOf, RDF.type, OWL.ObjectProperty))
     graphData.add((MediaFrame, isConstituentOf, MemeticLens))
     graphData.add((Template, isConstituentOf, MemeticLens))
-    refersTo = URIRef(spomepo.refersTo)
+    refersTo = URIRef(spomo.refersTo)
     graphData.add((refersTo, RDF.type, OWL.ObjectProperty))
     graphData.add((MediaFrame, refersTo, Eventuality))
-    shotThrough = URIRef(spomepo.shotThrough)
+    shotThrough = URIRef(persp.shotThrough)
     graphData.add((shotThrough, RDF.type, OWL.ObjectProperty))
     graphData.add((Cut, shotThrough, Lens))
 
@@ -304,4 +309,4 @@ def create_datagraph(graphUrl, json_file):
 
     store.close()
 
-create_datagraph("http://192.168.1.3:9999/blazegraph/", "data.json")
+create_datagraph("http://192.168.1.54:9999/blazegraph/", "data.json")
