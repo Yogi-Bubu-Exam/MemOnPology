@@ -171,8 +171,13 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#contrasts"/>
+        <ObjectProperty IRI="#contrasts"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#expresses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#extractedFrom"/>
         <ObjectProperty IRI="#expresses"/>
     </Declaration>
     <Declaration>
@@ -250,6 +255,8 @@
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isContentOf"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
             <ObjectProperty IRI="#isContentOf"/>
             <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectSomeValuesFrom>
@@ -700,6 +707,8 @@
         <ObjectUnionOf>
             <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
             <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame"/>
+            <Class IRI="http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Template"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -804,8 +813,23 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Ironic</IRI>
+        <Literal>Connotation characterized by a mostly mild and unharmful kind of humor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#MediaFrame</IRI>
         <Literal>A Media Frame is a multimedia object used to represent a “memeable” situation, i.e., one that is familiar to the creator and a broader community. It has a tetual component (the meme caption) and often also a graphical one, specifying what the meme refers to exactly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Motivational</IRI>
+        <Literal>Connotation motivating towards a positive stance towards certain topics or people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Offensive</IRI>
+        <Literal>Connotation characterised by an aggressive stance towards some topics or people, diminishing them.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -816,6 +840,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Politician</IRI>
         <Literal>Class for members of an administration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/romolo/ontologies/2024/6/SPoMO#Sarcastic</IRI>
+        <Literal>Connotation characterised by a darker kind of humor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
