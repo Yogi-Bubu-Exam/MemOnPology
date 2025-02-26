@@ -11,6 +11,8 @@ This project is developed as part of the Knowledge Organization and Knowledge Ex
 
 ## Collaborators:
 Chiara Martina
+
 Romolo David D'Alessandro
+
 Valentino Castagna
 
