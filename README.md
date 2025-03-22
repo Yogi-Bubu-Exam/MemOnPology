@@ -1,4 +1,4 @@
-# 🍔MemOnPology : A Perspective Analysis of SocialPolitical Memes
+# 🍔MemOnPology : Analysis of Perspectives in Socio-Political Memes
 
 ## 🌍Overview
 
